@@ -1,0 +1,3 @@
+newmtl submesh_00
+Kd 1 1 1
+map_Kd junkyard_diffuse_05_d.png

@@ -1,0 +1,7 @@
+newmtl submesh_00
+Kd 1 1 1
+map_Kd Textures/texture_ee3f9b26cffe3d242960f39188e73fb4.png
+
+newmtl submesh_01
+Kd 1 1 1
+map_Kd Textures/texture_ee3f9b26cffe3d242960f39188e73fb4.png

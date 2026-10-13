@@ -1,0 +1,3 @@
+newmtl textured_part
+Kd 1 1 1
+map_Kd Zombie_Normal_Green.png

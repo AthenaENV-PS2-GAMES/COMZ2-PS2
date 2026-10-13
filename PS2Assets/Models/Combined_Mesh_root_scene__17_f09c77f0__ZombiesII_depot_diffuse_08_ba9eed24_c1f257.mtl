@@ -1,0 +1,23 @@
+newmtl submesh_01
+Kd 1 1 1
+map_Kd Textures/texture_ba9eed2455aa56241b773392d67b1b6c.png
+
+newmtl submesh_02
+Kd 1 1 1
+map_Kd Textures/texture_ba9eed2455aa56241b773392d67b1b6c.png
+
+newmtl submesh_03
+Kd 1 1 1
+map_Kd Textures/texture_ba9eed2455aa56241b773392d67b1b6c.png
+
+newmtl submesh_04
+Kd 1 1 1
+map_Kd Textures/texture_ba9eed2455aa56241b773392d67b1b6c.png
+
+newmtl submesh_05
+Kd 1 1 1
+map_Kd Textures/texture_ba9eed2455aa56241b773392d67b1b6c.png
+
+newmtl submesh_06
+Kd 1 1 1
+map_Kd Textures/texture_ba9eed2455aa56241b773392d67b1b6c.png

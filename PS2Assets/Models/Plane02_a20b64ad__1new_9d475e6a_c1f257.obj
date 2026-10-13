@@ -1,0 +1,17 @@
+# Converted from /home/usuario/COMZ2-PS2/Assets/Mesh/Plane02.asset
+mtllib Plane02_a20b64ad__1new_9d475e6a_c1f257.mtl
+v 53.9659271 49.3367805 0
+v -1.12060547 -49.3367805 0
+v 53.9659271 -49.3367805 0
+v -1.53507233 49.3367844 0
+vt 0 1
+vt 0.510382533 0
+vt 0 0
+vt 0.514222622 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+usemtl submesh_00
+f 1/1/1 2/2/2 3/3/3
+f 1/1/1 4/4/4 2/2/2

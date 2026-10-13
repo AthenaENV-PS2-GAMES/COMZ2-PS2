@@ -1,0 +1,4019 @@
+{
+  "format_version": 1,
+  "source_catalog": "PS2AssetCatalog.json",
+  "athena_encoder": "/home/usuario/AthenaEnv/tools/wav2adp.js",
+  "source_audio_assets": 238,
+  "sfx_variant_count": 232,
+  "adpcm_total_bytes": 4552432,
+  "adpcm_largest_sample_bytes": 82400,
+  "status_counts": {
+    "exported": 238
+  },
+  "failures": [],
+  "audio": [
+    {
+      "source": "Assets/AudioClip/AddCombo01.wav",
+      "source_guid": "9c3d6335bea24f34a9b715b7e7b3e460",
+      "source_bytes": 102234,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_9c3d6335bea24f34a9b715b7e7b3e460_oneshot.adp",
+          "output_bytes": 29216,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 29216
+    },
+    {
+      "source": "Assets/AudioClip/AutoLock.wav",
+      "source_guid": "4391b61cafc48a046b2907f009b2d36a",
+      "source_bytes": 35372,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4391b61cafc48a046b2907f009b2d36a_oneshot.adp",
+          "output_bytes": 10128,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10128
+    },
+    {
+      "source": "Assets/AudioClip/BluntHitBody01_a.wav",
+      "source_guid": "498f806e2c0ff724097869dcb2e95c06",
+      "source_bytes": 36082,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_498f806e2c0ff724097869dcb2e95c06_oneshot.adp",
+          "output_bytes": 10336,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10336
+    },
+    {
+      "source": "Assets/AudioClip/BluntHitBody01_b.wav",
+      "source_guid": "bf58333e49ba123468f952defef46b3f",
+      "source_bytes": 33668,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bf58333e49ba123468f952defef46b3f_oneshot.adp",
+          "output_bytes": 9648,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 9648
+    },
+    {
+      "source": "Assets/AudioClip/BluntHitFloor01.wav",
+      "source_guid": "62b9a05ee5c1f5840997e86b0a6f287d",
+      "source_bytes": 26733,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_62b9a05ee5c1f5840997e86b0a6f287d_oneshot.adp",
+          "output_bytes": 7632,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7632
+    },
+    {
+      "source": "Assets/AudioClip/BluntHitWood01.wav",
+      "source_guid": "745b896a034b51d4caf327f55d00aa0c",
+      "source_bytes": 17911,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_745b896a034b51d4caf327f55d00aa0c_oneshot.adp",
+          "output_bytes": 5104,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5104
+    },
+    {
+      "source": "Assets/AudioClip/BodyFallBig01.wav",
+      "source_guid": "83a0a856b4b734a43840692a52ac77ea",
+      "source_bytes": 92408,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_83a0a856b4b734a43840692a52ac77ea_oneshot.adp",
+          "output_bytes": 26400,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26400
+    },
+    {
+      "source": "Assets/AudioClip/BodyFallClown01.wav",
+      "source_guid": "cd7e69fbddca51b4ea44720889ad0bdf",
+      "source_bytes": 59512,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_cd7e69fbddca51b4ea44720889ad0bdf_oneshot.adp",
+          "output_bytes": 17008,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17008
+    },
+    {
+      "source": "Assets/AudioClip/BodyFallClown02.wav",
+      "source_guid": "bcecfd6d87cd47447883ba5ada592778",
+      "source_bytes": 73928,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bcecfd6d87cd47447883ba5ada592778_oneshot.adp",
+          "output_bytes": 21120,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 21120
+    },
+    {
+      "source": "Assets/AudioClip/BombAlarm01.wav",
+      "source_guid": "b169a62f97a4d0847bd28bae78bcf760",
+      "source_bytes": 44344,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_b169a62f97a4d0847bd28bae78bcf760_oneshot.adp",
+          "output_bytes": 12704,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12704
+    },
+    {
+      "source": "Assets/AudioClip/BombAlarm02.wav",
+      "source_guid": "bfcc2da142bfbc840aa24aab51c7021f",
+      "source_bytes": 44344,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bfcc2da142bfbc840aa24aab51c7021f_oneshot.adp",
+          "output_bytes": 12704,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12704
+    },
+    {
+      "source": "Assets/AudioClip/BombAlarm03.wav",
+      "source_guid": "d5fd02b0f5e29ce45b519b33825a6e8f",
+      "source_bytes": 30968,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_d5fd02b0f5e29ce45b519b33825a6e8f_oneshot.adp",
+          "output_bytes": 8880,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 8880
+    },
+    {
+      "source": "Assets/AudioClip/BombAlarm04.wav",
+      "source_guid": "a7feaf42f818d394a8be0b5293f1aa32",
+      "source_bytes": 41638,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a7feaf42f818d394a8be0b5293f1aa32_oneshot.adp",
+          "output_bytes": 11920,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11920
+    },
+    {
+      "source": "Assets/AudioClip/BrokenGlass01_a.wav",
+      "source_guid": "6901c439879b9134b9cc11d949a0e71d",
+      "source_bytes": 39984,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_6901c439879b9134b9cc11d949a0e71d_oneshot.adp",
+          "output_bytes": 11456,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11456
+    },
+    {
+      "source": "Assets/AudioClip/BrokenGlass01_b.wav",
+      "source_guid": "09ef31daec698674e8a39ec3b5055774",
+      "source_bytes": 52986,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_09ef31daec698674e8a39ec3b5055774_oneshot.adp",
+          "output_bytes": 15168,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 15168
+    },
+    {
+      "source": "Assets/AudioClip/BrokenRock01_a.wav",
+      "source_guid": "642bdade62742a74493d1503c6c37343",
+      "source_bytes": 118932,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_642bdade62742a74493d1503c6c37343_oneshot.adp",
+          "output_bytes": 34000,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 34000
+    },
+    {
+      "source": "Assets/AudioClip/BrokenRock01_b.wav",
+      "source_guid": "88f7631562b42ba4798fb13ffd746a30",
+      "source_bytes": 150138,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_88f7631562b42ba4798fb13ffd746a30_oneshot.adp",
+          "output_bytes": 42928,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 42928
+    },
+    {
+      "source": "Assets/AudioClip/BrokenWood01_a.wav",
+      "source_guid": "96ab1fc8428598843be76b26792a45f9",
+      "source_bytes": 74534,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_96ab1fc8428598843be76b26792a45f9_oneshot.adp",
+          "output_bytes": 21328,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 21328
+    },
+    {
+      "source": "Assets/AudioClip/BrokenWood01_b.wav",
+      "source_guid": "108f798f4136fdf4fb748f500e6bf4b2",
+      "source_bytes": 72862,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_108f798f4136fdf4fb748f500e6bf4b2_oneshot.adp",
+          "output_bytes": 20848,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 20848
+    },
+    {
+      "source": "Assets/AudioClip/BulletBurstBody01_a.wav",
+      "source_guid": "edcce98446ece004fb3700c11df902d2",
+      "source_bytes": 57775,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_edcce98446ece004fb3700c11df902d2_oneshot.adp",
+          "output_bytes": 16496,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16496
+    },
+    {
+      "source": "Assets/AudioClip/BulletBurstBody01_b.wav",
+      "source_guid": "daf9651cb3a39d343aa83012b856b62a",
+      "source_bytes": 57775,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_daf9651cb3a39d343aa83012b856b62a_oneshot.adp",
+          "output_bytes": 16496,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16496
+    },
+    {
+      "source": "Assets/AudioClip/BulletBurstBody02_a.wav",
+      "source_guid": "81c658b41abf6d0408b550cbc14970fa",
+      "source_bytes": 50325,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_81c658b41abf6d0408b550cbc14970fa_oneshot.adp",
+          "output_bytes": 14368,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 14368
+    },
+    {
+      "source": "Assets/AudioClip/BulletBurstBody02_b.wav",
+      "source_guid": "f3678d896a33f694b90dbb970b605c42",
+      "source_bytes": 67601,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f3678d896a33f694b90dbb970b605c42_oneshot.adp",
+          "output_bytes": 19312,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 19312
+    },
+    {
+      "source": "Assets/AudioClip/BulletBurstBody02_c.wav",
+      "source_guid": "518c88f375a5c114eae5f3391f076270",
+      "source_bytes": 91935,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_518c88f375a5c114eae5f3391f076270_oneshot.adp",
+          "output_bytes": 26256,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26256
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitBody01_a.wav",
+      "source_guid": "dfe57609448c08f43ada01633c634643",
+      "source_bytes": 25132,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_dfe57609448c08f43ada01633c634643_oneshot.adp",
+          "output_bytes": 7200,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7200
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitBody01_b.wav",
+      "source_guid": "de0ab7f5c5707bc4ba56f34ff674dcfc",
+      "source_bytes": 19756,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_de0ab7f5c5707bc4ba56f34ff674dcfc_oneshot.adp",
+          "output_bytes": 5664,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5664
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitBody01_c.wav",
+      "source_guid": "1a18a82650d6ff34db8ee67a7fe8c78c",
+      "source_bytes": 21914,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1a18a82650d6ff34db8ee67a7fe8c78c_oneshot.adp",
+          "output_bytes": 6272,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 6272
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitBody01_d.wav",
+      "source_guid": "f27f448dffedcb84f8cac57b921f9c3b",
+      "source_bytes": 26970,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f27f448dffedcb84f8cac57b921f9c3b_oneshot.adp",
+          "output_bytes": 7712,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7712
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitBody02.wav",
+      "source_guid": "76c2312a13c8fc14d9d97ae1892a7738",
+      "source_bytes": 30046,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_76c2312a13c8fc14d9d97ae1892a7738_oneshot.adp",
+          "output_bytes": 8608,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 8608
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitDirt01_a.wav",
+      "source_guid": "e54eecb3a0bc49b4dbf996abfe051e07",
+      "source_bytes": 49025,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e54eecb3a0bc49b4dbf996abfe051e07_oneshot.adp",
+          "output_bytes": 14000,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 14000
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitDirt01_b.wav",
+      "source_guid": "07066dd1b473b5549b626d20f9e2c9ff",
+      "source_bytes": 39597,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_07066dd1b473b5549b626d20f9e2c9ff_oneshot.adp",
+          "output_bytes": 11312,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11312
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitDirt01_c.wav",
+      "source_guid": "3e8bc78098d47f247b8f7eb3c4509b23",
+      "source_bytes": 30623,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_3e8bc78098d47f247b8f7eb3c4509b23_oneshot.adp",
+          "output_bytes": 8736,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 8736
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitMetal01_a.wav",
+      "source_guid": "4d652e865f1509248afc6ddb3b955fca",
+      "source_bytes": 19535,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4d652e865f1509248afc6ddb3b955fca_oneshot.adp",
+          "output_bytes": 5568,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5568
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitMetal01_b.wav",
+      "source_guid": "01e195bffad09e141843c7b2409f13d9",
+      "source_bytes": 31123,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_01e195bffad09e141843c7b2409f13d9_oneshot.adp",
+          "output_bytes": 8880,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 8880
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitMetal01_c.wav",
+      "source_guid": "5f6020c06d3d98147a1f74053efc1c02",
+      "source_bytes": 24783,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_5f6020c06d3d98147a1f74053efc1c02_oneshot.adp",
+          "output_bytes": 7072,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7072
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitMetal01_d.wav",
+      "source_guid": "152f066457f2f0341bdd5292751a7413",
+      "source_bytes": 15705,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_152f066457f2f0341bdd5292751a7413_oneshot.adp",
+          "output_bytes": 4480,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 4480
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitWood01_a.wav",
+      "source_guid": "181e99696965b9246a6cb8785d9c8a28",
+      "source_bytes": 22809,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_181e99696965b9246a6cb8785d9c8a28_oneshot.adp",
+          "output_bytes": 6512,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 6512
+    },
+    {
+      "source": "Assets/AudioClip/BulletHitWood01_b.wav",
+      "source_guid": "e41740753bb5b1245a95bdb61b56d99e",
+      "source_bytes": 18421,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e41740753bb5b1245a95bdb61b56d99e_oneshot.adp",
+          "output_bytes": 5248,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5248
+    },
+    {
+      "source": "Assets/AudioClip/BulletZip01_a.wav",
+      "source_guid": "bb15b53a1bf9506499c59fef3b96676d",
+      "source_bytes": 16145,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bb15b53a1bf9506499c59fef3b96676d_oneshot.adp",
+          "output_bytes": 4608,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 4608
+    },
+    {
+      "source": "Assets/AudioClip/BulletZip01_b.wav",
+      "source_guid": "9a277f982acd3b44d982e49a8c0073fd",
+      "source_bytes": 34797,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_9a277f982acd3b44d982e49a8c0073fd_oneshot.adp",
+          "output_bytes": 9936,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 9936
+    },
+    {
+      "source": "Assets/AudioClip/BulletZip01_c.wav",
+      "source_guid": "e7d5ec6edcd96a04898c79bc09b2796f",
+      "source_bytes": 18815,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e7d5ec6edcd96a04898c79bc09b2796f_oneshot.adp",
+          "output_bytes": 5360,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5360
+    },
+    {
+      "source": "Assets/AudioClip/BulletZip01_d.wav",
+      "source_guid": "4b0ccef6f6df9f148bcb9f0c2e6fafc5",
+      "source_bytes": 16007,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4b0ccef6f6df9f148bcb9f0c2e6fafc5_oneshot.adp",
+          "output_bytes": 4560,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 4560
+    },
+    {
+      "source": "Assets/AudioClip/BulletZip02_a.wav",
+      "source_guid": "7b70133e673c64049b9762a0ec6408b7",
+      "source_bytes": 77075,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_7b70133e673c64049b9762a0ec6408b7_oneshot.adp",
+          "output_bytes": 22016,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 22016
+    },
+    {
+      "source": "Assets/AudioClip/BulletZip02_b.wav",
+      "source_guid": "07d09127ad17eda4cb2da6e2bc78eb15",
+      "source_bytes": 45959,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_07d09127ad17eda4cb2da6e2bc78eb15_oneshot.adp",
+          "output_bytes": 13120,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 13120
+    },
+    {
+      "source": "Assets/AudioClip/BulletZip02_c.wav",
+      "source_guid": "52b777a61ba5c9f41a3244674df1accd",
+      "source_bytes": 41001,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_52b777a61ba5c9f41a3244674df1accd_oneshot.adp",
+          "output_bytes": 11712,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11712
+    },
+    {
+      "source": "Assets/AudioClip/Bullet_add.wav",
+      "source_guid": "ff862c1d70e21f0499a91e47ac7ed8e7",
+      "source_bytes": 126046,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_ff862c1d70e21f0499a91e47ac7ed8e7_oneshot.adp",
+          "output_bytes": 36048,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 36048
+    },
+    {
+      "source": "Assets/AudioClip/BurstStone01_a.wav",
+      "source_guid": "d9065a64205899b409a68010ac392824",
+      "source_bytes": 105681,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_d9065a64205899b409a68010ac392824_oneshot.adp",
+          "output_bytes": 30192,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 30192
+    },
+    {
+      "source": "Assets/AudioClip/BurstStone01_b.wav",
+      "source_guid": "bca107070355b56418e8c5e99e907146",
+      "source_bytes": 100063,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bca107070355b56418e8c5e99e907146_oneshot.adp",
+          "output_bytes": 28576,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 28576
+    },
+    {
+      "source": "Assets/AudioClip/Combo02.wav",
+      "source_guid": "2ae62252add4a5a4486701c1be1d690c",
+      "source_bytes": 127758,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_2ae62252add4a5a4486701c1be1d690c_oneshot.adp",
+          "output_bytes": 36528,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 36528
+    },
+    {
+      "source": "Assets/AudioClip/Dirt01_a.wav",
+      "source_guid": "2b9a59f797cfab94da8e4365315ebbee",
+      "source_bytes": 57755,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_2b9a59f797cfab94da8e4365315ebbee_oneshot.adp",
+          "output_bytes": 16496,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16496
+    },
+    {
+      "source": "Assets/AudioClip/DropMetal01.wav",
+      "source_guid": "01fdee038d5ab5b42ae0c6024fd40f6d",
+      "source_bytes": 134017,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_01fdee038d5ab5b42ae0c6024fd40f6d_oneshot.adp",
+          "output_bytes": 17776,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17776
+    },
+    {
+      "source": "Assets/AudioClip/ExploMed01_a.wav",
+      "source_guid": "7a5da5b44954db0478bbaf869bb45789",
+      "source_bytes": 176384,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_7a5da5b44954db0478bbaf869bb45789_oneshot.adp",
+          "output_bytes": 50352,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 50352
+    },
+    {
+      "source": "Assets/AudioClip/ExploSma01_a.wav",
+      "source_guid": "4b0a6a49bcfeb2a49a1a55e6d3b42758",
+      "source_bytes": 121412,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4b0a6a49bcfeb2a49a1a55e6d3b42758_oneshot.adp",
+          "output_bytes": 34640,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 34640
+    },
+    {
+      "source": "Assets/AudioClip/FatCookerSkill02.wav",
+      "source_guid": "d744dfb90987a974596ab55439307c2d",
+      "source_bytes": 221194,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_d744dfb90987a974596ab55439307c2d_oneshot.adp",
+          "output_bytes": 63232,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 63232
+    },
+    {
+      "source": "Assets/AudioClip/FootStepBig01.wav",
+      "source_guid": "b1aac3a8982366f42b16f3ad801f8b19",
+      "source_bytes": 61240,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_b1aac3a8982366f42b16f3ad801f8b19_oneshot.adp",
+          "output_bytes": 17504,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17504
+    },
+    {
+      "source": "Assets/AudioClip/FootStepMed01_a.wav",
+      "source_guid": "e5d681cc06c501542b844a42a8b55ce8",
+      "source_bytes": 15710,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e5d681cc06c501542b844a42a8b55ce8_oneshot.adp",
+          "output_bytes": 4496,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 4496
+    },
+    {
+      "source": "Assets/AudioClip/FootStepMed01_b.wav",
+      "source_guid": "5b31c5e9419bda149914d17bff9f5206",
+      "source_bytes": 6042,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_5b31c5e9419bda149914d17bff9f5206_oneshot.adp",
+          "output_bytes": 1760,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 1760
+    },
+    {
+      "source": "Assets/AudioClip/FootStepMed01_c.wav",
+      "source_guid": "087516d9b76e89d4da2fdc017ba048fc",
+      "source_bytes": 7288,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_087516d9b76e89d4da2fdc017ba048fc_oneshot.adp",
+          "output_bytes": 2080,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 2080
+    },
+    {
+      "source": "Assets/AudioClip/FootStepWater01.wav",
+      "source_guid": "f0b0613970c850c4691ab67eecec11ff",
+      "source_bytes": 52344,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f0b0613970c850c4691ab67eecec11ff_oneshot.adp",
+          "output_bytes": 14960,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 14960
+    },
+    {
+      "source": "Assets/AudioClip/Hp_add.wav",
+      "source_guid": "3a279c947fa5d6e4eab29e9a687e1025",
+      "source_bytes": 125097,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_3a279c947fa5d6e4eab29e9a687e1025_oneshot.adp",
+          "output_bytes": 35728,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 35728
+    },
+    {
+      "source": "Assets/AudioClip/IonGunHit01_a.wav",
+      "source_guid": "29013dd3a9b573044acb8ede6eff1650",
+      "source_bytes": 80826,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_29013dd3a9b573044acb8ede6eff1650_oneshot.adp",
+          "output_bytes": 23120,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 23120
+    },
+    {
+      "source": "Assets/AudioClip/JumpClown01.wav",
+      "source_guid": "143e926703d7b5141a6fb468eee1dae4",
+      "source_bytes": 29560,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_143e926703d7b5141a6fb468eee1dae4_oneshot.adp",
+          "output_bytes": 8448,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 8448
+    },
+    {
+      "source": "Assets/AudioClip/LevelUp01.wav",
+      "source_guid": "5b5922b6945d93e4c85a4384ecb3b3b3",
+      "source_bytes": 137772,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_5b5922b6945d93e4c85a4384ecb3b3b3_oneshot.adp",
+          "output_bytes": 39392,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 39392
+    },
+    {
+      "source": "Assets/AudioClip/Lose.mp3",
+      "source_guid": "bd3f574f3da1bc14daf51fc0cb4b7d32",
+      "source_bytes": 79725,
+      "uses": [],
+      "status": "exported",
+      "format": "ogg_vorbis_stream",
+      "output": "PS2Assets/Audio/Music/music_bd3f574f3da1bc14daf51fc0cb4b7d32.ogg",
+      "output_bytes": 83703
+    },
+    {
+      "source": "Assets/AudioClip/Menu.mp3",
+      "source_guid": "a6a44295d6159024e94e5289632b34eb",
+      "source_bytes": 1005714,
+      "uses": [],
+      "status": "exported",
+      "format": "ogg_vorbis_stream",
+      "output": "PS2Assets/Audio/Music/music_a6a44295d6159024e94e5289632b34eb.ogg",
+      "output_bytes": 1055609
+    },
+    {
+      "source": "Assets/AudioClip/Money_add.wav",
+      "source_guid": "de6a1ac2f21963045bc1fd8f6c044f7f",
+      "source_bytes": 201385,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_de6a1ac2f21963045bc1fd8f6c044f7f_oneshot.adp",
+          "output_bytes": 57536,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 57536
+    },
+    {
+      "source": "Assets/AudioClip/PoisonHit01_a.wav",
+      "source_guid": "ac7d267f7a710514e887ad005dc4fb99",
+      "source_bytes": 46079,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_ac7d267f7a710514e887ad005dc4fb99_oneshot.adp",
+          "output_bytes": 13152,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 13152
+    },
+    {
+      "source": "Assets/AudioClip/PoisonHit01_b.wav",
+      "source_guid": "bf863cf5545cd894fbb68d8559196ce2",
+      "source_bytes": 47529,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bf863cf5545cd894fbb68d8559196ce2_oneshot.adp",
+          "output_bytes": 13568,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 13568
+    },
+    {
+      "source": "Assets/AudioClip/PoisonShot01_a.wav",
+      "source_guid": "9fc8587b4466f714a9c96dcef8cad2e5",
+      "source_bytes": 67967,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_9fc8587b4466f714a9c96dcef8cad2e5_oneshot.adp",
+          "output_bytes": 19408,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 19408
+    },
+    {
+      "source": "Assets/AudioClip/PunchBody01.wav",
+      "source_guid": "f260bf1614fb172428ac52f101683f5b",
+      "source_bytes": 38264,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f260bf1614fb172428ac52f101683f5b_oneshot.adp",
+          "output_bytes": 10944,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10944
+    },
+    {
+      "source": "Assets/AudioClip/PunchFloor01_a.wav",
+      "source_guid": "59e87029f2dd8494c848df4f6de33bf6",
+      "source_bytes": 50920,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_59e87029f2dd8494c848df4f6de33bf6_oneshot.adp",
+          "output_bytes": 14560,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 14560
+    },
+    {
+      "source": "Assets/AudioClip/PunchFloor01_b.wav",
+      "source_guid": "d2ad355c214601e4cbec9a230a39b6fe",
+      "source_bytes": 44664,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_d2ad355c214601e4cbec9a230a39b6fe_oneshot.adp",
+          "output_bytes": 12768,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12768
+    },
+    {
+      "source": "Assets/AudioClip/PunchFloorbig01.wav",
+      "source_guid": "9aab200c1ad37fe448b9a01df3bfc816",
+      "source_bytes": 134624,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_9aab200c1ad37fe448b9a01df3bfc816_oneshot.adp",
+          "output_bytes": 38464,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 38464
+    },
+    {
+      "source": "Assets/AudioClip/ReloadGrenade01.wav",
+      "source_guid": "b84c6bde46c393549bb1bcdab531f272",
+      "source_bytes": 7218,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_b84c6bde46c393549bb1bcdab531f272_oneshot.adp",
+          "output_bytes": 2096,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 2096
+    },
+    {
+      "source": "Assets/AudioClip/ReloadLaserGun01.wav",
+      "source_guid": "313e10d401bfb5d4bae1438ae308a07a",
+      "source_bytes": 50728,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_313e10d401bfb5d4bae1438ae308a07a_oneshot.adp",
+          "output_bytes": 14528,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 14528
+    },
+    {
+      "source": "Assets/AudioClip/ReloadLaserGun02.wav",
+      "source_guid": "90c5cfa769d3ef14abbbfc7be7de3b46",
+      "source_bytes": 62606,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_90c5cfa769d3ef14abbbfc7be7de3b46_oneshot.adp",
+          "output_bytes": 17920,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17920
+    },
+    {
+      "source": "Assets/AudioClip/ReloadMSG01.wav",
+      "source_guid": "a560888e9b3edbe47981a898f972ed25",
+      "source_bytes": 85993,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a560888e9b3edbe47981a898f972ed25_oneshot.adp",
+          "output_bytes": 16384,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16384
+    },
+    {
+      "source": "Assets/AudioClip/ReloadMSG02.wav",
+      "source_guid": "26053b0fc44248a4c8bb1cbcf583d9ad",
+      "source_bytes": 25101,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_26053b0fc44248a4c8bb1cbcf583d9ad_oneshot.adp",
+          "output_bytes": 7168,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7168
+    },
+    {
+      "source": "Assets/AudioClip/ReloadRPG01.wav",
+      "source_guid": "2418d47a3296a4445b1fc81cffa30cab",
+      "source_bytes": 94248,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_2418d47a3296a4445b1fc81cffa30cab_oneshot.adp",
+          "output_bytes": 26960,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26960
+    },
+    {
+      "source": "Assets/AudioClip/ReloadRPG02.wav",
+      "source_guid": "b79124324eb302145a0299f41f58778c",
+      "source_bytes": 90028,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_b79124324eb302145a0299f41f58778c_oneshot.adp",
+          "output_bytes": 25744,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 25744
+    },
+    {
+      "source": "Assets/AudioClip/ReloadRifle01.wav",
+      "source_guid": "c6d03c6d580ab594f8ca5a317e4b64a2",
+      "source_bytes": 24581,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_c6d03c6d580ab594f8ca5a317e4b64a2_oneshot.adp",
+          "output_bytes": 7008,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7008
+    },
+    {
+      "source": "Assets/AudioClip/ReloadRifle02.wav",
+      "source_guid": "bc2dd0a8e0a8bb3459bf3fe011ba9926",
+      "source_bytes": 20617,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bc2dd0a8e0a8bb3459bf3fe011ba9926_oneshot.adp",
+          "output_bytes": 5888,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5888
+    },
+    {
+      "source": "Assets/AudioClip/ReloadShotGun01.wav",
+      "source_guid": "4b3f42f1208a8ed44a608d129acab8d8",
+      "source_bytes": 14092,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4b3f42f1208a8ed44a608d129acab8d8_oneshot.adp",
+          "output_bytes": 4048,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 4048
+    },
+    {
+      "source": "Assets/AudioClip/ReloadShotGun02.wav",
+      "source_guid": "1b01e3940b0e21743a2811d35047d769",
+      "source_bytes": 17927,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1b01e3940b0e21743a2811d35047d769_oneshot.adp",
+          "output_bytes": 5120,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5120
+    },
+    {
+      "source": "Assets/AudioClip/ReloadShotGun03.wav",
+      "source_guid": "669ebafaa4de52c41a036df2960ee9d1",
+      "source_bytes": 19155,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_669ebafaa4de52c41a036df2960ee9d1_oneshot.adp",
+          "output_bytes": 5472,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5472
+    },
+    {
+      "source": "Assets/AudioClip/RockLoop01.wav",
+      "source_guid": "d98446e848c6ee942902824f059d15bc",
+      "source_bytes": 182957,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_d98446e848c6ee942902824f059d15bc_oneshot.adp",
+          "output_bytes": 52272,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 52272
+    },
+    {
+      "source": "Assets/AudioClip/Scene1.mp3",
+      "source_guid": "511653dc3758c464fb4dcc38c56b9ddd",
+      "source_bytes": 788480,
+      "uses": [],
+      "status": "exported",
+      "format": "ogg_vorbis_stream",
+      "output": "PS2Assets/Audio/Music/music_511653dc3758c464fb4dcc38c56b9ddd.ogg",
+      "output_bytes": 827047
+    },
+    {
+      "source": "Assets/AudioClip/Scene2.mp3",
+      "source_guid": "edea2e358d578c246a1dc018d5a5f86d",
+      "source_bytes": 972591,
+      "uses": [],
+      "status": "exported",
+      "format": "ogg_vorbis_stream",
+      "output": "PS2Assets/Audio/Music/music_edea2e358d578c246a1dc018d5a5f86d.ogg",
+      "output_bytes": 926731
+    },
+    {
+      "source": "Assets/AudioClip/Scene3.mp3",
+      "source_guid": "aa8c81afc8d95774eb37ecc5c350a9f3",
+      "source_bytes": 949185,
+      "uses": [],
+      "status": "exported",
+      "format": "ogg_vorbis_stream",
+      "output": "PS2Assets/Audio/Music/music_aa8c81afc8d95774eb37ecc5c350a9f3.ogg",
+      "output_bytes": 856898
+    },
+    {
+      "source": "Assets/AudioClip/ScrapeMetal01.wav",
+      "source_guid": "721ec769d0e2dbf4883fafb972b898b1",
+      "source_bytes": 35164,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_721ec769d0e2dbf4883fafb972b898b1_oneshot.adp",
+          "output_bytes": 10080,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10080
+    },
+    {
+      "source": "Assets/AudioClip/ScrapeMetalbig01.wav",
+      "source_guid": "1bfd6e8cbbf34c04093fb256e512448b",
+      "source_bytes": 54204,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1bfd6e8cbbf34c04093fb256e512448b_oneshot.adp",
+          "output_bytes": 15520,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 15520
+    },
+    {
+      "source": "Assets/AudioClip/SharpHitBody01_a.wav",
+      "source_guid": "e45adac2f8946d84ba3f5849b2f45e06",
+      "source_bytes": 43048,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e45adac2f8946d84ba3f5849b2f45e06_oneshot.adp",
+          "output_bytes": 12320,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12320
+    },
+    {
+      "source": "Assets/AudioClip/SharpHitBody01_b.wav",
+      "source_guid": "993b2541b43359f4e88c7ccad282f763",
+      "source_bytes": 41330,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_993b2541b43359f4e88c7ccad282f763_oneshot.adp",
+          "output_bytes": 11840,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11840
+    },
+    {
+      "source": "Assets/AudioClip/ShotCryoGun01_a.wav",
+      "source_guid": "0eb75ded01c225c4dbe68111d5ec7211",
+      "source_bytes": 147756,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_0eb75ded01c225c4dbe68111d5ec7211_oneshot.adp",
+          "output_bytes": 42240,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 42240
+    },
+    {
+      "source": "Assets/AudioClip/ShotCryoGun01_b.wav",
+      "source_guid": "83d42c8fbe9cec14892c6c75116e403c",
+      "source_bytes": 164652,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_83d42c8fbe9cec14892c6c75116e403c_oneshot.adp",
+          "output_bytes": 47072,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 47072
+    },
+    {
+      "source": "Assets/AudioClip/ShotCryoGun01_c.wav",
+      "source_guid": "e5daed2b3ff085744ad687ce9c17e7ef",
+      "source_bytes": 163820,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e5daed2b3ff085744ad687ce9c17e7ef_oneshot.adp",
+          "output_bytes": 46832,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 46832
+    },
+    {
+      "source": "Assets/AudioClip/ShotGatlin01.wav",
+      "source_guid": "5b4c3b327f31f204d9871e8f84cbb11b",
+      "source_bytes": 101272,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_5b4c3b327f31f204d9871e8f84cbb11b_oneshot.adp",
+          "output_bytes": 28896,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 28896
+    },
+    {
+      "source": "Assets/AudioClip/ShotGatlin01End.wav",
+      "source_guid": "d944ecc94ebf38a4ebe72648ab8cb3b4",
+      "source_bytes": 78747,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_d944ecc94ebf38a4ebe72648ab8cb3b4_oneshot.adp",
+          "output_bytes": 22496,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 22496
+    },
+    {
+      "source": "Assets/AudioClip/ShotGatlin01Release.wav",
+      "source_guid": "a1ac90e390bb1ef449951453acd28ed7",
+      "source_bytes": 55672,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a1ac90e390bb1ef449951453acd28ed7_oneshot.adp",
+          "output_bytes": 15904,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 15904
+    },
+    {
+      "source": "Assets/AudioClip/ShotGatlin01Servo.wav",
+      "source_guid": "ae5b5ff8b5bc1234885d48bc18d27617",
+      "source_bytes": 59049,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_ae5b5ff8b5bc1234885d48bc18d27617_oneshot.adp",
+          "output_bytes": 16864,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16864
+    },
+    {
+      "source": "Assets/AudioClip/ShotGatlin01Start.wav",
+      "source_guid": "10dc0f2eed8793f429710f30d1b9ab52",
+      "source_bytes": 61329,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_10dc0f2eed8793f429710f30d1b9ab52_oneshot.adp",
+          "output_bytes": 17520,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17520
+    },
+    {
+      "source": "Assets/AudioClip/ShotGatlin02.wav",
+      "source_guid": "383d4b9c4416a0449a0dcdd19f0bd276",
+      "source_bytes": 57678,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_383d4b9c4416a0449a0dcdd19f0bd276_oneshot.adp",
+          "output_bytes": 16480,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16480
+    },
+    {
+      "source": "Assets/AudioClip/ShotGrenade01_a.wav",
+      "source_guid": "5d9cf03df56082542865e4a401d23ed0",
+      "source_bytes": 93100,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_5d9cf03df56082542865e4a401d23ed0_oneshot.adp",
+          "output_bytes": 26624,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26624
+    },
+    {
+      "source": "Assets/AudioClip/ShotIonGun01_a.wav",
+      "source_guid": "13318659dd847ab48b5baafb44a4b522",
+      "source_bytes": 54948,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_13318659dd847ab48b5baafb44a4b522_oneshot.adp",
+          "output_bytes": 15728,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 15728
+    },
+    {
+      "source": "Assets/AudioClip/ShotLaserGun01.wav",
+      "source_guid": "f57cf8d09770be04f9896ddb498b2a49",
+      "source_bytes": 69884,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f57cf8d09770be04f9896ddb498b2a49_oneshot.adp",
+          "output_bytes": 20000,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 20000
+    },
+    {
+      "source": "Assets/AudioClip/ShotLaserGun01Loop.wav",
+      "source_guid": "f5d25c5cb9080d84897e4c9ea0bc09e3",
+      "source_bytes": 71268,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f5d25c5cb9080d84897e4c9ea0bc09e3_oneshot.adp",
+          "output_bytes": 20384,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 20384
+    },
+    {
+      "source": "Assets/AudioClip/ShotMSG01.wav",
+      "source_guid": "6418965103f7cbc40826a93aee17e246",
+      "source_bytes": 56908,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_6418965103f7cbc40826a93aee17e246_oneshot.adp",
+          "output_bytes": 16240,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16240
+    },
+    {
+      "source": "Assets/AudioClip/ShotPistol01_a.wav",
+      "source_guid": "888ad9fdef6dc6348b83580bf808bd23",
+      "source_bytes": 59753,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_888ad9fdef6dc6348b83580bf808bd23_oneshot.adp",
+          "output_bytes": 17056,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17056
+    },
+    {
+      "source": "Assets/AudioClip/ShotPistol01_b.wav",
+      "source_guid": "455b4cbf6e0067b4c82b636b7fb9787c",
+      "source_bytes": 62249,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_455b4cbf6e0067b4c82b636b7fb9787c_oneshot.adp",
+          "output_bytes": 17776,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17776
+    },
+    {
+      "source": "Assets/AudioClip/ShotRPG01_a.wav",
+      "source_guid": "d43edc9c103e06749b9c9312e304c1dc",
+      "source_bytes": 82616,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_d43edc9c103e06749b9c9312e304c1dc_oneshot.adp",
+          "output_bytes": 23568,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 23568
+    },
+    {
+      "source": "Assets/AudioClip/ShotRPG01_b.wav",
+      "source_guid": "f480b2afac749f54fb24544bf4d8bf7f",
+      "source_bytes": 158698,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f480b2afac749f54fb24544bf4d8bf7f_oneshot.adp",
+          "output_bytes": 45296,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 45296
+    },
+    {
+      "source": "Assets/AudioClip/ShotRifle01_a.wav",
+      "source_guid": "c6c9dc8278318b04c987fbff56268541",
+      "source_bytes": 85161,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_c6c9dc8278318b04c987fbff56268541_oneshot.adp",
+          "output_bytes": 24320,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 24320
+    },
+    {
+      "source": "Assets/AudioClip/ShotRifle01_b.wav",
+      "source_guid": "9b1a952d3dbc3714bbe786a1a1f05b6c",
+      "source_bytes": 85161,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_9b1a952d3dbc3714bbe786a1a1f05b6c_oneshot.adp",
+          "output_bytes": 24320,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 24320
+    },
+    {
+      "source": "Assets/AudioClip/ShotShotGun01_a.wav",
+      "source_guid": "71356868975821244983b568111c77fb",
+      "source_bytes": 89024,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_71356868975821244983b568111c77fb_oneshot.adp",
+          "output_bytes": 25456,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 25456
+    },
+    {
+      "source": "Assets/AudioClip/ShotShotGun01_b.wav",
+      "source_guid": "736e00e8d2f123249b49c78019b207db",
+      "source_bytes": 88280,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_736e00e8d2f123249b49c78019b207db_oneshot.adp",
+          "output_bytes": 25248,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 25248
+    },
+    {
+      "source": "Assets/AudioClip/ShotTenni01.wav",
+      "source_guid": "6366607443c45b84fbe3ced175957356",
+      "source_bytes": 44426,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_6366607443c45b84fbe3ced175957356_oneshot.adp",
+          "output_bytes": 12720,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12720
+    },
+    {
+      "source": "Assets/AudioClip/ShowGun01.wav",
+      "source_guid": "3f6ae569e5094a045a9558e5b0e456c4",
+      "source_bytes": 25680,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_3f6ae569e5094a045a9558e5b0e456c4_oneshot.adp",
+          "output_bytes": 7360,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7360
+    },
+    {
+      "source": "Assets/AudioClip/ShowGun02.wav",
+      "source_guid": "3e32761f242f77e45abdd1598ef58668",
+      "source_bytes": 39556,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_3e32761f242f77e45abdd1598ef58668_oneshot.adp",
+          "output_bytes": 11328,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11328
+    },
+    {
+      "source": "Assets/AudioClip/Skill_Cowboy01.wav",
+      "source_guid": "1fccf762a38e38c408a0fb06be5ddf99",
+      "source_bytes": 144812,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1fccf762a38e38c408a0fb06be5ddf99_oneshot.adp",
+          "output_bytes": 41408,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 41408
+    },
+    {
+      "source": "Assets/AudioClip/Skill_Cowboy02.wav",
+      "source_guid": "cecf2b47bd670474ebb8bb43ad696601",
+      "source_bytes": 47404,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_cecf2b47bd670474ebb8bb43ad696601_oneshot.adp",
+          "output_bytes": 13568,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 13568
+    },
+    {
+      "source": "Assets/AudioClip/Skill_Cowboy03.wav",
+      "source_guid": "a03005d13fc6ab94da29f2564ec0006a",
+      "source_bytes": 105932,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a03005d13fc6ab94da29f2564ec0006a_oneshot.adp",
+          "output_bytes": 30288,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 30288
+    },
+    {
+      "source": "Assets/AudioClip/Skill_Cowboy04.wav",
+      "source_guid": "504252d9d3b8fee46a0f962f7b4a259f",
+      "source_bytes": 41452,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_504252d9d3b8fee46a0f962f7b4a259f_oneshot.adp",
+          "output_bytes": 11872,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11872
+    },
+    {
+      "source": "Assets/AudioClip/Skill_Doctor01.wav",
+      "source_guid": "304804ed33eefb343b599ad779009129",
+      "source_bytes": 123692,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_304804ed33eefb343b599ad779009129_oneshot.adp",
+          "output_bytes": 35360,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 35360
+    },
+    {
+      "source": "Assets/AudioClip/Skill_Doctor02.wav",
+      "source_guid": "bc3242b127cb4dd4683c16692e75a656",
+      "source_bytes": 94360,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bc3242b127cb4dd4683c16692e75a656_oneshot.adp",
+          "output_bytes": 26992,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26992
+    },
+    {
+      "source": "Assets/AudioClip/Skill_Joe01.wav",
+      "source_guid": "6a4de4ffb7dd63241a1e24ebd70d9bd7",
+      "source_bytes": 288300,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_6a4de4ffb7dd63241a1e24ebd70d9bd7_oneshot.adp",
+          "output_bytes": 82400,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 82400
+    },
+    {
+      "source": "Assets/AudioClip/Skill_Mike01.wav",
+      "source_guid": "01b48c3e0237b2f448c62abe7248ae1f",
+      "source_bytes": 86828,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_01b48c3e0237b2f448c62abe7248ae1f_oneshot.adp",
+          "output_bytes": 24832,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 24832
+    },
+    {
+      "source": "Assets/AudioClip/Spark01_a.wav",
+      "source_guid": "354efe392be8f71469f866b27fce351b",
+      "source_bytes": 83391,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_354efe392be8f71469f866b27fce351b_oneshot.adp",
+          "output_bytes": 23824,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 23824
+    },
+    {
+      "source": "Assets/AudioClip/Spark02_a.wav",
+      "source_guid": "d9196eaa5b556eb4aaa8aa89081a622b",
+      "source_bytes": 197322,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_d9196eaa5b556eb4aaa8aa89081a622b_oneshot.adp",
+          "output_bytes": 56400,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 56400
+    },
+    {
+      "source": "Assets/AudioClip/Spark02_b.wav",
+      "source_guid": "25952e460aa172a41a2820e690c19ad9",
+      "source_bytes": 215209,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_25952e460aa172a41a2820e690c19ad9_oneshot.adp",
+          "output_bytes": 61472,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 61472
+    },
+    {
+      "source": "Assets/AudioClip/Spark02_c.wav",
+      "source_guid": "58119e0631af12948b4b78d07c01a9e9",
+      "source_bytes": 188901,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_58119e0631af12948b4b78d07c01a9e9_oneshot.adp",
+          "output_bytes": 53968,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 53968
+    },
+    {
+      "source": "Assets/AudioClip/Squishes01.wav",
+      "source_guid": "aba7464887aaf3a4383e740ef109cc38",
+      "source_bytes": 51612,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_aba7464887aaf3a4383e740ef109cc38_oneshot.adp",
+          "output_bytes": 14768,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 14768
+    },
+    {
+      "source": "Assets/AudioClip/Swish01.wav",
+      "source_guid": "12e690dbfba61b04180f0a3db22d211a",
+      "source_bytes": 16844,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_12e690dbfba61b04180f0a3db22d211a_oneshot.adp",
+          "output_bytes": 4832,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 4832
+    },
+    {
+      "source": "Assets/AudioClip/Swish02.wav",
+      "source_guid": "2a7f4e412e1d2b54c87a58125516d73e",
+      "source_bytes": 22092,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_2a7f4e412e1d2b54c87a58125516d73e_oneshot.adp",
+          "output_bytes": 6336,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 6336
+    },
+    {
+      "source": "Assets/AudioClip/Swish03.wav",
+      "source_guid": "c218c32852018fa44ac10e53c07bad80",
+      "source_bytes": 20268,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_c218c32852018fa44ac10e53c07bad80_oneshot.adp",
+          "output_bytes": 5824,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5824
+    },
+    {
+      "source": "Assets/AudioClip/TwirlLoop01.wav",
+      "source_guid": "020338ed62c52964188d87234165b73b",
+      "source_bytes": 104236,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_020338ed62c52964188d87234165b73b_oneshot.adp",
+          "output_bytes": 29808,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 29808
+    },
+    {
+      "source": "Assets/AudioClip/TwirlWindLoop01.wav",
+      "source_guid": "0523ae7f51f7442408ceacee0f7aedf6",
+      "source_bytes": 104236,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_0523ae7f51f7442408ceacee0f7aedf6_oneshot.adp",
+          "output_bytes": 29808,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 29808
+    },
+    {
+      "source": "Assets/AudioClip/UI_Lucky01.wav",
+      "source_guid": "8c45a366bbd0121429bd7745e5a9492f",
+      "source_bytes": 18152,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_8c45a366bbd0121429bd7745e5a9492f_oneshot.adp",
+          "output_bytes": 5216,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5216
+    },
+    {
+      "source": "Assets/AudioClip/UI_back.wav",
+      "source_guid": "3c0eb40e2eefa5f47beb7652360f89bb",
+      "source_bytes": 42572,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_3c0eb40e2eefa5f47beb7652360f89bb_oneshot.adp",
+          "output_bytes": 12192,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12192
+    },
+    {
+      "source": "Assets/AudioClip/UI_buy.wav",
+      "source_guid": "2413c249e0bc7ad42a73aed78f7df5db",
+      "source_bytes": 19232,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_2413c249e0bc7ad42a73aed78f7df5db_oneshot.adp",
+          "output_bytes": 5520,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5520
+    },
+    {
+      "source": "Assets/AudioClip/UI_click.wav",
+      "source_guid": "be0eb45d2e6579e499e6349f6a72ab95",
+      "source_bytes": 51660,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_be0eb45d2e6579e499e6349f6a72ab95_oneshot.adp",
+          "output_bytes": 14784,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 14784
+    },
+    {
+      "source": "Assets/AudioClip/UI_craft.wav",
+      "source_guid": "4604e014e3207e641be74fae37880142",
+      "source_bytes": 117292,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4604e014e3207e641be74fae37880142_oneshot.adp",
+          "output_bytes": 33536,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 33536
+    },
+    {
+      "source": "Assets/AudioClip/UI_equip.wav",
+      "source_guid": "46ac21bbd2247544e8c446f6895c61d1",
+      "source_bytes": 19660,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_46ac21bbd2247544e8c446f6895c61d1_oneshot.adp",
+          "output_bytes": 5648,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5648
+    },
+    {
+      "source": "Assets/AudioClip/UI_popup.wav",
+      "source_guid": "9d0ec0433b3057d49b5e899a92945205",
+      "source_bytes": 36204,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_9d0ec0433b3057d49b5e899a92945205_oneshot.adp",
+          "output_bytes": 10368,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10368
+    },
+    {
+      "source": "Assets/AudioClip/UI_start.wav",
+      "source_guid": "2c969b41bc9c6d6438fd65511e1c779b",
+      "source_bytes": 97836,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_2c969b41bc9c6d6438fd65511e1c779b_oneshot.adp",
+          "output_bytes": 27984,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 27984
+    },
+    {
+      "source": "Assets/AudioClip/UI_switch.wav",
+      "source_guid": "a92c4bb307613374f9c8664e06829476",
+      "source_bytes": 24502,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a92c4bb307613374f9c8664e06829476_oneshot.adp",
+          "output_bytes": 7024,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7024
+    },
+    {
+      "source": "Assets/AudioClip/UI_upgrad.wav",
+      "source_guid": "45edde615427f46408bfb42465094d0f",
+      "source_bytes": 69420,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_45edde615427f46408bfb42465094d0f_oneshot.adp",
+          "output_bytes": 19856,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 19856
+    },
+    {
+      "source": "Assets/AudioClip/UI_zoom_in.wav",
+      "source_guid": "a4c83ab13ba1fd04b9d28cda294f8313",
+      "source_bytes": 69576,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a4c83ab13ba1fd04b9d28cda294f8313_oneshot.adp",
+          "output_bytes": 19888,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 19888
+    },
+    {
+      "source": "Assets/AudioClip/UI_zoom_out.wav",
+      "source_guid": "76b74affd3872e54a81b0359e0a86550",
+      "source_bytes": 18008,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_76b74affd3872e54a81b0359e0a86550_oneshot.adp",
+          "output_bytes": 5168,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5168
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookAttack01_a.wav",
+      "source_guid": "de69aec106567ed428af1d339fa664df",
+      "source_bytes": 64018,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_de69aec106567ed428af1d339fa664df_oneshot.adp",
+          "output_bytes": 18320,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 18320
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookAttack01_b.wav",
+      "source_guid": "a24736d585d793c498c7ccf7ef1d0ac4",
+      "source_bytes": 56962,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a24736d585d793c498c7ccf7ef1d0ac4_oneshot.adp",
+          "output_bytes": 16304,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16304
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookAttack01_c.wav",
+      "source_guid": "5f7139cfd1db9034aadacdedcf173164",
+      "source_bytes": 62608,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_5f7139cfd1db9034aadacdedcf173164_oneshot.adp",
+          "output_bytes": 17920,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17920
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookAttack02_a.wav",
+      "source_guid": "e306dc0de874b064d87981cd319dc7b8",
+      "source_bytes": 67312,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e306dc0de874b064d87981cd319dc7b8_oneshot.adp",
+          "output_bytes": 19264,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 19264
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookAttack02_b.wav",
+      "source_guid": "765caf960c9a0c045892ce7fb7f79f0a",
+      "source_bytes": 81188,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_765caf960c9a0c045892ce7fb7f79f0a_oneshot.adp",
+          "output_bytes": 23216,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 23216
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookAttack02_c.wav",
+      "source_guid": "14c459997284dda4498299499209b921",
+      "source_bytes": 100240,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_14c459997284dda4498299499209b921_oneshot.adp",
+          "output_bytes": 28672,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 28672
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookBreath01_a.wav",
+      "source_guid": "cae25cae9026e1442993fcc7d86dff54",
+      "source_bytes": 93184,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_cae25cae9026e1442993fcc7d86dff54_oneshot.adp",
+          "output_bytes": 26656,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26656
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookBreath01_b.wav",
+      "source_guid": "4ba41198336b3494e9c91441abc99449",
+      "source_bytes": 115074,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4ba41198336b3494e9c91441abc99449_oneshot.adp",
+          "output_bytes": 32912,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 32912
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookDamage01_a.wav",
+      "source_guid": "3dd9745a30f4bb94aabf21bedff6ebd2",
+      "source_bytes": 62842,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_3dd9745a30f4bb94aabf21bedff6ebd2_oneshot.adp",
+          "output_bytes": 17984,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17984
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookDamage01_b.wav",
+      "source_guid": "cf9f944f9a340eb45aa21b8dae688dbc",
+      "source_bytes": 59962,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_cf9f944f9a340eb45aa21b8dae688dbc_oneshot.adp",
+          "output_bytes": 17152,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17152
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookDamage01_c.wav",
+      "source_guid": "7e7af5663269fe446be6c7461208dc9a",
+      "source_bytes": 64606,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_7e7af5663269fe446be6c7461208dc9a_oneshot.adp",
+          "output_bytes": 18480,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 18480
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookDamage02_a.wav",
+      "source_guid": "cf926c8cd78413d46a7274efbb29533c",
+      "source_bytes": 121408,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_cf926c8cd78413d46a7274efbb29533c_oneshot.adp",
+          "output_bytes": 34720,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 34720
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookDamage02_b.wav",
+      "source_guid": "1eaca22e47caf95479b6eb448d9a9d42",
+      "source_bytes": 91772,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1eaca22e47caf95479b6eb448d9a9d42_oneshot.adp",
+          "output_bytes": 26240,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26240
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookDamage02_c.wav",
+      "source_guid": "431a815cf500c9542b7820e91862f7b9",
+      "source_bytes": 124230,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_431a815cf500c9542b7820e91862f7b9_oneshot.adp",
+          "output_bytes": 35520,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 35520
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookDeath01_a.wav",
+      "source_guid": "0a54ab3cbe84b3c4dad057f226c18ddc",
+      "source_bytes": 114050,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_0a54ab3cbe84b3c4dad057f226c18ddc_oneshot.adp",
+          "output_bytes": 32608,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 32608
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookDeath01_b.wav",
+      "source_guid": "de4535e6e25cc08439773cda48e3b302",
+      "source_bytes": 108674,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_de4535e6e25cc08439773cda48e3b302_oneshot.adp",
+          "output_bytes": 31072,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 31072
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookRun01_a.wav",
+      "source_guid": "e431e69a75dc7724ca2da51bfd4eb85f",
+      "source_bytes": 36736,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e431e69a75dc7724ca2da51bfd4eb85f_oneshot.adp",
+          "output_bytes": 10528,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10528
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookRun01_b.wav",
+      "source_guid": "14b9ec2648e35874ba3c1b82e884b4b6",
+      "source_bytes": 34618,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_14b9ec2648e35874ba3c1b82e884b4b6_oneshot.adp",
+          "output_bytes": 9920,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 9920
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookRun01_c.wav",
+      "source_guid": "74f91687eeed2d14db2df669eaf7a6dd",
+      "source_bytes": 44732,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_74f91687eeed2d14db2df669eaf7a6dd_oneshot.adp",
+          "output_bytes": 12800,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12800
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookShow01_a.wav",
+      "source_guid": "f26da0e013c39b24a86edfe6e1981bb6",
+      "source_bytes": 126764,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f26da0e013c39b24a86edfe6e1981bb6_oneshot.adp",
+          "output_bytes": 36240,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 36240
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookShow01_b.wav",
+      "source_guid": "30dee728809325249b81fdda6f6a8410",
+      "source_bytes": 110572,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_30dee728809325249b81fdda6f6a8410_oneshot.adp",
+          "output_bytes": 31616,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 31616
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookShow02_a.wav",
+      "source_guid": "c8d239a9d1724d145b790206fb14525b",
+      "source_bytes": 112940,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_c8d239a9d1724d145b790206fb14525b_oneshot.adp",
+          "output_bytes": 32288,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 32288
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookSkill01_a.wav",
+      "source_guid": "ecc5383c880ec29488d03b4ee93ab0e4",
+      "source_bytes": 94124,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_ecc5383c880ec29488d03b4ee93ab0e4_oneshot.adp",
+          "output_bytes": 26912,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26912
+    },
+    {
+      "source": "Assets/AudioClip/VOBossFatCookSkill01_b.wav",
+      "source_guid": "cb59e042d29a5974d8f4209afd585143",
+      "source_bytes": 94124,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_cb59e042d29a5974d8f4209afd585143_oneshot.adp",
+          "output_bytes": 26912,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26912
+    },
+    {
+      "source": "Assets/AudioClip/VOClownAttack01_a.wav",
+      "source_guid": "8531412ae45cc9f429ce447d7d041f77",
+      "source_bytes": 57388,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_8531412ae45cc9f429ce447d7d041f77_oneshot.adp",
+          "output_bytes": 16416,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16416
+    },
+    {
+      "source": "Assets/AudioClip/VOClownAttack01_b.wav",
+      "source_guid": "a247662d0df5ba1478830a0556810fd7",
+      "source_bytes": 56364,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a247662d0df5ba1478830a0556810fd7_oneshot.adp",
+          "output_bytes": 16128,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16128
+    },
+    {
+      "source": "Assets/AudioClip/VOClownDeath01_b.wav",
+      "source_guid": "fe7422359788d114bae83f44ecc0d424",
+      "source_bytes": 73858,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_fe7422359788d114bae83f44ecc0d424_oneshot.adp",
+          "output_bytes": 21136,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 21136
+    },
+    {
+      "source": "Assets/AudioClip/VOHaoKeBreath01_a.wav",
+      "source_guid": "ca2d9a42e1949c84b886be8e5abc56f2",
+      "source_bytes": 81784,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_ca2d9a42e1949c84b886be8e5abc56f2_oneshot.adp",
+          "output_bytes": 23376,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 23376
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeAttack01_a.wav",
+      "source_guid": "58a117ad63128fb4783348e5abb39231",
+      "source_bytes": 39608,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_58a117ad63128fb4783348e5abb39231_oneshot.adp",
+          "output_bytes": 11328,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11328
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeAttack01_b.wav",
+      "source_guid": "fc65eab27ebb5fa47aa25acf3deecd31",
+      "source_bytes": 65720,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_fc65eab27ebb5fa47aa25acf3deecd31_oneshot.adp",
+          "output_bytes": 18784,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 18784
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeAttack01_c.wav",
+      "source_guid": "cd1750a59f49104419de3a5f89dd7108",
+      "source_bytes": 43064,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_cd1750a59f49104419de3a5f89dd7108_oneshot.adp",
+          "output_bytes": 12304,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12304
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeDamage01_a.wav",
+      "source_guid": "8cbe011b2164db24fb27da35668d9f05",
+      "source_bytes": 67704,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_8cbe011b2164db24fb27da35668d9f05_oneshot.adp",
+          "output_bytes": 19344,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 19344
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeDamage01_b.wav",
+      "source_guid": "836eaade9d9871d449adcc5de556a631",
+      "source_bytes": 81016,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_836eaade9d9871d449adcc5de556a631_oneshot.adp",
+          "output_bytes": 23152,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 23152
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeDamage02_a.wav",
+      "source_guid": "5fb859e0553afcc4bb7ac3c5effafb7d",
+      "source_bytes": 48888,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_5fb859e0553afcc4bb7ac3c5effafb7d_oneshot.adp",
+          "output_bytes": 13968,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 13968
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeDamage02_b.wav",
+      "source_guid": "de104345b9521ea46a27f28f129d38ae",
+      "source_bytes": 46072,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_de104345b9521ea46a27f28f129d38ae_oneshot.adp",
+          "output_bytes": 13168,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 13168
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeDamage02_c.wav",
+      "source_guid": "38d7cf3c11dc5764d8014e07e5b2c15e",
+      "source_bytes": 91512,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_38d7cf3c11dc5764d8014e07e5b2c15e_oneshot.adp",
+          "output_bytes": 26144,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26144
+    },
+    {
+      "source": "Assets/AudioClip/VOHaokeShow02_a.wav",
+      "source_guid": "53e76c2a2e246ac429a8308ef2a38921",
+      "source_bytes": 199550,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_53e76c2a2e246ac429a8308ef2a38921_oneshot.adp",
+          "output_bytes": 57040,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 57040
+    },
+    {
+      "source": "Assets/AudioClip/VONurseZombieAttack01_a.wav",
+      "source_guid": "1d2cb758ad98c114cbab4593f0343c08",
+      "source_bytes": 62850,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1d2cb758ad98c114cbab4593f0343c08_oneshot.adp",
+          "output_bytes": 17984,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17984
+    },
+    {
+      "source": "Assets/AudioClip/VONurseZombieAttack01_b.wav",
+      "source_guid": "56b7c691bf245ac45a103f5d45e16625",
+      "source_bytes": 61228,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_56b7c691bf245ac45a103f5d45e16625_oneshot.adp",
+          "output_bytes": 17520,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17520
+    },
+    {
+      "source": "Assets/AudioClip/VONurseZombieDeath01_a.wav",
+      "source_guid": "36648c7ab0b074c4a93d7019abaf29f0",
+      "source_bytes": 91522,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_36648c7ab0b074c4a93d7019abaf29f0_oneshot.adp",
+          "output_bytes": 26176,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26176
+    },
+    {
+      "source": "Assets/AudioClip/VONurseZombieDeath01_b.wav",
+      "source_guid": "a3100ecd828f7574097f304f3cc9fb96",
+      "source_bytes": 54444,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a3100ecd828f7574097f304f3cc9fb96_oneshot.adp",
+          "output_bytes": 15584,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 15584
+    },
+    {
+      "source": "Assets/AudioClip/VOWrestlerAttack01_a.wav",
+      "source_guid": "e2184411b51f1e048ad7b1524b270912",
+      "source_bytes": 19884,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_e2184411b51f1e048ad7b1524b270912_oneshot.adp",
+          "output_bytes": 5712,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5712
+    },
+    {
+      "source": "Assets/AudioClip/VOWrestlerAttack01_b.wav",
+      "source_guid": "641a22c397f4fbd46801f036520dbe04",
+      "source_bytes": 14212,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_641a22c397f4fbd46801f036520dbe04_oneshot.adp",
+          "output_bytes": 4080,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 4080
+    },
+    {
+      "source": "Assets/AudioClip/VOWrestlerDeath01_a.wav",
+      "source_guid": "85af7feb189fd8246aac2af1b8ce05ea",
+      "source_bytes": 62526,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_85af7feb189fd8246aac2af1b8ce05ea_oneshot.adp",
+          "output_bytes": 17888,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 17888
+    },
+    {
+      "source": "Assets/AudioClip/VOWrestlerGrowl01_a.wav",
+      "source_guid": "34c69a430fb251a4bbe9fdf3164398f6",
+      "source_bytes": 37356,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_34c69a430fb251a4bbe9fdf3164398f6_oneshot.adp",
+          "output_bytes": 10704,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10704
+    },
+    {
+      "source": "Assets/AudioClip/VOWrestlerGrowl01_b.wav",
+      "source_guid": "58f6eafe1dffd814a830c380b91a721f",
+      "source_bytes": 37688,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_58f6eafe1dffd814a830c380b91a721f_oneshot.adp",
+          "output_bytes": 10800,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10800
+    },
+    {
+      "source": "Assets/AudioClip/VOWrestlerGrunting01.wav",
+      "source_guid": "063b10cfaefd4a34e82e6fd344faf1bb",
+      "source_bytes": 107002,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_063b10cfaefd4a34e82e6fd344faf1bb_oneshot.adp",
+          "output_bytes": 30592,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 30592
+    },
+    {
+      "source": "Assets/AudioClip/VOWrestlerHurt01_a.wav",
+      "source_guid": "7c8babfb8e0051049987dd5cf9b8f534",
+      "source_bytes": 26310,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_7c8babfb8e0051049987dd5cf9b8f534_oneshot.adp",
+          "output_bytes": 7552,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7552
+    },
+    {
+      "source": "Assets/AudioClip/VOWrestlerHurt01_b.wav",
+      "source_guid": "cc248df8969b4044488e57f6723b698e",
+      "source_bytes": 21454,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_cc248df8969b4044488e57f6723b698e_oneshot.adp",
+          "output_bytes": 6160,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 6160
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieAttack01_a.wav",
+      "source_guid": "f0b964394ca3cde4e813878d705e82a0",
+      "source_bytes": 39916,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f0b964394ca3cde4e813878d705e82a0_oneshot.adp",
+          "output_bytes": 11424,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11424
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieAttack01_b.wav",
+      "source_guid": "1a1b88c322725a747afce8c1559dbe67",
+      "source_bytes": 31788,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1a1b88c322725a747afce8c1559dbe67_oneshot.adp",
+          "output_bytes": 9104,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 9104
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieAttack01_c.wav",
+      "source_guid": "638c13c6b87af994daaae431d3302a50",
+      "source_bytes": 43212,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_638c13c6b87af994daaae431d3302a50_oneshot.adp",
+          "output_bytes": 12368,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12368
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieAttack01_d.wav",
+      "source_guid": "05d03dc9d7749c04f8d2d8c8e8fbbf1e",
+      "source_bytes": 53804,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_05d03dc9d7749c04f8d2d8c8e8fbbf1e_oneshot.adp",
+          "output_bytes": 15392,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 15392
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieDeath01_a.wav",
+      "source_guid": "683689708d03fa14ca737071e89889b1",
+      "source_bytes": 117292,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_683689708d03fa14ca737071e89889b1_oneshot.adp",
+          "output_bytes": 33536,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 33536
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieDeath01_b.wav",
+      "source_guid": "bb29b2376fa6f1f4d949a6d3b313087d",
+      "source_bytes": 102828,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_bb29b2376fa6f1f4d949a6d3b313087d_oneshot.adp",
+          "output_bytes": 29408,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 29408
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieHookAttack01_a.wav",
+      "source_guid": "f5be935873068fc41883ea1e246e45d3",
+      "source_bytes": 48194,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_f5be935873068fc41883ea1e246e45d3_oneshot.adp",
+          "output_bytes": 13792,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 13792
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieHookAttack02_a.wav",
+      "source_guid": "4e725a2c654d11e4da095624e5504098",
+      "source_bytes": 79402,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4e725a2c654d11e4da095624e5504098_oneshot.adp",
+          "output_bytes": 22720,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 22720
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieHookDeath01_a.wav",
+      "source_guid": "a9e8d281658c7cf4fb7d404efce3130e",
+      "source_bytes": 50756,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a9e8d281658c7cf4fb7d404efce3130e_oneshot.adp",
+          "output_bytes": 14528,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 14528
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieHookHurt01_a.wav",
+      "source_guid": "72305b88e5258ec41ab5065333a7bcc0",
+      "source_bytes": 35018,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_72305b88e5258ec41ab5065333a7bcc0_oneshot.adp",
+          "output_bytes": 10032,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10032
+    },
+    {
+      "source": "Assets/AudioClip/VOZombieHookHurt01_b.wav",
+      "source_guid": "eb1d14c9fa1bcd14cb1ee5dbbf2ec603",
+      "source_bytes": 31316,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_eb1d14c9fa1bcd14cb1ee5dbbf2ec603_oneshot.adp",
+          "output_bytes": 8976,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 8976
+    },
+    {
+      "source": "Assets/AudioClip/VoClownDeath01_a.wav",
+      "source_guid": "c6f807ac2f7fffe4490d033bce90687b",
+      "source_bytes": 76676,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_c6f807ac2f7fffe4490d033bce90687b_oneshot.adp",
+          "output_bytes": 21936,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 21936
+    },
+    {
+      "source": "Assets/AudioClip/VoClownDeath02_a.wav",
+      "source_guid": "1a2e5d4e45c413f42b1ca2d3d9357892",
+      "source_bytes": 142124,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1a2e5d4e45c413f42b1ca2d3d9357892_oneshot.adp",
+          "output_bytes": 40640,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 40640
+    },
+    {
+      "source": "Assets/AudioClip/VoClownDeath02_b.wav",
+      "source_guid": "4d57cc10cb145cb4092ca205ceb0c95b",
+      "source_bytes": 91522,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4d57cc10cb145cb4092ca205ceb0c95b_oneshot.adp",
+          "output_bytes": 26176,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 26176
+    },
+    {
+      "source": "Assets/AudioClip/VoCrowAttack01.wav",
+      "source_guid": "ba9bba681be63ad40a535610986abc89",
+      "source_bytes": 29942,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_ba9bba681be63ad40a535610986abc89_oneshot.adp",
+          "output_bytes": 8576,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 8576
+    },
+    {
+      "source": "Assets/AudioClip/VoCrowDeath01.wav",
+      "source_guid": "0e7e1af39c1e6c64ab85748593a7d085",
+      "source_bytes": 44194,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_0e7e1af39c1e6c64ab85748593a7d085_oneshot.adp",
+          "output_bytes": 12656,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12656
+    },
+    {
+      "source": "Assets/AudioClip/VoCrowDeath02.wav",
+      "source_guid": "1781586339fc9154b9e51b81a5194302",
+      "source_bytes": 70360,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_1781586339fc9154b9e51b81a5194302_oneshot.adp",
+          "output_bytes": 20128,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 20128
+    },
+    {
+      "source": "Assets/AudioClip/Weap_freeze_burst01.wav",
+      "source_guid": "6519485b1f51b3548ab5e9eb3956a585",
+      "source_bytes": 46840,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_6519485b1f51b3548ab5e9eb3956a585_oneshot.adp",
+          "output_bytes": 13392,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 13392
+    },
+    {
+      "source": "Assets/AudioClip/Weap_freeze_hit01.wav",
+      "source_guid": "0aefd2f55394f8049abc45f780eb3a7c",
+      "source_bytes": 74528,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_0aefd2f55394f8049abc45f780eb3a7c_oneshot.adp",
+          "output_bytes": 20752,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 20752
+    },
+    {
+      "source": "Assets/AudioClip/Whirling01_a.wav",
+      "source_guid": "4409d58432fdbd644b53332b7b4c9fe6",
+      "source_bytes": 19964,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_4409d58432fdbd644b53332b7b4c9fe6_oneshot.adp",
+          "output_bytes": 5728,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 5728
+    },
+    {
+      "source": "Assets/AudioClip/Whoosh01_a.wav",
+      "source_guid": "780c7c67a97ac264bb4449b506d7e652",
+      "source_bytes": 10968,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_780c7c67a97ac264bb4449b506d7e652_oneshot.adp",
+          "output_bytes": 3168,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 3168
+    },
+    {
+      "source": "Assets/AudioClip/Whoosh01_b.wav",
+      "source_guid": "9a028eac7c365fd4d87cb11efc76840d",
+      "source_bytes": 9566,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_9a028eac7c365fd4d87cb11efc76840d_oneshot.adp",
+          "output_bytes": 2768,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 2768
+    },
+    {
+      "source": "Assets/AudioClip/WhooshBall01.wav",
+      "source_guid": "edc6cde949ec51647a08d26efaf87e3a",
+      "source_bytes": 27576,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_edc6cde949ec51647a08d26efaf87e3a_oneshot.adp",
+          "output_bytes": 7888,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 7888
+    },
+    {
+      "source": "Assets/AudioClip/WhooshKnife01_a.wav",
+      "source_guid": "02d8fc44c484988429e884656605bf62",
+      "source_bytes": 14394,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_02d8fc44c484988429e884656605bf62_oneshot.adp",
+          "output_bytes": 4144,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 4144
+    },
+    {
+      "source": "Assets/AudioClip/WhooshKnife01_b.wav",
+      "source_guid": "b2872642bac5fb647857b1ff122cc380",
+      "source_bytes": 12490,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_b2872642bac5fb647857b1ff122cc380_oneshot.adp",
+          "output_bytes": 3600,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 3600
+    },
+    {
+      "source": "Assets/AudioClip/WhooshSAW01_a.wav",
+      "source_guid": "7b09a995d66ba114b8e6f1400ec5c59d",
+      "source_bytes": 146808,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_7b09a995d66ba114b8e6f1400ec5c59d_oneshot.adp",
+          "output_bytes": 41952,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 41952
+    },
+    {
+      "source": "Assets/AudioClip/WhooshSAW01_b.wav",
+      "source_guid": "3d36219da025dfc4cafac82d476a9b2e",
+      "source_bytes": 132640,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_3d36219da025dfc4cafac82d476a9b2e_oneshot.adp",
+          "output_bytes": 37904,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 37904
+    },
+    {
+      "source": "Assets/AudioClip/WhooshSAW02.wav",
+      "source_guid": "b2077ca296725904da7c59ed9ded4c22",
+      "source_bytes": 238168,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_b2077ca296725904da7c59ed9ded4c22_oneshot.adp",
+          "output_bytes": 68080,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 68080
+    },
+    {
+      "source": "Assets/AudioClip/WhooshScythe01.wav",
+      "source_guid": "678ef24751e648344a40fcffc2940168",
+      "source_bytes": 30892,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_678ef24751e648344a40fcffc2940168_oneshot.adp",
+          "output_bytes": 8848,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 8848
+    },
+    {
+      "source": "Assets/AudioClip/WhooshScythe02.wav",
+      "source_guid": "8e0a0aca1e73c3c428823135181a4f38",
+      "source_bytes": 40876,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_8e0a0aca1e73c3c428823135181a4f38_oneshot.adp",
+          "output_bytes": 11712,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 11712
+    },
+    {
+      "source": "Assets/AudioClip/WhooshStick02_a.wav",
+      "source_guid": "c2782cb3e3429584d8442f561200229a",
+      "source_bytes": 34348,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_c2782cb3e3429584d8442f561200229a_oneshot.adp",
+          "output_bytes": 9840,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 9840
+    },
+    {
+      "source": "Assets/AudioClip/WhooshStick02_b.wav",
+      "source_guid": "85d265736e5e46e4b82d833a62c87dd2",
+      "source_bytes": 42156,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_85d265736e5e46e4b82d833a62c87dd2_oneshot.adp",
+          "output_bytes": 12064,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 12064
+    },
+    {
+      "source": "Assets/AudioClip/Win.mp3",
+      "source_guid": "eb85636531bf7a84caf94ba13319c877",
+      "source_bytes": 81188,
+      "uses": [],
+      "status": "exported",
+      "format": "ogg_vorbis_stream",
+      "output": "PS2Assets/Audio/Music/music_eb85636531bf7a84caf94ba13319c877.ogg",
+      "output_bytes": 80432
+    },
+    {
+      "source": "Assets/AudioClip/bulletDrop01_a.wav",
+      "source_guid": "343f8e1d5fbf78d4084bf94d0cb85865",
+      "source_bytes": 133424,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_343f8e1d5fbf78d4084bf94d0cb85865_oneshot.adp",
+          "output_bytes": 38128,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 38128
+    },
+    {
+      "source": "Assets/AudioClip/spark01_b.wav",
+      "source_guid": "18ede1d7dcfe6ee48a56046c9968c76c",
+      "source_bytes": 153769,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_18ede1d7dcfe6ee48a56046c9968c76c_oneshot.adp",
+          "output_bytes": 43920,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 43920
+    },
+    {
+      "source": "Assets/AudioClip/spark01_c.wav",
+      "source_guid": "ca0858bad3986ca4ca5d49dc9a977887",
+      "source_bytes": 77447,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_ca0858bad3986ca4ca5d49dc9a977887_oneshot.adp",
+          "output_bytes": 22112,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 22112
+    },
+    {
+      "source": "Assets/AudioClip/spark01_d.wav",
+      "source_guid": "00ae2f2f909240241a2fd68097eb0a76",
+      "source_bytes": 74473,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_00ae2f2f909240241a2fd68097eb0a76_oneshot.adp",
+          "output_bytes": 21264,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 21264
+    },
+    {
+      "source": "Assets/AudioClip/tumble01.wav",
+      "source_guid": "b38d83857cac3b04c9820990f88760ff",
+      "source_bytes": 33144,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_b38d83857cac3b04c9820990f88760ff_oneshot.adp",
+          "output_bytes": 9472,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 9472
+    },
+    {
+      "source": "Assets/AudioClip/tumble02.wav",
+      "source_guid": "a4f8760bd6e1c0c4d915918ed34298e0",
+      "source_bytes": 32248,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_a4f8760bd6e1c0c4d915918ed34298e0_oneshot.adp",
+          "output_bytes": 9216,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 9216
+    },
+    {
+      "source": "Assets/AudioClip/tumble03.wav",
+      "source_guid": "7b731d5430d9ae041af0d5af0979f7a6",
+      "source_bytes": 35448,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_7b731d5430d9ae041af0d5af0979f7a6_oneshot.adp",
+          "output_bytes": 10128,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 10128
+    },
+    {
+      "source": "Assets/AudioClip/tumble04.wav",
+      "source_guid": "b0a74b4687820f94c883e5a3a589f539",
+      "source_bytes": 59000,
+      "uses": [],
+      "status": "exported",
+      "format": "spu2_adpcm",
+      "output_variants": [
+        {
+          "loop": false,
+          "output": "PS2Assets/Audio/SFX/sfx_b0a74b4687820f94c883e5a3a589f539_oneshot.adp",
+          "output_bytes": 16864,
+          "status": "exported"
+        }
+      ],
+      "output_bytes": 16864
+    }
+  ]
+}

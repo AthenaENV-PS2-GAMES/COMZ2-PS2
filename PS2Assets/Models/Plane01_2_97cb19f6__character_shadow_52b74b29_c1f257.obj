@@ -1,0 +1,17 @@
+# Converted from /home/usuario/COMZ2-PS2/Assets/Mesh/Plane01_2.asset
+mtllib Plane01_2_97cb19f6__character_shadow_52b74b29_c1f257.mtl
+v 5 5 0
+v -5 -5 0
+v 5 -5 0
+v -5 5 0
+vt 0 1
+vt 1 0
+vt 0 0
+vt 1 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+usemtl submesh_00
+f 1/1/1 2/2/2 3/3/3
+f 1/1/1 4/4/4 2/2/2
