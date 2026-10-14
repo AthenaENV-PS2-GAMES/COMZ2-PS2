@@ -1,0 +1,1808 @@
+{
+  "format_version": 1,
+  "source_catalog": "PS2AssetCatalog.json",
+  "mode": "export",
+  "source_mesh_assets": 1224,
+  "renderer_mesh_assets": 8,
+  "mesh_assets_not_in_renderer_components": 1216,
+  "mesh_texture_variants": 19,
+  "status_counts": {
+    "exported": 19
+  },
+  "unresolved_material_texture_guids": {},
+  "unresolved_mesh_guids": {},
+  "builtin_mesh_references": {
+    "0000000000000000e000000000000000": 4
+  },
+  "external_mesh_paths": {},
+  "material_submesh_mismatches": [],
+  "failures": [],
+  "models": [
+    {
+      "source_mesh": "Assets/Mesh/box.asset",
+      "source_mesh_guid": "389e129f00f73a14ebd0701fac121573",
+      "source_texture": "Assets/Texture2D/box.png",
+      "source_texture_guid": "8d209ec1d3cd02c49b5a10dc1d5c024d",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/box_389e129f__box_8d209ec1_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/box_389e129f__box_8d209ec1_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/box_389e129f__box_8d209ec1_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/box_389e129f__box_8d209ec1_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_8d209ec1d3cd02c49b5a10dc1d5c024d.png",
+      "submeshes": [
+        0
+      ],
+      "material_guids": [
+        "e36249b6e71a53548b01efc9d1dd1ba8"
+      ],
+      "static_batch_ranges": [],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 24,
+      "source_vertices": 24,
+      "triangles": 12,
+      "skipped_degenerate_triangles": 0,
+      "materials": 1,
+      "uvs": 24,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 24,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_01.png",
+      "source_texture_guid": "1cd6861ed44188e43be04a0347307169",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_01_1cd6861e_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_01_1cd6861e_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_01_1cd6861e_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_01_1cd6861e_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_1cd6861ed44188e43be04a0347307169.png",
+      "submeshes": [
+        47,
+        51
+      ],
+      "material_guids": [
+        "506ec3cb6dea1804c8a53eb49bd0200a"
+      ],
+      "static_batch_ranges": [
+        [
+          46,
+          4
+        ],
+        [
+          50,
+          4
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 248,
+      "source_vertices": 10118,
+      "triangles": 116,
+      "skipped_degenerate_triangles": 2,
+      "materials": 2,
+      "uvs": 248,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_02.png",
+      "source_texture_guid": "6de118bf0cab2c447b4d238bda02312e",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_02_6de118bf_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_02_6de118bf_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_02_6de118bf_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_02_6de118bf_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_6de118bf0cab2c447b4d238bda02312e.png",
+      "submeshes": [
+        18,
+        19,
+        20,
+        21,
+        48,
+        52,
+        71,
+        74
+      ],
+      "material_guids": [
+        "03c070a17be2a524299a2d14512a733c"
+      ],
+      "static_batch_ranges": [
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          46,
+          4
+        ],
+        [
+          50,
+          4
+        ],
+        [
+          70,
+          2
+        ],
+        [
+          73,
+          2
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 138,
+      "source_vertices": 10118,
+      "triangles": 88,
+      "skipped_degenerate_triangles": 0,
+      "materials": 8,
+      "uvs": 138,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_03.png",
+      "source_texture_guid": "64bb9bc2f87f12c4baa4c918d780bc31",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_03_64bb9bc2_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_03_64bb9bc2_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_03_64bb9bc2_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_03_64bb9bc2_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_64bb9bc2f87f12c4baa4c918d780bc31.png",
+      "submeshes": [
+        157,
+        158,
+        159,
+        161,
+        162,
+        164,
+        165,
+        166,
+        168,
+        170
+      ],
+      "material_guids": [
+        "3157b17cb4da8444d8f62de5a4ad8435"
+      ],
+      "static_batch_ranges": [
+        [
+          157,
+          1
+        ],
+        [
+          158,
+          1
+        ],
+        [
+          159,
+          2
+        ],
+        [
+          161,
+          1
+        ],
+        [
+          162,
+          2
+        ],
+        [
+          164,
+          1
+        ],
+        [
+          165,
+          1
+        ],
+        [
+          166,
+          2
+        ],
+        [
+          168,
+          2
+        ],
+        [
+          170,
+          1
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 1254,
+      "source_vertices": 10118,
+      "triangles": 738,
+      "skipped_degenerate_triangles": 0,
+      "materials": 10,
+      "uvs": 1254,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_04.png",
+      "source_texture_guid": "b80f3c78abfc9c54cab7d11b7cd5338a",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_04_b80f3c78_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_04_b80f3c78_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_04_b80f3c78_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_04_b80f3c78_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_b80f3c78abfc9c54cab7d11b7cd5338a.png",
+      "submeshes": [
+        49,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "material_guids": [
+        "01cf69ee046ef174d9160be3ff3a7c1e"
+      ],
+      "static_batch_ranges": [
+        [
+          46,
+          4
+        ],
+        [
+          50,
+          4
+        ],
+        [
+          54,
+          1
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          56,
+          1
+        ],
+        [
+          57,
+          1
+        ],
+        [
+          58,
+          1
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          60,
+          1
+        ],
+        [
+          61,
+          1
+        ],
+        [
+          62,
+          1
+        ],
+        [
+          63,
+          1
+        ],
+        [
+          64,
+          1
+        ],
+        [
+          65,
+          1
+        ],
+        [
+          66,
+          1
+        ],
+        [
+          67,
+          1
+        ],
+        [
+          68,
+          1
+        ],
+        [
+          69,
+          1
+        ],
+        [
+          70,
+          2
+        ],
+        [
+          72,
+          1
+        ],
+        [
+          73,
+          2
+        ],
+        [
+          75,
+          1
+        ],
+        [
+          76,
+          1
+        ],
+        [
+          77,
+          1
+        ],
+        [
+          78,
+          1
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          80,
+          1
+        ],
+        [
+          81,
+          1
+        ],
+        [
+          82,
+          1
+        ],
+        [
+          83,
+          1
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 2716,
+      "source_vertices": 10118,
+      "triangles": 2286,
+      "skipped_degenerate_triangles": 0,
+      "materials": 30,
+      "uvs": 2716,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_05.png",
+      "source_texture_guid": "61cc325e9fcf26a4a8a5917deaee39e2",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_05_61cc325e_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_05_61cc325e_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_05_61cc325e_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_05_61cc325e_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_61cc325e9fcf26a4a8a5917deaee39e2.png",
+      "submeshes": [
+        46,
+        50
+      ],
+      "material_guids": [
+        "d6466c11bda40024dbf692644f62fdfc"
+      ],
+      "static_batch_ranges": [
+        [
+          46,
+          4
+        ],
+        [
+          50,
+          4
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 24,
+      "source_vertices": 10118,
+      "triangles": 20,
+      "skipped_degenerate_triangles": 0,
+      "materials": 2,
+      "uvs": 24,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_06.png",
+      "source_texture_guid": "4771cff4265a4ff40b74d080da42ad7b",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_06_4771cff4_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_06_4771cff4_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_06_4771cff4_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_06_4771cff4_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_4771cff4265a4ff40b74d080da42ad7b.png",
+      "submeshes": [
+        94,
+        95,
+        96,
+        98,
+        100,
+        101,
+        102,
+        103,
+        104,
+        106,
+        160,
+        163,
+        167,
+        169
+      ],
+      "material_guids": [
+        "8ff175c5eac579c49a1bb1bdbab0a3e8"
+      ],
+      "static_batch_ranges": [
+        [
+          94,
+          1
+        ],
+        [
+          95,
+          1
+        ],
+        [
+          96,
+          2
+        ],
+        [
+          98,
+          2
+        ],
+        [
+          100,
+          1
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          102,
+          1
+        ],
+        [
+          103,
+          1
+        ],
+        [
+          104,
+          2
+        ],
+        [
+          106,
+          2
+        ],
+        [
+          159,
+          2
+        ],
+        [
+          162,
+          2
+        ],
+        [
+          166,
+          2
+        ],
+        [
+          168,
+          2
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 432,
+      "source_vertices": 10118,
+      "triangles": 216,
+      "skipped_degenerate_triangles": 0,
+      "materials": 14,
+      "uvs": 432,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_07.png",
+      "source_texture_guid": "65562b6b8b2419b43aa093930ccc9a09",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_07_65562b6b_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_07_65562b6b_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_07_65562b6b_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_07_65562b6b_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_65562b6b8b2419b43aa093930ccc9a09.png",
+      "submeshes": [
+        97,
+        99,
+        105,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "material_guids": [
+        "6fb218b3e0b6fde45a7d908cd0609932"
+      ],
+      "static_batch_ranges": [
+        [
+          96,
+          2
+        ],
+        [
+          98,
+          2
+        ],
+        [
+          104,
+          2
+        ],
+        [
+          106,
+          2
+        ],
+        [
+          108,
+          1
+        ],
+        [
+          109,
+          1
+        ],
+        [
+          110,
+          1
+        ],
+        [
+          111,
+          1
+        ],
+        [
+          112,
+          1
+        ],
+        [
+          113,
+          1
+        ],
+        [
+          114,
+          1
+        ],
+        [
+          115,
+          1
+        ],
+        [
+          116,
+          1
+        ],
+        [
+          117,
+          1
+        ],
+        [
+          118,
+          1
+        ],
+        [
+          119,
+          2
+        ],
+        [
+          121,
+          1
+        ],
+        [
+          122,
+          1
+        ],
+        [
+          123,
+          1
+        ],
+        [
+          124,
+          1
+        ],
+        [
+          125,
+          1
+        ],
+        [
+          126,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          128,
+          1
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          132,
+          1
+        ],
+        [
+          133,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          135,
+          1
+        ],
+        [
+          136,
+          1
+        ],
+        [
+          137,
+          1
+        ],
+        [
+          138,
+          1
+        ],
+        [
+          139,
+          1
+        ],
+        [
+          140,
+          1
+        ],
+        [
+          141,
+          1
+        ],
+        [
+          142,
+          1
+        ],
+        [
+          143,
+          1
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          145,
+          1
+        ],
+        [
+          146,
+          1
+        ],
+        [
+          147,
+          2
+        ],
+        [
+          149,
+          1
+        ],
+        [
+          150,
+          1
+        ],
+        [
+          151,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          154,
+          1
+        ],
+        [
+          155,
+          1
+        ],
+        [
+          156,
+          1
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 4252,
+      "source_vertices": 10118,
+      "triangles": 3482,
+      "skipped_degenerate_triangles": 0,
+      "materials": 51,
+      "uvs": 4252,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_08.png",
+      "source_texture_guid": "b0bdab26d27888f40b7337d08486eace",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_08_b0bdab26_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_08_b0bdab26_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_08_b0bdab26_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_08_b0bdab26_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_b0bdab26d27888f40b7337d08486eace.png",
+      "submeshes": [
+        2,
+        5,
+        8,
+        11,
+        14,
+        17,
+        84,
+        85,
+        88,
+        89,
+        90,
+        93
+      ],
+      "material_guids": [
+        "c1187759f9fc6414786d969ad85ca34b"
+      ],
+      "static_batch_ranges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          84,
+          1
+        ],
+        [
+          85,
+          3
+        ],
+        [
+          88,
+          1
+        ],
+        [
+          89,
+          1
+        ],
+        [
+          90,
+          3
+        ],
+        [
+          93,
+          1
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 254,
+      "source_vertices": 10118,
+      "triangles": 150,
+      "skipped_degenerate_triangles": 0,
+      "materials": 12,
+      "uvs": 254,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_09.png",
+      "source_texture_guid": "d56e2e54244523e49802d700eebdf6b1",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_09_d56e2e54_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_09_d56e2e54_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_09_d56e2e54_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_09_d56e2e54_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_d56e2e54244523e49802d700eebdf6b1.png",
+      "submeshes": [
+        1,
+        4,
+        7,
+        10,
+        13,
+        16,
+        87,
+        92
+      ],
+      "material_guids": [
+        "aab107ea289465f44aaa5a8e1e6e2312"
+      ],
+      "static_batch_ranges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          85,
+          3
+        ],
+        [
+          90,
+          3
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 312,
+      "source_vertices": 10118,
+      "triangles": 168,
+      "skipped_degenerate_triangles": 0,
+      "materials": 8,
+      "uvs": 312,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_10.png",
+      "source_texture_guid": "bd9ff1877107f3a429a7386093b9e6af",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_10_bd9ff187_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_10_bd9ff187_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_10_bd9ff187_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_10_bd9ff187_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_bd9ff1877107f3a429a7386093b9e6af.png",
+      "submeshes": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        86,
+        91
+      ],
+      "material_guids": [
+        "72fa397bb2465784ca7709060652dfb6"
+      ],
+      "static_batch_ranges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          85,
+          3
+        ],
+        [
+          90,
+          3
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 44,
+      "source_vertices": 10118,
+      "triangles": 28,
+      "skipped_degenerate_triangles": 0,
+      "materials": 8,
+      "uvs": 44,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_11.png",
+      "source_texture_guid": "814463c15b5aace4e970f436dd07ef34",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_11_814463c1_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_11_814463c1_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_11_814463c1_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_11_814463c1_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_814463c15b5aace4e970f436dd07ef34.png",
+      "submeshes": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "material_guids": [
+        "211a89ac67b81284c9d83fdf29af63f0"
+      ],
+      "static_batch_ranges": [
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          24,
+          1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          30,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          33,
+          1
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 48,
+      "source_vertices": 10118,
+      "triangles": 24,
+      "skipped_degenerate_triangles": 0,
+      "materials": 12,
+      "uvs": 48,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+      "source_mesh_guid": "e0ea28538f10a9247a0500bc14d0dffa",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_12.png",
+      "source_texture_guid": "078cf75e48fa64c4c94621001541be69",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_12_078cf75e_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_12_078cf75e_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_12_078cf75e_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Combined_Mesh_root_scene__4_e0ea2853__zombies2_diffuse_12_078cf75e_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_078cf75e48fa64c4c94621001541be69.png",
+      "submeshes": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        120,
+        148
+      ],
+      "material_guids": [
+        "1228e1b54a0ca6b4b8bd8dd1ac05c75e"
+      ],
+      "static_batch_ranges": [
+        [
+          34,
+          1
+        ],
+        [
+          35,
+          1
+        ],
+        [
+          36,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          39,
+          1
+        ],
+        [
+          40,
+          1
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          42,
+          1
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          44,
+          1
+        ],
+        [
+          45,
+          1
+        ],
+        [
+          119,
+          2
+        ],
+        [
+          147,
+          2
+        ]
+      ],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 390,
+      "source_vertices": 10118,
+      "triangles": 204,
+      "skipped_degenerate_triangles": 0,
+      "materials": 14,
+      "uvs": 390,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 10118,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/partition_door_01.asset",
+      "source_mesh_guid": "02610627641ecae468ca0adb34ec2f62",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_07.png",
+      "source_texture_guid": "65562b6b8b2419b43aa093930ccc9a09",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/partition_door_01_02610627__zombies2_diffuse_07_65562b6b_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/partition_door_01_02610627__zombies2_diffuse_07_65562b6b_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/partition_door_01_02610627__zombies2_diffuse_07_65562b6b_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/partition_door_01_02610627__zombies2_diffuse_07_65562b6b_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_65562b6b8b2419b43aa093930ccc9a09.png",
+      "submeshes": [
+        0
+      ],
+      "material_guids": [
+        "6fb218b3e0b6fde45a7d908cd0609932"
+      ],
+      "static_batch_ranges": [],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 72,
+      "source_vertices": 72,
+      "triangles": 50,
+      "skipped_degenerate_triangles": 0,
+      "materials": 1,
+      "uvs": 72,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 72,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/partition_door_04.asset",
+      "source_mesh_guid": "1018801083d2ece45b882d4e5e95b271",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_07.png",
+      "source_texture_guid": "65562b6b8b2419b43aa093930ccc9a09",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/partition_door_04_10188010__zombies2_diffuse_07_65562b6b_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/partition_door_04_10188010__zombies2_diffuse_07_65562b6b_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/partition_door_04_10188010__zombies2_diffuse_07_65562b6b_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/partition_door_04_10188010__zombies2_diffuse_07_65562b6b_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_65562b6b8b2419b43aa093930ccc9a09.png",
+      "submeshes": [
+        0
+      ],
+      "material_guids": [
+        "6fb218b3e0b6fde45a7d908cd0609932"
+      ],
+      "static_batch_ranges": [],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 72,
+      "source_vertices": 72,
+      "triangles": 50,
+      "skipped_degenerate_triangles": 0,
+      "materials": 1,
+      "uvs": 72,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 72,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/Plane01_0.asset",
+      "source_mesh_guid": "651a794d0477a5e4b99068e8fd9fea1c",
+      "source_texture": "Assets/Texture2D/water_02_01.png",
+      "source_texture_guid": "ea22eb70adac9314ab82957ea92e5c5d",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Plane01_0_651a794d__water_02_01_ea22eb70_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Plane01_0_651a794d__water_02_01_ea22eb70_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Plane01_0_651a794d__water_02_01_ea22eb70_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Plane01_0_651a794d__water_02_01_ea22eb70_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_ea22eb70adac9314ab82957ea92e5c5d.png",
+      "submeshes": [
+        0
+      ],
+      "material_guids": [
+        "682c38f5f9c512d40a3de9a98c967681"
+      ],
+      "static_batch_ranges": [],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 4,
+      "source_vertices": 4,
+      "triangles": 2,
+      "skipped_degenerate_triangles": 0,
+      "materials": 1,
+      "uvs": 4,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 4,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/railing.asset",
+      "source_mesh_guid": "e9330a02744051043877b6088ad44849",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_03.png",
+      "source_texture_guid": "64bb9bc2f87f12c4baa4c918d780bc31",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/railing_e9330a02__zombies2_diffuse_03_64bb9bc2_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/railing_e9330a02__zombies2_diffuse_03_64bb9bc2_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/railing_e9330a02__zombies2_diffuse_03_64bb9bc2_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/railing_e9330a02__zombies2_diffuse_03_64bb9bc2_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_64bb9bc2f87f12c4baa4c918d780bc31.png",
+      "submeshes": [
+        0
+      ],
+      "material_guids": [
+        "3157b17cb4da8444d8f62de5a4ad8435"
+      ],
+      "static_batch_ranges": [],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 72,
+      "source_vertices": 72,
+      "triangles": 36,
+      "skipped_degenerate_triangles": 0,
+      "materials": 1,
+      "uvs": 72,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 72,
+      "skinned": 0
+    },
+    {
+      "source_mesh": "Assets/Mesh/water_pipe_26.asset",
+      "source_mesh_guid": "8dd43ee617d6ad14f8a34d82618e98e7",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_07.png",
+      "source_texture_guid": "65562b6b8b2419b43aa093930ccc9a09",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/water_pipe_26_8dd43ee6__zombies2_diffuse_07_65562b6b_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/water_pipe_26_8dd43ee6__zombies2_diffuse_07_65562b6b_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/water_pipe_26_8dd43ee6__zombies2_diffuse_07_65562b6b_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/water_pipe_26_8dd43ee6__zombies2_diffuse_07_65562b6b_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_65562b6b8b2419b43aa093930ccc9a09.png",
+      "submeshes": [
+        0
+      ],
+      "material_guids": [
+        "6fb218b3e0b6fde45a7d908cd0609932"
+      ],
+      "static_batch_ranges": [],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 70,
+      "source_vertices": 70,
+      "triangles": 64,
+      "skipped_degenerate_triangles": 0,
+      "materials": 1,
+      "uvs": 70,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 70,
+      "skinned": 1
+    },
+    {
+      "source_mesh": "Assets/Mesh/water_pipe_27.asset",
+      "source_mesh_guid": "af417204dfd136a438134f58c256bb99",
+      "source_texture": "Assets/Texture2D/zombies2_diffuse_07.png",
+      "source_texture_guid": "65562b6b8b2419b43aa093930ccc9a09",
+      "material_uv_scale": [
+        1.0,
+        1.0
+      ],
+      "material_uv_offset": [
+        0.0,
+        0.0
+      ],
+      "texture_repeat_uv": [
+        true,
+        true
+      ],
+      "output_obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/water_pipe_27_af417204__zombies2_diffuse_07_65562b6b_c1f257.obj",
+      "output_mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/water_pipe_27_af417204__zombies2_diffuse_07_65562b6b_c1f257.mtl",
+      "output_parts": [
+        {
+          "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/water_pipe_27_af417204__zombies2_diffuse_07_65562b6b_c1f257.obj",
+          "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/water_pipe_27_af417204__zombies2_diffuse_07_65562b6b_c1f257.mtl"
+        }
+      ],
+      "output_texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_65562b6b8b2419b43aa093930ccc9a09.png",
+      "submeshes": [
+        0
+      ],
+      "material_guids": [
+        "6fb218b3e0b6fde45a7d908cd0609932"
+      ],
+      "static_batch_ranges": [],
+      "used_by": [
+        "Assets/Scene/Scenes/COM2_NORMAL_1.unity"
+      ],
+      "status": "exported",
+      "vertices": 35,
+      "source_vertices": 35,
+      "triangles": 40,
+      "skipped_degenerate_triangles": 0,
+      "materials": 1,
+      "uvs": 35,
+      "uv_repeat_rebased_triangles": 0,
+      "max_uv_repeat_shift_u": 0,
+      "max_uv_repeat_shift_v": 0,
+      "normals": 35,
+      "skinned": 1
+    }
+  ]
+}

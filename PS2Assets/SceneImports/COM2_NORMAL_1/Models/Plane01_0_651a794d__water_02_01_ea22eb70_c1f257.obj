@@ -1,0 +1,17 @@
+# Converted from /home/usuario/COMZ2-PS2/Assets/Mesh/Plane01_0.asset
+mtllib Plane01_0_651a794d__water_02_01_ea22eb70_c1f257.mtl
+v 61.7360992 61.7360992 0
+v -61.7360992 -61.7360992 0
+v 61.7360992 -61.7360992 0
+v -61.7360992 61.7360992 0
+vt 0 1
+vt 1 0
+vt 0 0
+vt 1 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+usemtl submesh_00
+f 1/1/1 2/2/2 3/3/3
+f 1/1/1 4/4/4 2/2/2

@@ -1,0 +1,48 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {PlayerWeapon} from '../player_weapon.js';
+const config=JSON.parse(readFileSync(new URL('../AthenaModels/mp5_equipped.json',import.meta.url)));
+const clips=JSON.parse(readFileSync(new URL('../AthenaModels/mike_animated.json',import.meta.url))).clips;
+const duration=clips.find(c=>c.name==='MP5_UpperBody_Reload01').duration;
+const make=()=>new PlayerWeapon(config,duration);
+let w=make();
+assert.equal(w.ammo.clip,100);assert.equal(w.ammo.total,400);assert.equal(w.reserve,300);
+assert.equal(w.beginReload(),false);
+assert.equal(w.equip('AK47'),false,'cannot equip an unowned weapon');
+assert.equal(w.equip(null),true);assert.equal(w.update(1,true,false),null);
+assert.equal(w.state,'UNEQUIPPED');assert.equal(w.equip('MP5'),true);
+assert.equal(w.update(1/60,true,false),'ready');
+for(let i=0;i<11;i++)assert.equal(w.update(1/60,true,false),null,'preparation blocks fire');
+assert.equal(w.update(1/60,true,false),'fire');
+assert.equal(w.ammo.clip,99);assert.equal(w.ammo.total,399);assert.equal(w.reserve,300);
+assert.equal(w.update(1/60,false,true),'reload');
+assert.equal(w.ammo.clip,100);assert.equal(w.reserve,299,'reload transfers ammo, never creates it');
+assert.equal(w.equip(null),false,'cannot bypass reload lock by equipping');
+let lock=w.reloadDuration;
+while(lock>1/60+1e-8){assert.equal(w.update(1/60,true,true),null);lock-=1/60;}
+assert.equal(w.update(1/60,true,false),'ready');
+w=make();const times=[];let reloads=0;
+for(let f=0;f<5000;f++){
+    const event=w.update(1/60,true,false);
+    if(event==='reload')reloads++;
+    if(event==='fire')times.push(f/60);
+    assert.ok(w.ammo.clip>=0&&w.ammo.total>=w.ammo.clip);
+}
+assert.equal(times.length,400,'finite ammunition eventually runs out');assert.equal(reloads,3);
+assert.equal(w.state,'EMPTY');assert.equal(w.ammo.clip,0);assert.equal(w.ammo.total,0);
+const cadence=times[99]-times[0];
+assert.ok(Math.abs(cadence-99*config.interval)<1/60,'cadence retains fractional frames');
+assert.equal(w.beginReload(),false);
+w.reset();assert.equal(w.shots,0);assert.equal(w.ammo.total,400);assert.equal(w.state,'IDLE');
+w.ammo.clip=1;w.ammo.total=8;
+w.update(1/60,true,false);for(let i=0;i<12;i++)w.update(1/60,true,false);
+assert.equal(w.ammo.total,7);
+let lastEvent=null;for(let i=0;i<8;i++)lastEvent=w.update(1/60,false,false);
+assert.equal(lastEvent,'reload','last round auto reloads even after trigger release');
+assert.equal(w.ammo.clip,7);assert.equal(w.ammo.total,7);
+w=make();w.update(1/60,true,false);w.update(1/60,false,false);assert.equal(w.state,'IDLE');
+w.update(1/60,true,false);for(let i=0;i<12;i++)w.update(1/60,true,false);
+w.update(1/60,false,false);assert.equal(w.state,'AFTER');
+for(let i=0;i<61;i++)w.update(1/60,false,false);
+assert.equal(w.state,'IDLE');assert.equal(w.update(1/60,true,false),'ready');
+console.log('PlayerWeapon: ownership, ammo conservation, cadence, ready/reload locks, auto reload, exhaustion and reset passed');

@@ -1,0 +1,23 @@
+newmtl concrete
+Kd 0.31 0.33 0.3
+
+newmtl wall
+Kd 0.22 0.25 0.23
+
+newmtl wall_light
+Kd 0.4 0.4 0.34
+
+newmtl metal
+Kd 0.2 0.24 0.23
+
+newmtl rusted_pipe
+Kd 0.43 0.25 0.13
+
+newmtl sewage
+Kd 0.12 0.2 0.17
+
+newmtl grate
+Kd 0.1 0.12 0.12
+
+newmtl warning
+Kd 0.66 0.43 0.1

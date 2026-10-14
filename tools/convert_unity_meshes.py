@@ -224,6 +224,7 @@ def export_mesh(
     uv_offset: tuple[float, float] = (0.0, 0.0),
     repeat_uv: tuple[bool, bool] = (False, False),
     triangle_range: tuple[int, int] | None = None,
+    position_offset: tuple[float, float, float] = (0.0, 0.0, 0.0),
 ) -> dict[str, int]:
     text = source.read_text(encoding="ascii")
     is_skinned = bool(re.search(r"m_BindPose:\s*\n\s*-", text))
@@ -246,6 +247,12 @@ def export_mesh(
     channels = read_channel_block(text)
     layout = stream_layout(channels, vertex_count, data_size)
     positions = decode_attribute(vertex_data, vertex_count, channels[0], 3, layout)
+    if not all(math.isfinite(value) for value in position_offset):
+        raise ValueError("position offset must contain finite values")
+    positions = [
+        tuple(position[axis] + position_offset[axis] for axis in range(3))
+        for position in positions
+    ]
     normal_channel = channels[1] if len(channels) > 1 and channels[1][3] >= 3 else None
     uv_channel = channels[3] if len(channels) > 3 and channels[3][3] >= 2 else None
     normals = (

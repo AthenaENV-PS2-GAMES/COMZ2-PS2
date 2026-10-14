@@ -790,12 +790,16 @@ declare namespace Model3D {
     const UV_LIMIT: number;
     const UNLIT: 0; const DIFFUSE: 1;
     class Texture {
+        /** GPU-owned CT32 target. Width/height powers of two in 64..512,
+         * default linear filter. Capture before sampling and recapture after
+         * Screen.setMode(). No CPU pixels; cannot sample while capturing. */
+        static renderTarget(width: number, height: number, filter?: 0 | 1): Texture;
         private constructor();
         static readonly NEAREST: 0; static readonly LINEAR: 1;
         /** Addressing per axis: CLAMP (to edge, the default), REPEAT on both
          * axes, or REPEAT_U / REPEAT_V on one. */
         static readonly CLAMP: 0; static readonly REPEAT_U: 1; static readonly REPEAT_V: 2; static readonly REPEAT: 3;
-        /** Copies 0xAABBGGRR pixels; alpha (0..255) matters only to alphaCutoff materials. Power-of-two sizes 1..512;
+        /** Copies 0xAABBGGRR pixels; alpha (0..255) is used by alphaCutoff and Render3D.withBlend. Power-of-two sizes 1..512;
          * no mipmaps. Honors subarray(); main thread only. */
         static fromPixels(pixels: {width: number; height: number; pixels: Uint32Array; filter?: 0 | 1; wrap?: 0 | 1 | 2 | 3}): Texture;
         /** Synchronous decoding. RGB/RGBA, 16-bit and 4/8-bit palette images
@@ -819,7 +823,7 @@ declare namespace Model3D {
         /** Defaults to UNLIT. DIFFUSE uses world ambient/directional lights. */
         shading?: 0 | 1;
         /** Four finite linear RGBA values in [0,1], multiplied by vertex colors
-         * and stored as RGBA8. Defaults to white; alpha is used by alphaCutoff. */
+         * and stored as RGBA8. Defaults to white; alpha is used by alphaCutoff and Render3D.withBlend. */
         baseColor?: Float32Array;
         texture?: Texture;
         /** Alpha mask (glTF alphaMode MASK): pixels whose alpha (texture
@@ -1016,6 +1020,19 @@ declare namespace Render3D {
      * returns or throws; fn's result is returned. Inside fn, draw only 3D:
      * no 2D drawing, flip or camera change. Groups do not nest. */
     function group<R>(fn: () => R): R;
+    /** Synchronous scope for blended 3D draws, depth tested without depth writes.
+     * -1 opaque, 0 darken (use black), 1 alpha, 2 additive. Restores state on
+     * return/throw; scopes may nest, but cannot start inside group(). Draw
+     * opaque receivers first. No sorting; callback must draw synchronously. */
+    function withBlend<R>(mode: -1 | 0 | 1 | 2, fn: () => R): R;
+    /** Captures opaque white geometry over transparent black in a GPU target.
+     * Uses the camera passed to each draw, including skin/morph deformation;
+     * ignores source texture, RGBA, lighting, fog and tint. No depth buffer.
+     * Only synchronous Render3D/Scene3D draws in fn; no screen changes, 2D or
+     * promises. Cannot nest/start in group(). Restores state on return/throw;
+     * an exception invalidates the target until the next successful capture.
+     * Draw opaque receivers afterwards, then project the captured texture. */
+    function captureSilhouette<R>(target: Model3D.Texture, fn: () => R): R;
     class Batch {
         constructor();
         readonly size: number;
@@ -1226,6 +1243,553 @@ declare namespace Animation3D {
     function attachLoop(priority?: number): void;
     function detachLoop(): boolean;
     function isAttached(): boolean;
+}
+
+
+/* === Module: CameraRig3D (camerarig3d) === */
+/** Native Camera3D controllers. The script configures a rig and feeds input
+ * (rotate/zoom); following, orbiting and smoothing run in C every frame in one
+ * Loop system (attachLoop()) after Scene3D updates world transforms, or
+ * manually with update(dt). A rig keeps its camera alive, also after the
+ * camera handle is disposed, and skips frames whose target node is stale.
+ * Rigs stay active until dispose(), even when no variable holds them. */
+declare namespace CameraRig3D {
+    /** Default attachLoop() priority: after Scene3D.attachLoop() (0). */
+    const LOOP_PRIORITY: number;
+    interface Rig {
+        /** null: Orbit uses its fixed centre; Follow stops moving. */
+        setTarget(target: Scene3D.Node | null): this;
+        /** Exponential smoothing in 1/s for the eye and the look point; 0 is
+         * rigid (default). Frame-rate independent. */
+        setSharpness(eye: number, look: number): this;
+        /** The next update jumps to the goal without smoothing. */
+        snap(): this;
+        enabled: boolean;
+        /** True when it moved the camera. */
+        update(dt: number): boolean;
+        dispose(): void;
+    }
+    class Follow implements Rig {
+        constructor(camera: Camera3D.Camera, target: Scene3D.Node);
+        /** Eye offset; local (default) turns and scales with the target,
+         * otherwise it is added to the target's world position. Default 0, 2, 6. */
+        setOffset(x: number, y: number, z: number, local?: boolean): this;
+        /** Look point in the target's local space. Default 0, 0, 0. */
+        setLookOffset(x: number, y: number, z: number): this;
+        setTarget(target: Scene3D.Node | null): this;
+        setSharpness(eye: number, look: number): this;
+        snap(): this;
+        enabled: boolean;
+        update(dt: number): boolean;
+        dispose(): void;
+    }
+    class Orbit implements Rig {
+        /** Without a target, the centre is the fixed point of setCenter(). */
+        constructor(camera: Camera3D.Camera, target?: Scene3D.Node | null);
+        /** Offset from the target's world position, or the fixed centre. */
+        setCenter(x: number, y: number, z: number): this;
+        /** Radians: yaw about +Y (0 sits on +Z looking down -Z), pitch up. */
+        setAngles(yaw: number, pitch: number): this;
+        /** Input deltas, clamped to the limits. */
+        rotate(yaw: number, pitch: number): this;
+        zoom(delta: number): this;
+        /** Pitch within -1.56..1.56 rad; 0 < distanceMin <= distanceMax.
+         * Defaults -1.5, 1.5, 0.1, 1e6. */
+        setLimits(pitchMin: number, pitchMax: number, distanceMin: number, distanceMax: number): this;
+        readonly yaw: number;
+        readonly pitch: number;
+        /** Default 6. */
+        distance: number;
+        /** Yaw speed in rad/s. */
+        autoRotate: number;
+        setTarget(target: Scene3D.Node | null): this;
+        setSharpness(eye: number, look: number): this;
+        snap(): this;
+        enabled: boolean;
+        update(dt: number): boolean;
+        dispose(): void;
+    }
+    /** Updates every enabled rig; returns how many moved their camera. */
+    function update(dt: number): number;
+    /** One native POST_UPDATE system for every rig; idempotent. */
+    function attachLoop(priority?: number): void;
+    function detachLoop(): boolean;
+    function isAttached(): boolean;
+}
+
+
+/* === Module: Collision3D (collision3d) === */
+/** Light 3D collision in C, for levels and characters; not a rigid body
+ * solver. A `World` holds static triangles (level meshes, whole Scene3D or
+ * glTF subtrees, boxes) in a bounding volume hierarchy, answers raycasts,
+ * sphere casts and overlaps, and is what `Character`s walk on.
+ *
+ * Characters are upright ellipsoids placed by their feet, moved with
+ * collide-and-slide (swept, so they never tunnel through thin walls). Up is
+ * +Y. Faces up to `maxSlope` are ground (standing on them does not slide),
+ * steeper faces are walls, edges up to `stepHeight` above the feet are
+ * climbed, and walking down slopes and steps keeps them on the ground. They
+ * move by themselves in one Loop system (`attachLoop()`), after the game's
+ * update and before Scene3D, and stay active until `dispose()`.
+ *
+ * Triangles face their counter-clockwise side: characters and sphere casts
+ * collide with front faces only, rays hit both sides. Layers and masks are
+ * 32-bit flags (-1: all).
+ *
+ * ```js
+ * const level = GLTF3D.load("models/level.glb");
+ * scene.root.add(level.root);
+ * const world = new Collision3D.World();
+ * world.addNode(level.root);
+ * const player = new Collision3D.Character(world, { radius: .4, height: 1.8, position: [0, 1, 0] });
+ * player.bind(heroNode);                      // the node follows the feet
+ * Collision3D.attachLoop(); scene.attachLoop();
+ * Loop.run({ update() {
+ *     player.vx = stick.x * 4; player.vz = stick.y * 4;
+ *     if (pad.justPressed(Gamepad.CROSS) && player.onGround) player.vy = 5;
+ * } });
+ * ```
+ */
+declare namespace Collision3D {
+    /** Default attachLoop() priority: after Animation3D (-100), before Scene3D (0). */
+    const LOOP_PRIORITY: number;
+    const MAX_TRIANGLES: number;
+    type Vec3 = [number, number, number] | Float32Array;
+    interface ShapeOptions {
+        /** Default 1. */
+        layer?: number;
+    }
+    interface QueryOptions {
+        /** Layers hit. Default -1 (all). */
+        mask?: number;
+    }
+    /** A hit along a ray or sweep; the normal points toward the query. */
+    interface Hit {
+        distance: number;
+        x: number; y: number; z: number;
+        nx: number; ny: number; nz: number;
+        /** The shape id returned by add*(). */
+        shape: number;
+        /** Triangle index within the shape. */
+        triangle: number;
+    }
+    class World {
+        constructor();
+        /** A mesh's triangles under transform (base pose for skinned or
+         * morphed meshes). Returns the shape id. */
+        addMesh(mesh: Model3D.Mesh, transform?: Matrix4 | null, options?: ShapeOptions): number;
+        /** Every visible mesh of the subtree, with the node's ancestors'
+         * transforms composed (no scene update needed). One shape. */
+        addNode(node: Scene3D.Node, options?: ShapeOptions): number;
+        /** An axis-aligned box, 12 triangles facing out. */
+        addBox(min: Vec3, max: Vec3, options?: ShapeOptions): number;
+        /** World-space triangles, 9 floats each (copied). */
+        addTriangles(positions: Float32Array, options?: ShapeOptions): number;
+        /** False for an unknown id. The tree is rebuilt by the next query. */
+        remove(shape: number): boolean;
+        setLayer(shape: number, layer: number): boolean;
+        /** Nearest hit within maxDistance (world units), or null. out is
+         * filled and returned instead of a new object. */
+        raycast(origin: Vec3, direction: Vec3, maxDistance: number, options?: QueryOptions, out?: Hit): Hit | null;
+        /** Many rays in one call: origins 3n floats, directions 3 (shared)
+         * or 3n, out 4n floats filled with [distance, nx, ny, nz] per ray
+         * (distance -1 on a miss). Returns the number of hits. */
+        raycastMany(origins: Float32Array, directions: Float32Array, maxDistance: number,
+            out: Float32Array, options?: QueryOptions): number;
+        /** A sphere swept along direction: the first front face it touches. */
+        sphereCast(center: Vec3, radius: number, direction: Vec3, maxDistance: number,
+            options?: QueryOptions, out?: Hit): Hit | null;
+        /** Ids of the shapes within radius (both sides; at most 64). */
+        overlapSphere(center: Vec3, radius: number, options?: QueryOptions): number[];
+        readonly triangleCount: number;
+        /** Characters keep their world alive after this. */
+        dispose(): void;
+    }
+    interface CharacterOptions {
+        /** Default 0.4. */
+        radius?: number;
+        /** Default 1.8. */
+        height?: number;
+        /** Ledges up to this are climbed. Default 0.3. */
+        stepHeight?: number;
+        /** Degrees; steeper faces are walls. Default 45. */
+        maxSlope?: number;
+        /** Default [0, -9.81, 0]. */
+        gravity?: Vec3;
+        /** Default -1. */
+        mask?: number;
+        /** Feet. Default [0, 0, 0]. */
+        position?: Vec3;
+    }
+    class Character {
+        constructor(world: World, options?: CharacterOptions);
+        /** Feet position. */
+        readonly x: number;
+        readonly y: number;
+        readonly z: number;
+        /** Velocity in units/s; vy is reset on landing and on ceilings. */
+        vx: number;
+        vy: number;
+        vz: number;
+        readonly onGround: boolean;
+        readonly hitWall: boolean;
+        readonly hitCeiling: boolean;
+        /** [x, y, z] of the ground under the feet ([0, 1, 0] in the air). */
+        readonly groundNormal: number[];
+        /** Teleports, without collisions. */
+        setPosition(x: number, y: number, z: number): this;
+        setVelocity(x: number, y: number, z: number): this;
+        /** Moves by a displacement with collisions, without gravity. */
+        move(dx: number, dy: number, dz: number): this;
+        /** Gravity, then velocity * dt with collisions. */
+        step(dt: number): this;
+        /** A node whose position follows the feet; null unbinds. */
+        bind(node: Scene3D.Node | null): this;
+        /** Disabled characters are skipped by the Loop system and step(). */
+        enabled: boolean;
+        dispose(): void;
+    }
+    /** Steps every enabled character. */
+    function step(dt: number): void;
+    /** One native POST_UPDATE system stepping every character; idempotent. */
+    function attachLoop(priority?: number): void;
+    function detachLoop(): boolean;
+    function isAttached(): boolean;
+}
+
+
+/* === Module: Color (color) === */
+/**
+ * Packs RGBA components into the 32-bit color format used by AthenaEnv.
+ *
+ * The component order in the returned value is `0xAABBGGRR`:
+ * red occupies the least-significant byte and alpha the most-significant.
+ * Component values are converted to unsigned 8-bit values.
+ *
+ * The default alpha used by `new()` is `0x80`, matching the PS2 GS default
+ * convention. Color helpers are pure and return a new packed value.
+ *
+ * @example
+ * ```js
+ * let tint = Color.new(255, 128, 0, 255);
+ * tint = Color.setA(tint, 192);
+ * console.log(Color.getR(tint), Color.getA(tint));
+ * ```
+ */
+declare namespace Color {
+    /** Packed `0xAABBGGRR` color value. */
+    type Value = number;
+
+    /** Creates a packed color from red, green, blue and optional alpha. */
+    function new(r: number, g: number, b: number, a?: number): Value;
+    /** Reads the red component in the range 0..255. */
+    function getR(color: Value): number;
+    /** Reads the green component in the range 0..255. */
+    function getG(color: Value): number;
+    /** Reads the blue component in the range 0..255. */
+    function getB(color: Value): number;
+    /** Reads the alpha component in the range 0..255. */
+    function getA(color: Value): number;
+    /** Returns `color` with its red component replaced. */
+    function setR(color: Value, value: number): Value;
+    /** Returns `color` with its green component replaced. */
+    function setG(color: Value, value: number): Value;
+    /** Returns `color` with its blue component replaced. */
+    function setB(color: Value, value: number): Value;
+    /** Returns `color` with its alpha component replaced. */
+    function setA(color: Value, value: number): Value;
+}
+
+
+/* === Module: Thread (thread) === */
+/**
+ * EE thread management.
+ *
+ * Thread callbacks execute on native EE worker threads. Keep callbacks short,
+ * avoid direct QuickJS runtime access from native workers, and use the
+ * documented AthenaEnv synchronization boundaries.
+ *
+ * Example:
+ * ```js
+ * const worker = Thread.new(() => {
+ *     System.delay();
+ * }, 'worker', 32768, 16);
+ * Thread.start(worker);
+ * console.log(Thread.getStatus(worker));
+ * Thread.destroy(worker);
+ * ```
+ */
+declare namespace Thread {
+    /** Opaque handle returned by `Thread.new()`. */
+    interface Handle {
+        readonly __brand: 'Thread';
+    }
+
+    /** Snapshot of one tracked native thread. */
+    interface TaskInfo {
+        /** Native EE thread ID. */
+        id: number;
+        /** Thread name. */
+        name: string;
+        /** Native status code. */
+        status: number;
+        /** Configured stack size in bytes. */
+        stack: number;
+    }
+
+    /**
+     * Creates a native EE thread.
+     * @param callback Function executed by the new thread.
+     * @param name Optional name, limited to 63 characters.
+     * @param stackSize Stack size in bytes, at least 16384; defaults to 32768.
+     *   JavaScript may use it all but 8 KB: deeper recursion throws a
+     *   catchable "stack overflow" instead of overrunning the stack.
+     * @param priority EE priority from 1 to 127; defaults to 16.
+     */
+    function new(
+        callback: () => void,
+        name?: string,
+        stackSize?: number,
+        priority?: number
+    ): Handle;
+
+    /** Starts execution and returns the native EE result code. */
+    function start(thread: Handle): number;
+
+    /** Requests thread termination and returns the native EE result code. */
+    function stop(thread: Handle): number;
+
+    /** Returns the native EE thread ID. */
+    function getId(thread: Handle): number;
+
+    /** Returns the current thread name. */
+    function getName(thread: Handle): string;
+
+    /** Replaces the thread name. */
+    function setName(thread: Handle, name: string): void;
+
+    /** Returns the native EE status code. */
+    function getStatus(thread: Handle): number;
+
+    /** Releases the thread handle. Stop it first; do not reuse the object. */
+    function destroy(thread: Handle): void;
+
+    /** Returns all active/tracked threads. */
+    function list(): TaskInfo[];
+
+    /** Force-terminates a native thread by ID. */
+    function kill(id: number): number;
+
+    interface ReadFileOptions {
+        /** Decode the file as UTF-8 text and resolve with a string. Default false (ArrayBuffer). */
+        text?: boolean;
+        /** Refuse files larger than this many bytes. Default 16 MiB. */
+        maxBytes?: number;
+    }
+
+    /** `poll()` of a read: bytes read so far and the file's size (0 until known). */
+    interface ReadFileStatus<T> extends AthenaJobStatus<T> {
+        bytesDone: number;
+        bytesTotal: number;
+    }
+
+    /**
+     * Reads a whole file on the shared job pool, in 64 KiB chunks, while
+     * frames keep coming: large data files, or files on slow storage (disc,
+     * USB). Resolves with an ArrayBuffer (no copy of the bytes read), or a
+     * string with `text: true`. Rejects with an error that has `path` when
+     * the file cannot be opened or read, or is larger than `maxBytes`.
+     *
+     * @example
+     * ```js
+     * const level = JSON.parse(await Thread.readFileAsync("levels/1.json", { text: true }));
+     * ```
+     */
+    function readFileAsync(path: string, options: ReadFileOptions & { text: true }):
+        AthenaJob<string, ReadFileStatus<string>>;
+    function readFileAsync(path: string, options?: ReadFileOptions):
+        AthenaJob<ArrayBuffer, ReadFileStatus<ArrayBuffer>>;
+}
+
+/**
+ * A background job, as returned by `MemoryCard.readFileAsync()`,
+ * `Archive.extractAsync()`, `Sound.loadSfxAsync()`, `Font.loadAsync()`...
+ * Jobs run on a small shared pool of worker threads while frames keep
+ * coming. Every job can be awaited, polled, waited for and cancelled; the
+ * module functions (`MemoryCard.poll(job)`, ...) do the same.
+ *
+ * @example
+ * ```js
+ * const font = await Font.loadAsync("fonts/title.ttf", { size: 40 });
+ *
+ * const job = Archive.extractAsync("dlc.zip", "mass:/GAME/dlc");
+ * Loop.run(() => {
+ *     const status = job.poll();          // { state, result | error, ...progress }
+ *     if (status.state === "running") drawProgress(status.bytesDone, status.bytesTotal);
+ * });
+ * ```
+ */
+interface AthenaJob<T, Status extends AthenaJobStatus<T> = AthenaJobStatus<T>> extends PromiseLike<T> {
+    /** State without blocking; the result or error is converted once and kept. */
+    poll(): Status;
+    /** Blocks until the job settles or `timeoutMs` passes, then polls. */
+    wait(timeoutMs?: number): Status;
+    /** The job ends as `'cancelled'` unless it already finished. */
+    cancel(): void;
+}
+
+interface AthenaJobStatus<T> {
+    state: 'running' | 'done' | 'failed' | 'cancelled';
+    /** When `state` is `'done'`. The same value on every later poll. */
+    result?: T;
+    /** When `state` is `'failed'` or `'cancelled'`. */
+    error?: Error;
+}
+
+
+/* === Module: Font (font) === */
+/**
+ * Font loading and text rendering.
+ *
+ * The constructor optionally accepts a path to either a TrueType file or a legacy
+ * bitmap font (`.bmp`, `.png` or `.jpg`, optionally with a `.dat` width file).
+ * With no path, the embedded Quicksand Regular font is used. Text is queued
+ * into the current graphics command stream.
+ *
+ * TrueType glyphs are rasterized once at `size` pixels and cached; `scale`
+ * stretches them, so prefer a matching `size` for large text. The same file
+ * at the same size is loaded once and shared, and at most 16 different
+ * TrueType fonts are loaded at a time: call `free()` on fonts no longer used.
+ * Glyphs keep their proportions on NTSC, PAL, 480p and 16:9 modes, and follow
+ * `Screen.setMode()`.
+ *
+ * A glyph is rasterized the first time it is printed, which can hold that
+ * frame: `preload()` (or the `preload` option of `loadAsync`) does it ahead,
+ * a few milliseconds per frame. Text printed every frame is cheaper through
+ * `render()`, which lays it out once.
+ *
+ * @example
+ * ```js
+ * const title = new Font("fonts/title.ttf", { size: 48 });
+ * title.outlineColor = Color.new(0, 0, 0);
+ * title.outline = 2;
+ * title.print(320, 40, "Game Over\nPress START");   // \n starts a new line
+ * ```
+ */
+declare class Font {
+    /** Loads `path`, or the embedded font when omitted, undefined or null. */
+    constructor(path?: string | null, options?: Font.Options);
+    constructor(options: Font.Options);
+
+    /**
+     * Loads a font without stalling the frame loop. A TrueType file is read
+     * on the shared job pool; a bitmap font's image and `.dat` widths are
+     * decoded there, and its texture is uploaded when first drawn. The Font
+     * is created on the script thread when the job is awaited or polled.
+     *
+     * With `preload`, the job resolves only once those glyphs are rasterized,
+     * `budgetMs` per frame, so a loading screen hands over a font that prints
+     * without a stall.
+     *
+     * @example
+     * ```js
+     * async function start() {
+     *     const title = await Font.loadAsync("fonts/title.ttf", { size: 48, preload: true });
+     *     Loop.run(() => title.print(40, 40, "Ready"));
+     * }
+     * start();
+     * ```
+     */
+    static loadAsync(path?: string | null, options?: Font.AsyncOptions): Font.Job;
+    /** Same as `job.poll()`, `job.wait()` and `job.cancel()`. `wait()` also finishes the preloading. */
+    static poll(job: Font.Job): AthenaJobStatus<Font>;
+    static wait(job: Font.Job, timeoutMs?: number): AthenaJobStatus<Font>;
+    static cancel(job: Font.Job): void;
+
+    /** The printable ASCII characters, from space to `~`: what `preload()` rasterizes by default. */
+    static readonly ASCII: string;
+
+    static readonly ALIGN_TOP: number;
+    static readonly ALIGN_BOTTOM: number;
+    static readonly ALIGN_VCENTER: number;
+    static readonly ALIGN_LEFT: number;
+    static readonly ALIGN_RIGHT: number;
+    static readonly ALIGN_HCENTER: number;
+    static readonly ALIGN_NONE: number;
+    static readonly ALIGN_CENTER: number;
+
+    scale: number;
+    color: Color.Value;
+    /** Horizontal alignment applies to each line. */
+    align: number;
+    outline: number;
+    outlineColor: Color.Value;
+    dropshadow: number;
+    dropshadowColor: Color.Value;
+    /** @deprecated Use `outlineColor`. */
+    outline_color: Color.Value;
+    /** @deprecated Use `dropshadowColor`. */
+    dropshadow_color: Color.Value;
+    /** TrueType rasterization size in pixels (0 for bitmap fonts). */
+    readonly size: number;
+    /** Distance between two lines at the current `scale`, in pixels. */
+    readonly lineHeight: number;
+
+    /** Queues `text`; `\n` starts a new line. */
+    print(x: number, y: number, text: string): void;
+    /** Width of the widest line and height of all lines, in pixels. */
+    getTextSize(text: string): { width: number; height: number };
+    /**
+     * Keeps `text` ready to print repeatedly: its glyphs are placed once and
+     * placed again only when `scale`, `align` or the video mode change. The
+     * outline or shadow reuse the same placement.
+     */
+    render(text: string): FontRender;
+    /**
+     * Rasterizes the glyphs of `chars` (by default `Font.ASCII`) ahead of the
+     * first print, spending at most `budgetMs` (default 2) per frame; `0`
+     * rasterizes them all now. The first slice runs during the call, the
+     * next ones once per frame, also before `Loop.run()` starts. Resolves
+     * with the font; rejects if it is freed meanwhile. Bitmap fonts resolve
+     * at once.
+     *
+     * @example
+     * ```js
+     * await hud.preload("0123456789:/ ", { budgetMs: 1 });
+     * ```
+     */
+    preload(chars?: string, options?: Font.PreloadOptions): Promise<Font>;
+    /**
+     * Releases the font now instead of when the collector finds the object.
+     * Using it afterwards throws; FontRender objects made from it throw too.
+     */
+    free(): void;
+}
+
+declare namespace Font {
+    /** A `Font.loadAsync()` job. */
+    interface Job extends AthenaJob<Font> {
+        readonly __brand: 'FontJob';
+    }
+
+    interface Options {
+        /** TrueType rasterization size in pixels, 6 to 128; defaults to 26. Ignored by bitmap fonts. */
+        size?: number;
+    }
+
+    interface PreloadOptions {
+        /** Milliseconds of rasterization per frame at most; `0` does it all at once. Defaults to 2. */
+        budgetMs?: number;
+    }
+
+    interface AsyncOptions extends Options, PreloadOptions {
+        /** Glyphs rasterized before the job resolves: a string of characters, or `true` for `Font.ASCII`. */
+        preload?: string | boolean;
+    }
+}
+
+declare class FontRender {
+    print(x: number, y: number): void;
 }
 
 
@@ -1611,6 +2175,141 @@ declare namespace GLTF3D {
 }
 
 
+/* === Module: LOD (lod) === */
+/**
+ * Distance-based level of detail for Scene3D nodes: forests, cities, crowds.
+ *
+ * A Group gives a node meshes by distance from the camera; beyond the last
+ * level, or beyond the global draw distance, the node is hidden. Selection
+ * runs in C, uses the node's world position of the last scene update (one
+ * frame of latency) and touches the node only when its level changes, so it
+ * must run before Scene3D's update: `setCamera()` adds a Loop POST_UPDATE
+ * system at priority -100 (Scene3D's attachLoop() defaults to 0); games
+ * without it call `LOD.update(camera)` before `scene.update()`. A
+ * hysteresis band (default 10% of each threshold) stops flicker. While a
+ * group is enabled it owns its node's `visible` flag. Keep Group handles
+ * alive for as long as they are needed; disposing/collecting one removes it.
+ *
+ * Not in the default build: `node tools/modules.js configure --modules=lod,...`
+ *
+ * Example:
+ * ```js
+ * const groups = trees.map(tree => new LOD.Group(tree,
+ *     [{ mesh: treeHigh, until: 15 }, { mesh: treeLow, until: 45 }, { mesh: billboard, until: 90 }]));
+ * LOD.setCamera(camera);
+ * LOD.setDrawDistance(90, { lights, color: [0.6, 0.7, 0.85] });   // fog hides the cut
+ * ```
+ */
+declare namespace LOD {
+    const MAX_LEVELS: 8;
+    /** Group.level of a hidden node. */
+    const HIDDEN: -1;
+    interface Level {
+        /** null hides the node in this band. */
+        mesh: Model3D.Mesh | null;
+        /** Used while the distance is below this (increasing, > 0). */
+        until: number;
+    }
+    interface Stats {
+        groups: number; hidden: number; changes: number; perLevel: number[];
+        /** Groups whose level was computed this update (groups - the ones inside skipped cells). */
+        evaluated: number;
+        /** Grid cells visited / skipped whole (0 without setGrid). */
+        cells: number; cellsSkipped: number;
+    }
+    class Group {
+        /** Retains the node and meshes. hysteresis: 0 to 0.5 of each threshold (default 0.1). */
+        constructor(node: Scene3D.Node, levels: Level[], options?: { hysteresis?: number });
+        /** Current level, HIDDEN, or -2 before the first selection. */
+        readonly level: number;
+        /** Distance at the last evaluation (not refreshed while the grid skips the group's cell). */
+        readonly distance: number;
+        /** Disabled groups leave the node alone. */
+        enabled: boolean;
+        dispose(): void;
+    }
+    /** Selects levels every frame with this camera (retained); null stops. */
+    function setCamera(camera: Camera3D.Camera | null): void;
+    /** Selects every level now; returns the number of changes, or fills stats. */
+    function update(camera: Camera3D.Camera): number;
+    function update<T extends object>(camera: Camera3D.Camera, stats: T): T & Stats;
+    /** Of the last selection. */
+    function stats<T extends object = Stats>(out?: T): T & Stats;
+    /**
+     * Optional spatial index for many groups (0 turns it off, the default). Groups are binned by the
+     * world position of their node into cells of `cellSize`; static groups cost nothing per update, and
+     * a cell is skipped whole when all its groups are already hidden by distance and the cell lies
+     * beyond their farthest threshold. The selection (levels, hysteresis, visibility) is identical to
+     * the full traversal; `capacity` (default 1024) bounds the cells, extra groups are still evaluated
+     * every update. Pick `cellSize` near the largest `until`. Moved nodes are noticed through Scene3D
+     * updates, so nodes moved after the last `scene.update()` are seen one frame late, as without the grid.
+     */
+    function setGrid(cellSize: number, options?: { capacity?: number }): void;
+    /** Multiplies every threshold (quality setting, default 1). */
+    function setBias(bias: number): void;
+    /**
+     * Hides nodes beyond distance (0: no limit). With `lights`, sets their
+     * fog from fogStart (default 60%) to distance in `color`, so the cut
+     * fades instead of popping.
+     */
+    function setDrawDistance(distance: number, options?: { lights?: Lights.Set; fogStart?: number; color?: [number, number, number] }): void;
+}
+
+
+/* === Module: Draw (draw) === */
+/**
+ * Immediate-mode 2D primitives rendered by the PS2 GS.
+ *
+ * Coordinates may be fractional and are interpreted in screen space.
+ * Drawing is queued; call `Screen.flip()` to present the completed frame.
+ * Colors are packed `Color.Value` values.
+ */
+declare namespace Draw {
+    /** Draws a single point. */
+    function point(x: number, y: number, color: Color.Value): void;
+
+    /** Draws a solid-color line segment. */
+    function line(x1: number, y1: number, x2: number, y2: number,
+        color: Color.Value): void;
+
+    /** Draws a solid-color triangle. */
+    function triangle(x1: number, y1: number, x2: number, y2: number,
+        x3: number, y3: number, color: Color.Value): void;
+
+    /** Draws a Gouraud-shaded triangle with one color per vertex. */
+    function triangleGouraud(
+        x1: number, y1: number, color1: Color.Value,
+        x2: number, y2: number, color2: Color.Value,
+        x3: number, y3: number, color3: Color.Value
+    ): void;
+
+    /** Draws a solid-color quadrilateral as a GS triangle strip. */
+    function quad(x1: number, y1: number, x2: number, y2: number,
+        x3: number, y3: number, x4: number, y4: number,
+        color: Color.Value): void;
+
+    /** Draws a Gouraud-shaded quadrilateral with one color per vertex. */
+    function quadGouraud(
+        x1: number, y1: number, color1: Color.Value,
+        x2: number, y2: number, color2: Color.Value,
+        x3: number, y3: number, color3: Color.Value,
+        x4: number, y4: number, color4: Color.Value
+    ): void;
+
+    /**
+     * Draws a solid-color rectangle. Width and height are at least 1 and
+     * whole pixels; under a Camera2D camera they are world units, any
+     * positive size (0.5 is 2 pixels at zoom 4), and turn with the camera.
+     */
+    function rect(x: number, y: number, width: number, height: number,
+        color: Color.Value): void;
+
+    /** Draws a circle outline or filled circle. */
+    function circle(x: number, y: number, radius: number,
+        color: Color.Value, filled?: boolean): void;
+}
+
+
 /* === Module: Screen (screen) === */
 /**
  * Display, frame synchronization, VRAM statistics and GS state controls.
@@ -1952,4 +2651,623 @@ declare namespace System {
 
     /** Alias for exiting to the PS2 browser/OSDSYS. */
     function exitToBrowser(): void;
+}
+
+
+/* === Module: Debug (debug) === */
+/**
+ * On-screen diagnostics, for the console where there is no terminal.
+ *
+ * Everything is drawn after the game's draw by a Loop system that exists only
+ * while something is on. Games with their own loop call `Debug.frame(dt)`
+ * after drawing. The overlay text refreshes 4 times per second and is laid
+ * out once per refresh; the frame-time graph, the console tail and the
+ * rects, lines and circles are computed and drawn in C, so a hitbox per
+ * entity per frame allocates nothing. The overlay shows its own cost
+ * ("debug x ms").
+ *
+ * It never takes the game down: arguments are checked at the call (a bad
+ * color throws there), and an error while drawing turns the module off and
+ * is logged once. Shapes are capped at 2048 (texts too); the oldest go and
+ * the overlay counts them.
+ *
+ * The panels stay inside the title-safe area (5% of each edge), which CRT
+ * TVs do not cut, and use the built-in font at 16 px.
+ *
+ * Not in the default build: `node tools/modules.js configure --modules=debug,...`
+ *
+ * Example:
+ * ```js
+ * Debug.overlay(true);                          // FPS, CPU, RAM, JS heap, VRAM, graph
+ * Debug.console(true, { lines: 6 });            // last lines of console.log
+ * Debug.watch("player", () => `${player.x | 0},${player.y | 0} ${player.state}`);
+ * Debug.toggleWith(Gamepad.L3 | Gamepad.R3);    // show / hide everything
+ *
+ * // In update(): hitboxes for a second, in world coordinates.
+ * Debug.rect(enemy.x, enemy.y, 16, 16, Color.new(255, 0, 0), { seconds: 1, space: "world" });
+ * Debug.text(enemy.x, enemy.y - 10, "hit!", { seconds: 0.5, space: "world" });
+ * ```
+ */
+declare namespace Debug {
+    interface ShapeOptions {
+        /** How long it stays, in real seconds (default 0: this frame only). */
+        seconds?: number;
+        /** "screen" (default) or "world", through `setView()`. */
+        space?: "screen" | "world";
+        /** Filled instead of an outline (rect and circle). */
+        filled?: boolean;
+    }
+
+    interface TextOptions extends ShapeOptions {
+        /** Text color (default white). */
+        color?: Color.Value;
+    }
+
+    interface ConsoleOptions {
+        /** Screen lines shown, 1 to 40 (default 8). */
+        lines?: number;
+    }
+
+    interface View {
+        /** World point at the top-left corner of the screen (default 0). */
+        x?: number;
+        y?: number;
+        /** Screen pixels per world unit (default 1). */
+        scale?: number;
+    }
+
+    interface Config {
+        /**
+         * Frame budget in milliseconds for the graph colors. 0 (default)
+         * derives it from the video mode (60 Hz, or 50 Hz for PAL and 576p)
+         * and `vsyncInterval`.
+         */
+        budgetMs?: number;
+        /** The `vsyncInterval` given to Loop.run(), 1 to 4 (default 1; 2 for 30 fps). */
+        vsyncInterval?: number;
+        /**
+         * Distance from the screen edges in pixels, one number or { x, y }.
+         * null (default) is the title-safe area, 5% of each side.
+         */
+        margin?: number | { x: number; y: number } | null;
+        /** Font of every text (default the built-in font at 16 px). */
+        font?: Font;
+    }
+
+    /** Figures of the frame-time graph. */
+    interface FrameStats {
+        samples: number;
+        frameAvg: number;
+        frameMax: number;
+        cpuAvg: number;
+        cpuMax: number;
+    }
+
+    /**
+     * Shows or hides the stats panel: FPS, CPU and frame time (average and
+     * peak of the last 60 frames) and the frame budget, RAM, free VRAM, the
+     * module's own cost, the watches, and a frame-time graph: green under 75% of the budget, yellow up to it, red
+     * over it, magenta for a dropped frame. Returns whether it is on.
+     * Measured on the PS2: about 1.1 ms per frame with the console (0.95 ms
+     * compact; the graph is about 0.45 ms of it). The overlay shows its own
+     * cost as "debug x ms".
+     */
+    function overlay(on?: boolean, options?: OverlayOptions): boolean;
+
+    interface OverlayOptions {
+        /** Draw the frame-time graph (default true). */
+        graph?: boolean;
+        /** Only the FPS line and the watches (default false). */
+        compact?: boolean;
+        /**
+         * Adds the JavaScript heap size and object count (default false).
+         * Reading them walks the whole heap: 6.7 ms in one frame on the PS2,
+         * so it happens every 5 seconds, and is off by default because a
+         * busy game would drop a frame each time.
+         */
+        heap?: boolean;
+    }
+
+    /**
+     * Shows or hides the last lines the script printed (console.log, print,
+     * errors), wrapped to the screen; lines that look like errors are red.
+     * Returns whether it is on.
+     */
+    function console(on?: boolean, options?: ConsoleOptions): boolean;
+
+    /**
+     * Adds `name: read()` to the overlay, evaluated 4 times per second;
+     * errors show inline and long values are cut at 48 characters.
+     */
+    function watch(name: string, read: () => unknown): void;
+    /** Removes a watch; returns whether it existed. */
+    function unwatch(name: string): boolean;
+
+    /** Rectangle outline (or filled), for this frame or `seconds`. Default color red. */
+    function rect(x: number, y: number, width: number, height: number,
+        color?: Color.Value, options?: ShapeOptions): void;
+    function line(x1: number, y1: number, x2: number, y2: number,
+        color?: Color.Value, options?: ShapeOptions): void;
+    function circle(x: number, y: number, radius: number,
+        color?: Color.Value, options?: ShapeOptions): void;
+    /**
+     * Many rectangles in one call, from a Float32Array of x, y, width,
+     * height groups (length a multiple of 4), checked and queued in C: for
+     * the hitboxes of many entities, far cheaper than one `rect()` each.
+     * Groups with a value that is not finite are skipped. Returns how many
+     * were queued.
+     */
+    function rects(values: Float32Array, color?: Color.Value, options?: ShapeOptions): number;
+    /** Many lines in one call, from x1, y1, x2, y2 groups; see `rects()`. */
+    function lines(values: Float32Array, color?: Color.Value, options?: ShapeOptions): number;
+    function text(x: number, y: number, text: unknown, options?: TextOptions): void;
+    /** Removes every shape and text still on screen. */
+    function clear(): void;
+
+    /**
+     * Shows and hides everything when the `buttons` combination is pressed
+     * on the controller of `port` (0 or 1). The pad is read without
+     * Gamepad.update(), so the game's justPressed() is unaffected. `null`
+     * removes the shortcut.
+     */
+    function toggleWith(buttons: number | null, port?: 0 | 1): void;
+    /** Shows or hides everything, like the shortcut; returns whether shown. */
+    function show(on?: boolean): boolean;
+
+    /**
+     * World space of shapes drawn with `space: "world"`: screen = (world - x/y) * scale.
+     * Used without a camera: while `Camera2D.getCurrent()` has one, world
+     * shapes and texts follow it (zoom and rotation included) instead.
+     */
+    function setView(view: View): void;
+    function configure(options: Config): void;
+
+    /**
+     * For games that do not use Loop.run(): call after drawing, before
+     * Screen.flip(). `dt` is the frame time in seconds; `cpuMs` (optional)
+     * feeds the graph. Not needed with Loop.run(): there it does nothing and
+     * warns once.
+     */
+    function frame(dt: number, cpuMs?: number): void;
+
+    /** Figures of the graph over the last `frames` frames (default 60). */
+    function frameStats(frames?: number): FrameStats;
+}
+
+
+/* === Module: Profiler (profiler) === */
+/**
+ * Where the frame time goes, measured in C.
+ *
+ * Timer scopes read the EE cycle counter (COP0 Count) in C, so a begin/end
+ * pair costs far less than two System.getMilliseconds() calls; counters sum
+ * values per frame. Each frame closes into a ring of the last `HISTORY`
+ * frames, from which `stats()` gives the last value, average, 95th
+ * percentile and peak. Timers are inclusive: nested scopes count in their
+ * parents too. A single begin/end span must be shorter than about 14 s (the
+ * counter wraps).
+ *
+ * Not in the default build: `node tools/modules.js configure --modules=profiler,...`
+ * (brings Loop and Debug).
+ *
+ * Example:
+ * ```js
+ * import * as Render3D from "Render3D";
+ * Profiler.auto();                       // close frames after every Loop draw
+ * Profiler.attachRender3D(Render3D);     // 3d.* counters + C clipper warning
+ * Profiler.overlay(true);                // one line per scope in Debug
+ *
+ * const AI = Profiler.scope("ai");       // ids skip the name lookup
+ * Profiler.begin(AI); updateAI(); Profiler.end(AI);
+ * Profiler.measure("physics", () => world.step(dt));
+ * Profiler.count("chunks.rebuilt", rebuilt);
+ * ```
+ */
+declare namespace Profiler {
+    /** Frames kept per scope (120). */
+    const HISTORY: number;
+    const MAX_SCOPES: number;
+    /** Open scopes at once. */
+    const MAX_DEPTH: number;
+    /** A scope id from scope()/counter(), or its name (1 to 31 printable characters). */
+    type Scope = number | string;
+
+    interface Stats {
+        name: string;
+        kind: "timer" | "counter";
+        /** Frames in the window. */
+        samples: number;
+        /** Per frame: milliseconds for timers, summed values for counters. */
+        last: number;
+        average: number;
+        p95: number;
+        peak: number;
+        /** begin() (or count()) calls in the last frame and on average. */
+        lastCalls: number;
+        averageCalls: number;
+    }
+
+    /** Id of a timer scope, registered on first use. Scope 0 is "frame". */
+    function scope(name: string): number;
+    /** Id of a counter, registered on first use. */
+    function counter(name: string): number;
+    /** Opens a timer scope; a name is registered on first use. */
+    function begin(scope: Scope): void;
+    /** Closes the innermost scope; when given, it must be that scope (throws otherwise). */
+    function end(scope?: Scope): void;
+    /** Runs fn inside a timer scope and returns its result; closes on throw too. */
+    function measure<R>(scope: Scope, fn: () => R): R;
+    /** Adds value (default 1) to a counter for this frame. */
+    function count(scope: Scope, value?: number): void;
+    /** Raw unsigned clock; wraps after about 14.5 s on the EE. */
+    function ticks(): number;
+    /** Converts an unsigned tick difference: ticksToMilliseconds((end - start) >>> 0). */
+    function ticksToMilliseconds(ticks: number): number;
+    /**
+     * Closes the frame and returns its length in ms. Not needed with auto().
+     * Open scopes are split: their time so far goes to this frame.
+     */
+    function frame(): number;
+    /** Closes the frames after every draw of Loop.run(). Returns whether on. */
+    function auto(on?: boolean): boolean;
+    /** Stats over the last `frames` frames (default the whole history). Optional `out` is reused. */
+    function stats<T extends object = Stats>(scope: Scope, frames?: number, out?: T): T & Stats;
+    /** Registered scope names, by id. */
+    function names(): string[];
+    /** Unmatched end() calls and begin() beyond MAX_DEPTH since the reset. */
+    function errors(): number;
+    /**
+     * Records Render3D.frameStats() at each frame() as the counters
+     * 3d.triangles, 3d.objects, 3d.passes, 3d.culled and 3d.cpuClip, and
+     * logs (at most every 5 s, unless `warn: false`) when objects are
+     * clipped in C on the EE. Pass the Render3D namespace, or null to stop.
+     */
+    function attachRender3D(render3d: typeof Render3D | null, options?: { warn?: boolean }): void;
+    /** Shows a line per scope in the Debug overlay (turning it on), over `frames` frames (default 60). */
+    function overlay(on?: boolean, options?: { frames?: number }): boolean;
+    /** The overlay line of a scope, e.g. "1.23 ms p95 2.10 max 3.40". */
+    function describe(scope: Scope, frames?: number): string;
+    /** Stats of every scope (allocates; for logs and tests). */
+    function report(frames?: number): Stats[];
+    /** Prints report() with console.log. */
+    function log(frames?: number): void;
+    /** Clears the history; forget = true also drops the names (ids become invalid). */
+    function reset(forget?: boolean): void;
+}
+
+
+/* === Module: Shadows (shadows) === */
+/** Static and captured texture shadow decals. Render opaque receivers first.
+ * Textures use Model3D.Texture, independently of Image.
+ * Position/scale accept xyz objects or arrays; rotation is a normalized xyzw
+ * quaternion. Properties return copies; assigning TRS replaces setTransform. */
+declare namespace Shadows {
+    const SHADOW_BLEND_DARKEN: 0;
+    const SHADOW_BLEND_ALPHA: 1;
+    const SHADOW_BLEND_ADD: 2;
+    type Vec3 = {x: number; y: number; z: number} | [number, number, number] | Float32Array;
+    type Quaternion = {x: number; y: number; z: number; w: number} | [number, number, number, number] | Float32Array;
+    /** GPU silhouette texture owner. Keep this alive while a projector uses
+     * its texture; dispose the projector before the map. */
+    class ShadowMap {
+        constructor(width?: number, height?: number, filter?: 0 | 1);
+        readonly texture: Model3D.Texture;
+        /** Independent light camera; match its aspect to width/height. The
+         * callback receives that camera for Scene3D/animated caster draws.
+         * Materials and camera objects are never modified by capture. */
+        capture(camera: Camera3D.Camera, caster: Model3D.Instance): undefined;
+        capture<R>(camera: Camera3D.Camera, caster: (camera: Camera3D.Camera) => R): R;
+        dispose(): void;
+    }
+    class Projector {
+        /** Omitted texture creates a soft circular blob owned by the projector.
+         * Supplied textures are borrowed: keep the handle live until dispose(). */
+        constructor(texture?: Model3D.Texture);
+        position: Vec3;
+        rotation: Quaternion;
+        scale: Vec3;
+        setTransform(matrix: Matrix4): this;
+        setSize(width: number, height: number): this;
+        /** Grid dimensions 2..64; default 2x2, on the local XZ plane. */
+        setGrid(x: number, z: number): this;
+        /** Direction rays travel, normalized; default (0,-1,0). */
+        setLightDir(x: number, y: number, z: number): this;
+        /** Offset opposite lightDir, applied to all nodes; default .01. */
+        setBias(bias: number): this;
+        setLightOffset(distance: number): this;
+        /** Minimum hit normal Y in [-1,1]; -1 disables the filter. */
+        setSlopeLimit(cosine: number): this;
+        /** Linear RGBA in [0,1]; default black with .75 opacity. */
+        setColor(r: number, g: number, b: number, a: number): this;
+        setBlend(mode: 0 | 1 | 2): this;
+        setUVRect(u0: number, v0: number, u1: number, v1: number): this;
+        /** Casts a segment centered on each transformed node along lightDir.
+         * Misses/steep nodes omit incident triangles. The world is borrowed.
+         * Queries run every render; geometry rebuilds only when it changes. */
+        enableRaycast(world: Collision3D.World | null, rayLength?: number, enable?: boolean): this;
+        /** Requires a camera and Screen zbuffering. Depth tests stay enabled,
+         * depth writes disabled; restores GS state. Avoid calling in group().
+         * Returns undefined when no triangle survives terrain projection. */
+        render(camera: Camera3D.Camera, stats?: object | null): Render3D.Stats | undefined;
+        dispose(): void;
+    }
+}
+
+
+/* === Module: TileMap (tilemap) === */
+/**
+ * VU1-accelerated batched sprite and tilemap rendering.
+ *
+ * A `Descriptor` holds textures and materials; an `Instance` pairs one with a
+ * native sprite buffer. Sprites are streamed to a VU1 microprogram in
+ * batches, so thousands of quads cost little EE time. Draws are queued like
+ * any other drawing; call `Screen.flip()` to present them.
+ *
+ * @example
+ * ```js
+ * const descriptor = new TileMap.Descriptor({
+ *     textures: ["tiles.png"],
+ *     materials: [{ textureIndex: 0, endOffset: 1 }],
+ * });
+ * const map = new TileMap.Instance({
+ *     descriptor,
+ *     spriteBuffer: TileMap.SpriteBuffer.fromObjects([
+ *         { x: 0, y: 0, w: 32, h: 32, u2: 32, v2: 32 },
+ *         { x: 32, y: 0, w: 32, h: 32, u1: 32, u2: 64, v2: 32 },
+ *     ]),
+ * });
+ *
+ * while (true) {
+ *     Screen.clear();
+ *     map.render(0, 0);
+ *     Screen.flip();
+ * }
+ * ```
+ */
+declare namespace TileMap {
+    /**
+     * One draw state for a contiguous run of sprites. Material `i` draws the
+     * sprites after material `i - 1`'s `endOffset` up to and including its
+     * own `endOffset`.
+     */
+    interface Material {
+        /**
+         * Index into the descriptor's textures, or -1 for untextured
+         * sprites. Defaults to 0 when the descriptor has textures, otherwise
+         * -1.
+         */
+        textureIndex?: number;
+        /**
+         * Alpha blend equation from `Screen.alphaEquation()`. Defaults to
+         * the current `Screen` equation at render time.
+         */
+        blendMode?: number;
+        /** Index of the last sprite this material draws. Must not decrease. */
+        endOffset: number;
+    }
+
+    /**
+     * Tileset geometry. Tile `id` is the cell at column `id % columns`, row
+     * `Math.floor(id / columns)` of the atlas texture, starting at texel
+     * `margin + column * (tileWidth + spacing)` (likewise for rows).
+     */
+    interface Atlas {
+        tileWidth: number;
+        tileHeight: number;
+        columns: number;
+        /** When set, tile ids must be below `columns * rows`. */
+        rows?: number;
+        /**
+         * Texels around the atlas edge. Default 0. For an extruded atlas
+         * (tiles padded by `e` texels of their own border, so LINEAR
+         * filtering at fractional zoom does not bleed neighbours) use
+         * `margin: e` and `spacing: 2 * e`.
+         */
+        margin?: number;
+        /** Texels between neighbouring tiles. Default 0. */
+        spacing?: number;
+    }
+
+    interface DescriptorOptions {
+        /** Required by `Instance.fromGrid()` and `Instance.setTiles()`. */
+        atlas?: Atlas;
+        /**
+         * Textures by path or `Image`. Paths are loaded synchronously. An
+         * `Image` that is still loading (for example from an `ImageList`) or
+         * was freed skips the sprites of its materials until it is ready.
+         */
+        textures?: Array<string | Image>;
+        /** At least one material, ordered by `endOffset`. */
+        materials: Material[];
+    }
+
+    /** Immutable render description shared by any number of instances. */
+    class Descriptor {
+        constructor(options: DescriptorOptions);
+        readonly materialCount: number;
+        /** The `Image` objects the descriptor keeps alive. */
+        readonly textures: Image[];
+        readonly atlas: Atlas | undefined;
+    }
+
+    /** Tile id that hides a cell: `setTiles`/`fromGrid` give it zero size. */
+    const EMPTY: number;
+
+    /** Tile ids: a `Uint16Array` is used without copying. */
+    type TileIds = Uint16Array | Int16Array | number[];
+
+    interface GridOptions {
+        /** Descriptor with an `atlas`. */
+        descriptor: Descriptor;
+        columns: number;
+        rows: number;
+        /** Row-major tile ids, `columns * rows` long; default all 0. */
+        tiles?: TileIds;
+        /** Cell size on screen; defaults to the atlas tile size. */
+        tileWidth?: number;
+        tileHeight?: number;
+        zindex?: number;
+    }
+
+    interface RenderOptions {
+        /** Draw only sprites [first, first + count). Disables culling. */
+        first?: number;
+        count?: number;
+        /**
+         * Grid instances draw only the cells on screen (plus one cell of
+         * margin) by default; `false` draws every cell.
+         */
+        cull?: boolean;
+    }
+
+    /**
+     * Native sprite storage. Buffers that are rendered must be 16-byte
+     * aligned; `SpriteBuffer.create()` and `fromObjects()` always are. A
+     * plain `new ArrayBuffer()` may not be.
+     */
+    type SpriteStorage = ArrayBuffer | ArrayBufferView;
+
+    interface InstanceOptions {
+        descriptor: Descriptor;
+        /** Sprite records laid out as described by `TileMap.layout`. */
+        spriteBuffer?: SpriteStorage;
+    }
+
+    /** A descriptor plus a sprite buffer that can be rendered. */
+    class Instance {
+        constructor(options: InstanceOptions);
+        /**
+         * Builds a row-major grid in native code: cell (column, row) is
+         * sprite `row * columns + column` at (column * tileWidth,
+         * row * tileHeight). Grid instances cull to what the current camera
+         * shows in `render()` (the screen without one). Culling assumes
+         * cells stay near their position: a
+         * sprite moved more than one cell away may be skipped.
+         */
+        static fromGrid(options: GridOptions): Instance;
+        readonly descriptor: Descriptor;
+        /** Sprites in the current buffer, or 0 without a buffer. */
+        readonly spriteCount: number;
+        /** Sprites queued by the last `render()`, after culling. */
+        readonly lastDrawCount: number;
+        /** Grid geometry for `fromGrid()` instances, else undefined. */
+        readonly grid: { columns: number; rows: number;
+            tileWidth: number; tileHeight: number } | undefined;
+        /**
+         * Queues sprites at (x, y) plus the camera offset, through the current
+         * camera (Camera2D), on VU1: zoomed, and under a rotation each sprite
+         * becomes a triangle strip (in batches of 36). Sprites are read
+         * when the frame is sent, so writes made to the buffer after
+         * `render()` and before `Screen.flip()` may or may not be shown this
+         * frame.
+         */
+        render(x: number, y: number, options?: RenderOptions): void;
+        /** Moves sprites [first, first + count) in native code. */
+        translate(first: number, count: number, dx: number, dy: number): void;
+        /** Sets the color (0-255, 128 = neutral) of a sprite range. */
+        setColor(first: number, count: number, r: number, g: number,
+            b: number, a?: number): void;
+        /**
+         * Points sprites from `first` at atlas tiles, one per id, and sets
+         * their size to the cell (grid) or atlas tile size; `EMPTY` hides a
+         * sprite. All ids are validated before anything is written.
+         */
+        setTiles(first: number, tiles: TileIds): void;
+        /**
+         * Uses another buffer from now on. Waits for queued draws that read
+         * the previous one, so replacing buffers mid-frame stalls briefly.
+         */
+        replaceSpriteBuffer(buffer: SpriteStorage): void;
+        /** Returns the current buffer; edits through a `DataView` are live. */
+        getSpriteBuffer(): SpriteStorage | undefined;
+        /**
+         * Copies `count` sprites (default: all of `source`) into the buffer
+         * starting at sprite `dstOffset`. `source` needs no alignment.
+         */
+        updateSprites(dstOffset: number, source: SpriteStorage,
+            count?: number): void;
+    }
+
+    /** Fields accepted by `SpriteBuffer.fromObjects()`. */
+    interface SpriteObject {
+        x?: number;
+        y?: number;
+        w?: number;
+        h?: number;
+        /** Texture coordinates in texels. */
+        u1?: number;
+        v1?: number;
+        u2?: number;
+        v2?: number;
+        /**
+         * Depth. The VU program passes the raw bits of this float to the
+         * GS, so it orders correctly only for non-negative values and a
+         * 24- or 32-bit Z buffer; with the default 16-bit Z buffer, depth
+         * testing tiles is unreliable.
+         */
+        zindex?: number;
+        /** Color channels 0-255; default 128 (0x80, neutral modulation). */
+        r?: number;
+        g?: number;
+        b?: number;
+        a?: number;
+    }
+
+    namespace SpriteBuffer {
+        /** Allocates `count` zeroed sprites. */
+        function create(count: number): ArrayBuffer;
+        /** Builds a buffer from objects; missing fields are 0 (colors 128). */
+        function fromObjects(sprites: SpriteObject[]): ArrayBuffer;
+    }
+
+    /** Byte layout of one sprite record, for `DataView` access. */
+    const layout: {
+        readonly stride: number;
+        readonly offsets: {
+            readonly x: number;
+            readonly y: number;
+            readonly w: number;
+            readonly h: number;
+            readonly u1: number;
+            readonly v1: number;
+            readonly u2: number;
+            readonly v2: number;
+            /** Colors are 32-bit unsigned integers. */
+            readonly r: number;
+            readonly g: number;
+            readonly b: number;
+            readonly a: number;
+            readonly zindex: number;
+        };
+    };
+
+    /**
+     * Hardware debugging switches, for bisecting problems that appear only
+     * on a real console. They slow rendering; leave them off otherwise.
+     */
+    interface Diagnostics {
+        /** FLUSHA and TEX0/TEX1 before every batch, as the old renderer. */
+        flushEachBatch: boolean;
+        /** Write back the whole data cache instead of the sprite range. */
+        fullCacheFlush: boolean;
+        /** Sprites per VU1 batch, 1-50 (default 50; under a rotating camera at most 36). */
+        batchSize: number;
+        /**
+         * Under a rotating camera, triangles made by the EE instead of the
+         * rotated VU1 program. The EE path ignores zindex.
+         */
+        rotatedOnEE: boolean;
+    }
+
+    /** Changes the given switches; the others keep their current value. */
+    function setDiagnostics(options: Partial<Diagnostics>): void;
+    function getDiagnostics(): Diagnostics;
+
+    /**
+     * Offsets every instance drawn afterwards; defaults to (0, 0). Kept for
+     * existing code: `Camera2D` moves (and zooms and turns) TileMaps along
+     * with every other draw. Both combine: this offset applies first.
+     */
+    function setCamera(x: number, y: number): void;
+    function getCamera(): { x: number; y: number };
 }

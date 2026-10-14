@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-13",
+  "platform": "PCSX2 2.8.2",
+  "elf": "comz_navcoll.elf",
+  "elfSha256": "73db58124cb33c356ea4a1860c8c5b42854c28260a4b4068512f6d10db1185e0",
+  "glbSha256": "ed9fa33d4746f068aa3919e79c5857e01eddad46859a84d710e08565b4809f29",
+  "metrics": {
+    "fps": 59.94163800045978,
+    "frames": 510,
+    "states": [
+      "Lower_body_Run01",
+      "Lower_body_Run02",
+      "Lower_body_Run03",
+      "Lower_body_Run04",
+      "MP5_UpperBody_Shooting01",
+      "MP5_UpperBody_Reload01"
+    ],
+    "freeVRAM": 700416,
+    "uploaded": 0,
+    "root": [
+      0,
+      -0.109156,
+      0
+    ],
+    "zombies": 0,
+    "clipCount": 10
+  },
+  "test": "Scripted idle, forward/back/left/right, fire, reload, return to idle and Start reset; native collision/navigation remains active. No zombies were instantiated. 540 total frames, timer over last 510. One run; not a hardware or whole-map certification.",
+  "productionDifference": "Last production edit only caches HUD animation status instead of formatting it every frame. Same animation/controller logic and GLB as the tested snapshot.",
+  "validation": [
+    "Original PNG bytes match embedded images",
+    "World-space skin evaluation matches original Unity matrices within 1e-5",
+    "Vertex reflection and UV V conversion verified",
+    "All 10 clips have cubic, finite, increasing keys and complete TRS per target",
+    "Upper/lower channel masks do not overlap",
+    "11 skill OBJ regression tests passed; 12 project Python tests passed"
+  ],
+  "limitations": [
+    "No clip crossfade",
+    "Weapon geometry, muzzle flashes, original animation events and procedural spine aiming not included",
+    "The narrow exporter rejects compressed quaternion curves and antipodal adjacent quaternion keys"
+  ],
+  "productionGameSha256": "2c3d227d6be5fb12edc68f3dbf02cfa6891b7d9554d250a4beeb606e6bbef084"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "MP5",
+  "asset": "AthenaModels/mp5_equipped.glb",
+  "nodeNames": [
+    "MP5_0",
+    "bullet_eff_ori",
+    "fire_ori"
+  ],
+  "socket": "Bip01 Prop1",
+  "muzzle": "fire_ori",
+  "ejection": "bullet_eff_ori",
+  "capacity": 100,
+  "initialTotal": 400,
+  "interval": 0.13,
+  "readySeconds": 0.2,
+  "reloadReleaseFraction": 0.85,
+  "reloadSpeed": 1.2,
+  "afterFireSeconds": 1.0,
+  "moveSpeedDrag": 0.5,
+  "avatarSpeed": 7.6,
+  "standardDps": 12.0,
+  "damageRatio": 1.0,
+  "weaponDamage": 1.56,
+  "avatarDamage": 16.0,
+  "damage": 3.64,
+  "maxRayDistance": 1000,
+  "vertices": 212,
+  "triangles": 122,
+  "sourceMesh": "Assets/Mesh/Weapon_MP5.asset",
+  "sourceTexture": "Assets/Texture2D/Weapon_MP5.png",
+  "sourcePrefab": "Assets/PrefabInstance/MP5_0.prefab",
+  "materialColor": [
+    0.588,
+    0.588,
+    0.588,
+    1.0
+  ],
+  "sourceHashes": {
+    "Assets/Resources/prefabs/weapon/MP5.prefab": "f250976f15037e1871eb1e176e075ff21b0e9a9423750f12fcdf174a40987be1",
+    "Assets/PrefabInstance/MP5_0.prefab": "e102e3647f0bb3a57782d4cb2379a890031aab840f54bbc8878d0858748dcc44",
+    "Assets/Mesh/Weapon_MP5.asset": "98ff152e5601be401694e9ba246dd7daecee07df5f6abdb8970927fbd4521511",
+    "Assets/Material/Weapon_MP5.mat": "6a40cd221d4a07ab9f38d52882bd8d7b010a09e643b99cfcad70987ad14152e3",
+    "Assets/Texture2D/Weapon_MP5.png": "049760f5fa1364e171b9e09487d0ffdb01a944310677b168db202b4cd69503b0",
+    "Assets/Resources/config/WeaponCfg.txt": "338860f1cdd6b7bccfeeeeacd4e476a40258fa14b4f63319c6fc1e5e804d9a1b",
+    "Assets/Resources/config/AvatarCfg.txt": "0f2cafbc9555cbc23ab54aa586c59e09c125d0ecdd9e0ae1333e1fb719ecddd6",
+    "Assets/Resources/config/StandardWeaponCfg.txt": "9a39219000e62f8fab2dad0249037612d1adfac40efcae76ffb90c4e3723db2f",
+    "Assets/Scripts/Assembly-CSharp/WeaponController.cs": "66c7a79825b17e90a3317d45d9d5230de8873b76ebb3e9b95efff8555eafbf8b",
+    "Assets/Scripts/Assembly-CSharp/WeaponData.cs": "a729941ab05d46a0a4a69e882b773428333d2038b62bf62dc518ddd43409dc5d",
+    "Assets/Scripts/Assembly-CSharp/CoMZ2/PlayerReloadState.cs": "7484c3d7861981c8264167216acb3b5ee2bcf1e70386cfd44e584fa7da68ae1b"
+  },
+  "glbSha256": "2baf22a9c1f9b800e89d8266d9c6146075f111e9a04e63c723b77d22c4c6232b"
+}

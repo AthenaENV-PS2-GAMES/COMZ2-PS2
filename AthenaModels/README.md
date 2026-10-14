@@ -15,6 +15,20 @@ This folder and `main.js` are a 19-model diagnostic gallery, not the full
 offline game asset set. The scene dependency catalogue and batch-converted
 models, textures, and audio are documented in [`../PS2Assets/README.md`](../PS2Assets/README.md).
 
+## Texture-free prototype sewer arena
+
+`prototype_sewer.obj/.mtl` is generated from low-poly color materials for the
+survival prototype. Rebuild it from the project root with:
+
+```sh
+PYTHONPATH="$SKILL_DIR/scripts" python3 tools/generate_prototype_sewer.py
+```
+
+Set `SKILL_DIR` to the installed `athena-3d-generator` skill directory first.
+The generator uses its `mesh.py` helper. The arena is a lightweight
+approximation inspired by the `COM2_NORMAL_1` scene; it is not geometry
+imported from Unity and adds no texture allocation.
+
 The converter reads UV0 from Unity's channel 3; later channels can contain a
 lightmap or skin weights and must not be used as the diffuse UVs. Each Unity
 submesh gets an opaque white MTL material with its original diffuse texture.
@@ -80,9 +94,9 @@ decoding UV0 and positions.
 loads only the selected model and disposes its instances when switching. Keeping
 all models resident exhausted PS2 GS texture VRAM and caused
 `Render3D: texture cannot be made resident in VRAM` during navigation. The root
-`athena.ini` already selects the gallery as the default script. Boot `athena_nilo.elf`
-with this project root available as the AthenaENV boot directory, keeping
-`main.js`, `hud.png`, all referenced OBJ/MTL files, and their PNG maps together.
+Boot `athena_nilo.elf` with this project root available as the AthenaENV boot
+directory, keeping the selected script, `hud.png`, referenced OBJ/MTL files,
+and their PNG maps together.
 
 Use left/right on the D-pad or L1/R1 to switch models, the right stick to orbit,
 and the left stick vertically to zoom. Cross toggles the slow automatic turn;
@@ -93,5 +107,26 @@ reorients the car, floor plane, and rifle for inspection.
 
 The gallery was run in PCSX2 Flatpak 2.8.2. All 19 models rendered while
 advancing through the gallery; textures appeared on the added characters, and
-there were no QuickJS exceptions or VRAM residency errors.
+there were no QuickJS exceptions or VRAM residency errors. It remains
+available by setting `default_script=main.js` in `athena.ini`; the default
+script now starts the survival prototype in `game.js`.
 `pcsx2-expanded-navigation.png` is a captured contact sheet from that run.
+# Animated Mike
+
+`mike_animated.glb` preserves the actual Mike_1 prefab's four skinned meshes,
+35 nodes, original atlas PNGs and twelve idle/run/ready/fire/reload clips. The companion
+JSON records source paths and hashes. Generate with
+`python3 tools/export_unity_player_animations.py` and see
+[player animation validation](../docs/PLAYER_ANIMATIONS.md).
+The current `game.js` uses this GLB instead of the static Mike OBJ pair.
+
+`mp5_equipped.glb` preserves the original runtime MP5 prefab's rigid mesh,
+PNG and muzzle/ejection transforms, with the rotation applied by
+`WeaponController.Reset`. Generate with `python3 tools/export_player_weapon.py`.
+Its JSON includes node names and original MP5/Mike level-one gameplay data.
+See [player mechanics](../docs/PLAYER_MECHANICS.md).
+
+`WeaponFX/` contains an exact RGBA crop of the original rifle reticle and a
+512x512 indexed effect atlas retaining source sprite dimensions. Generate
+with `python3 tools/export_weapon_visuals.py` (Pillow). See
+[visual correction and PS2 limits](../docs/WEAPON_VISUALS.md).

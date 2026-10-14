@@ -69,6 +69,18 @@ def material_guids(document: str) -> list[str]:
     return []
 
 
+def static_batch_range(document: str) -> tuple[int, int] | None:
+    match = re.search(
+        r"(?ms)^\s*m_StaticBatchInfo:\s*\n"
+        r"\s*firstSubMesh:\s*(\d+)\s*\n"
+        r"\s*subMeshCount:\s*(\d+)",
+        document,
+    )
+    if not match or int(match.group(2)) == 0:
+        return None
+    return int(match.group(1)), int(match.group(2))
+
+
 def parse_vector(text: str, key: str, default: tuple[float, float]) -> tuple[float, float]:
     match = re.search(
         rf"^\s*{re.escape(key)}:\s*\{{x:\s*([-+0-9.eE]+),\s*y:\s*([-+0-9.eE]+)\}}",
@@ -121,11 +133,11 @@ def read_materials(
     return materials, unresolved
 
 
-def renderer_uses(path: Path) -> list[tuple[str, list[str]]]:
+def renderer_uses(path: Path) -> list[tuple[str, list[str], tuple[int, int] | None]]:
     """Return mesh GUIDs paired with materials from the same GameObject."""
     text = path.read_text(encoding="utf-8", errors="replace")
     filters: list[tuple[str, str]] = []
-    renderers: dict[str, list[str]] = {}
+    renderers: dict[str, tuple[list[str], tuple[int, int] | None]] = {}
     for document in DOC_RE.split(text):
         header = re.match(r"--- !u!(\d+) &", document)
         if not header:
@@ -138,11 +150,14 @@ def renderer_uses(path: Path) -> list[tuple[str, list[str]]]:
         if component_type == 33 and mesh_guid:
             filters.append((object_id, mesh_guid))
         elif component_type in (23, 137):
-            renderers[object_id] = material_guids(document)
+            renderers[object_id] = (
+                material_guids(document),
+                static_batch_range(document),
+            )
             if component_type == 137 and mesh_guid:
                 filters.append((object_id, mesh_guid))
     return [
-        (mesh_guid, renderers.get(object_id, []))
+        (mesh_guid, *renderers.get(object_id, ([], None)))
         for object_id, mesh_guid in filters
     ]
 
@@ -183,6 +198,18 @@ def main() -> None:
         default=Path("PS2Assets/model-export-manifest.json"),
     )
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--scene",
+        help="export only this scene path relative to the project root",
+    )
+    parser.add_argument(
+        "--position-offset",
+        type=float,
+        nargs=3,
+        metavar=("X", "Y", "Z"),
+        default=(0.0, 0.0, 0.0),
+        help="offset exported vertices, e.g. to center them around a player spawn",
+    )
     args = parser.parse_args()
 
     project_root = args.project_root.resolve()
@@ -198,6 +225,11 @@ def main() -> None:
         record["path"] for record in catalog["assets"]
         if record["category"] in {"prefab", "scene"}
     }
+    if args.scene:
+        scene_path = Path(args.scene).as_posix()
+        if scene_path not in manifest_assets:
+            parser.error(f"scene is not present in the asset catalog: {scene_path}")
+        manifest_assets = {scene_path}
 
     grouped: dict[tuple, dict] = {}
     skipped_mesh_guids = Counter()
@@ -206,7 +238,7 @@ def main() -> None:
     mismatched_materials = []
     for relative_path in sorted(manifest_assets):
         source = project_root / relative_path
-        for mesh_guid, material_refs in renderer_uses(source):
+        for mesh_guid, material_refs, batch_range in renderer_uses(source):
             mesh_path = guid_paths.get(mesh_guid)
             if mesh_guid.startswith(("0000000000000000e", "0000000000000000f")):
                 builtin_mesh_guids[mesh_guid] += 1
@@ -220,7 +252,34 @@ def main() -> None:
             mesh_text = mesh_path.read_text(encoding="ascii")
             mesh_submeshes = submeshes(mesh_text)
             submesh_count = len(mesh_submeshes)
-            if not material_refs:
+            if batch_range:
+                first_submesh, batch_count = batch_range
+                if first_submesh + batch_count > submesh_count:
+                    raise ValueError(
+                        f"{relative_path}: static-batch range "
+                        f"{first_submesh}+{batch_count} exceeds "
+                        f"{mesh_path.name}'s {submesh_count} submeshes"
+                    )
+                if material_refs and len(material_refs) != batch_count:
+                    mismatched_materials.append(
+                        {
+                            "source": relative_path,
+                            "mesh": mesh_path.relative_to(project_root).as_posix(),
+                            "materials": len(material_refs),
+                            "submeshes": batch_count,
+                            "static_batch_range": [first_submesh, batch_count],
+                        }
+                    )
+                assignments = [
+                    (
+                        material_refs[min(slot, len(material_refs) - 1)]
+                        if material_refs
+                        else None,
+                        first_submesh + slot,
+                    )
+                    for slot in range(batch_count)
+                ]
+            elif not material_refs:
                 assignments = [(None, index) for index in range(submesh_count)]
             else:
                 assignments = [
@@ -263,9 +322,12 @@ def main() -> None:
                         "submeshes": set(),
                         "materials": set(),
                         "used_by": set(),
+                        "static_batch_ranges": set(),
                     },
                 )
                 record["submeshes"].add(submesh_index)
+                if batch_range:
+                    record["static_batch_ranges"].add(batch_range)
                 if material_guid:
                     record["materials"].add(material_guid)
                 record["used_by"].add(relative_path)
@@ -352,6 +414,9 @@ def main() -> None:
             ),
             "submeshes": sorted(record["submeshes"]),
             "material_guids": sorted(record["materials"]),
+            "static_batch_ranges": [
+                list(value) for value in sorted(record["static_batch_ranges"])
+            ],
             "used_by": sorted(record["used_by"]),
             "status": "planned" if args.dry_run else "pending",
         }
@@ -378,6 +443,11 @@ def main() -> None:
                             uv_offset=record["uv_offset"],
                             repeat_uv=record["repeat_uv"],
                             triangle_range=triangle_range,
+                            position_offset=(
+                                tuple(args.position_offset)
+                                if record["static_batch_ranges"]
+                                else (0.0, 0.0, 0.0)
+                            ),
                         )
                     except ValueError as error:
                         if str(error) == "mesh selection contains no triangles":

@@ -1,0 +1,3 @@
+newmtl scene_page
+Kd 1 1 1
+map_Kd scene_page_01.png

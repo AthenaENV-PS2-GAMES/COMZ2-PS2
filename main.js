@@ -136,7 +136,7 @@ function loadModel(definition) {
         offset: [0, 0, 0]
     }];
     const parts = partDefinitions.map(partDefinition => {
-        const mesh = Model3D.load(partDefinition.path, {shading: Model3D.DIFFUSE});
+        const mesh = Model3D.load(partDefinition.path, {shading: Model3D.UNLIT});
         const bounds = mesh.getBounds();
         const rotation = partDefinition.rotation || [0, 0, 0];
         const offset = partDefinition.offset || [0, 0, 0];

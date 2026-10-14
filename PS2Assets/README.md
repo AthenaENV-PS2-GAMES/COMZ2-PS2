@@ -1,9 +1,10 @@
 # PS2 offline asset conversion
 
 This directory contains converted asset data for the offline PS2 recreation.
-It is a content-preparation stage, not a playable game build: Unity scenes,
-prefab hierarchies, gameplay scripts, UI behavior, skeletal animation and
-runtime audio-event wiring still need to be implemented in AthenaENV.
+The root `game.js` is a playable survival prototype using the imported
+`COM2_NORMAL_1` environment; most Unity scene hierarchies, gameplay systems,
+UI behavior, skeletal animation and runtime audio-event wiring still need to
+be recreated in AthenaENV.
 
 ## Inventory and converted content
 
@@ -73,8 +74,13 @@ event prefabs needed to rebuild those systems, but their runtime behavior must
 be reimplemented offline. UI atlases are staged as textures; sprite rectangles,
 layout and transitions still need to be reconstructed.
 
-`../main.js` remains the small diagnostic model gallery. It does not load the
-full converted content set or implement the offline game.
+`../main.js` remains the small diagnostic model gallery. The default
+`../game.js` loads the packed and spatially partitioned
+`SceneImports/COM2_NORMAL_1/` meshes alongside Mike and zombie models from
+`AthenaModels/`. It still uses placeholder bounds and combat rules rather than
+the complete Unity gameplay systems. See
+[`../docs/RECREATION_MAP.md`](../docs/RECREATION_MAP.md) for the system map
+and remaining limitations.
 
 Structural checks pass for all 1,039 OBJ parts, all 392 prepared textures and
 all 232 ADPCM/6 Ogg outputs. The skill's host-side AthenaENV validator can

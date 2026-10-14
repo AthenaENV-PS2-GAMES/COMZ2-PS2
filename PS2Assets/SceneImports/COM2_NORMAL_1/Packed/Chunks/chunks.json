@@ -1,0 +1,7322 @@
+{
+  "cellSize": 8,
+  "centered": true,
+  "triangles": 9908,
+  "textureCount": 3,
+  "chunks": [
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_000_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 2,
+      "cell": [
+        -2,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          -9.01338414,
+          7.88671875,
+          11.8523197
+        ],
+        [
+          -7.09847702,
+          7.88671875,
+          17.3528614
+        ]
+      ],
+      "position": [
+        -8.05593058,
+        7.88671875,
+        14.602590549999999
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_001_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 1,
+      "cell": [
+        -2,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          -9.01338414,
+          7.88671875,
+          17.3528614
+        ],
+        [
+          -7.09847702,
+          7.88671875,
+          24.8543483
+        ]
+      ],
+      "position": [
+        -8.05593058,
+        7.88671875,
+        21.10360485
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_002_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 5,
+      "cell": [
+        -2,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -9.01338414,
+          2.06835938,
+          24.8543483
+        ],
+        [
+          -7.09847702,
+          7.88671875,
+          32.0152972
+        ]
+      ],
+      "position": [
+        -8.05593058,
+        4.977539065,
+        28.434822750000002
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_003_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 52,
+      "cell": [
+        -1,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          -5.01976803,
+          -0.212890625,
+          -4.02933649
+        ],
+        [
+          -0.198309214,
+          7.08691406,
+          2.05337758
+        ]
+      ],
+      "position": [
+        -2.609038622,
+        3.4370117175,
+        -0.9879794550000003
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_004_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 161,
+      "cell": [
+        -1,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          -4.66081837,
+          4.83105469,
+          -3.43245129
+        ],
+        [
+          7.04168138,
+          7.88671875,
+          11.0359015
+        ]
+      ],
+      "position": [
+        1.1904315049999998,
+        6.35888672,
+        3.801725105
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_005_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 47,
+      "cell": [
+        -1,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          -9.01338414,
+          4.91015625,
+          6.38482567
+        ],
+        [
+          5.47954342,
+          7.88671875,
+          17.3528614
+        ]
+      ],
+      "position": [
+        -1.7669203599999999,
+        6.3984375,
+        11.868843535
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_006_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 6,
+      "cell": [
+        -1,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          -9.01338414,
+          7.88671875,
+          14.4286944
+        ],
+        [
+          3.33238111,
+          7.88671875,
+          24.856393
+        ]
+      ],
+      "position": [
+        -2.8405015149999997,
+        7.88671875,
+        19.6425437
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_007_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 12,
+      "cell": [
+        -1,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -9.01338414,
+          3.1840726,
+          22.400821
+        ],
+        [
+          3.33238072,
+          7.88671875,
+          32.0262184
+        ]
+      ],
+      "position": [
+        -2.84050171,
+        5.535395675,
+        27.2135197
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_008_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 1,
+      "cell": [
+        -1,
+        0,
+        4
+      ],
+      "bounds": [
+        [
+          -7.71020834,
+          3.17453698,
+          32.005911
+        ],
+        [
+          -7.69588688,
+          3.1875,
+          32.0262184
+        ]
+      ],
+      "position": [
+        -7.7030476100000005,
+        3.18101849,
+        32.0160647
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_009_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 42,
+      "cell": [
+        0,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          -3.75716666,
+          -0.127929688,
+          -2.70034079
+        ],
+        [
+          10.9369828,
+          7.88671875,
+          8.25244804
+        ]
+      ],
+      "position": [
+        3.5899080699999995,
+        3.879394531,
+        2.7760536250000003
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_010_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 82,
+      "cell": [
+        0,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          -4.33840016,
+          -0.127929688,
+          6.38482567
+        ],
+        [
+          8.06122446,
+          7.88671875,
+          16.6400956
+        ]
+      ],
+      "position": [
+        1.86141215,
+        3.879394531,
+        11.512460635
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_011_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 7,
+      "cell": [
+        0,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          -0.364952334,
+          7.88671875,
+          14.4270418
+        ],
+        [
+          8.14112509,
+          7.88671875,
+          24.856393
+        ]
+      ],
+      "position": [
+        3.8880863779999997,
+        7.88671875,
+        19.6417174
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_012_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 4,
+      "cell": [
+        0,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -3.51311901,
+          7.88671875,
+          24.854689
+        ],
+        [
+          8.14112509,
+          7.88671875,
+          31.8523197
+        ]
+      ],
+      "position": [
+        2.3140030399999993,
+        7.88671875,
+        28.35350435
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_013_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 6,
+      "cell": [
+        1,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          10.2389295,
+          -0.313476562,
+          -1.87331132
+        ],
+        [
+          11.7049749,
+          -0.013671875,
+          5.56191035
+        ]
+      ],
+      "position": [
+        10.9719522,
+        -0.1635742185,
+        1.844299515
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_014_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 12,
+      "cell": [
+        1,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          15.4514401,
+          6.54980469,
+          -23.4649334
+        ],
+        [
+          15.6829029,
+          7.37945873,
+          -22.6549988
+        ]
+      ],
+      "position": [
+        15.5671715,
+        6.96463171,
+        -23.0599661
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_015_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 22,
+      "cell": [
+        1,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          15.5422308,
+          5.02246094,
+          -13.2282658
+        ],
+        [
+          16.0655272,
+          5.73925781,
+          -12.5114155
+        ]
+      ],
+      "position": [
+        15.803878999999998,
+        5.380859375,
+        -12.86984065
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_016_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 91,
+      "cell": [
+        1,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          10.2230222,
+          -0.313476562,
+          -7.38623623
+        ],
+        [
+          16.6606314,
+          7.98046875,
+          1.90976743
+        ]
+      ],
+      "position": [
+        13.441826800000001,
+        3.833496094,
+        -2.7382343999999996
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_017_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 213,
+      "cell": [
+        1,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          6.93719981,
+          -0.365234375,
+          -2.70216421
+        ],
+        [
+          25.5253985,
+          7.98046875,
+          7.64531036
+        ]
+      ],
+      "position": [
+        16.231299155000002,
+        3.8076171875,
+        2.4715730750000002
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_018_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 9,
+      "cell": [
+        1,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          5.48688003,
+          4.12207031,
+          11.6515598
+        ],
+        [
+          11.0101449,
+          7.88671875,
+          17.3528623
+        ]
+      ],
+      "position": [
+        8.248512465000001,
+        6.00439453,
+        14.50221105
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_019_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 138,
+      "cell": [
+        1,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          8.06122446,
+          0.434570312,
+          14.4270418
+        ],
+        [
+          15.9956581,
+          7.88671875,
+          26.4355983
+        ]
+      ],
+      "position": [
+        12.02844128,
+        4.160644531,
+        20.43132005
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_020_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 196,
+      "cell": [
+        1,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          5.48687908,
+          0.541992188,
+          23.1003341
+        ],
+        [
+          15.9956581,
+          7.88671875,
+          31.8523197
+        ]
+      ],
+      "position": [
+        10.74126859,
+        4.214355469,
+        27.4763269
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_021_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 21,
+      "cell": [
+        2,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          20.8333676,
+          -1.65234375,
+          25.1796836
+        ],
+        [
+          27.372359,
+          0.015625,
+          26.7520103
+        ]
+      ],
+      "position": [
+        24.1028633,
+        -0.818359375,
+        25.96584695
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_022_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 42,
+      "cell": [
+        2,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          15.6807119,
+          3.31933594,
+          -23.5564003
+        ],
+        [
+          26.4564407,
+          7.51074219,
+          -21.1920872
+        ]
+      ],
+      "position": [
+        21.0685763,
+        5.415039065,
+        -22.374243749999998
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_023_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 12,
+      "cell": [
+        2,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          16.0655272,
+          5.09765625,
+          -22.6997738
+        ],
+        [
+          25.5492327,
+          7.88671875,
+          -8.15725617
+        ]
+      ],
+      "position": [
+        20.807379949999998,
+        6.4921875,
+        -15.428514985
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_024_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 33,
+      "cell": [
+        2,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          15.5508234,
+          5.95507812,
+          -8.15960411
+        ],
+        [
+          25.5266688,
+          7.88671875,
+          6.3829126
+        ]
+      ],
+      "position": [
+        20.5387461,
+        6.920898435,
+        -0.888345755
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_025_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 34,
+      "cell": [
+        2,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          10.9828374,
+          4.28222656,
+          -2.7022119
+        ],
+        [
+          26.3087991,
+          7.88671875,
+          7.23953911
+        ]
+      ],
+      "position": [
+        18.64581825,
+        6.084472655,
+        2.268663605
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_026_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 153,
+      "cell": [
+        2,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          14.147579,
+          4.55371094,
+          16.3398428
+        ],
+        [
+          23.4620868,
+          7.3907805,
+          26.4355977
+        ]
+      ],
+      "position": [
+        18.8048329,
+        5.97224572,
+        21.38772025
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_027_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 130,
+      "cell": [
+        2,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          13.701667,
+          -0.196289062,
+          23.8174209
+        ],
+        [
+          20.9201146,
+          7.05859375,
+          27.5171623
+        ]
+      ],
+      "position": [
+        17.310890800000003,
+        3.431152344,
+        25.6672916
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_028_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 6,
+      "cell": [
+        3,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          30.2845361,
+          -0.313476562,
+          -21.8787728
+        ],
+        [
+          31.7505815,
+          -0.013671875,
+          -14.4435501
+        ]
+      ],
+      "position": [
+        31.0175588,
+        -0.1635742185,
+        -18.16116145
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_029_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 2,
+      "cell": [
+        3,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          31.11219,
+          -0.931640625,
+          10.2835846
+        ],
+        [
+          32.3359433,
+          0.184072605,
+          12.0258715
+        ]
+      ],
+      "position": [
+        31.724066649999997,
+        -0.37378401,
+        11.15472805
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_030_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 41,
+      "cell": [
+        3,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          27.5931241,
+          -3.34375,
+          16.6474208
+        ],
+        [
+          31.7531278,
+          3.82617188,
+          25.6152134
+        ]
+      ],
+      "position": [
+        29.67312595,
+        0.24121093999999998,
+        21.131317099999997
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_031_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 64,
+      "cell": [
+        3,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          20.8627044,
+          -3.34375,
+          25.1996269
+        ],
+        [
+          31.7531287,
+          3.82617188,
+          27.682621
+        ]
+      ],
+      "position": [
+        26.30791655,
+        0.24121093999999998,
+        26.441123949999998
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_032_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 130,
+      "cell": [
+        3,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          16.4641125,
+          -0.365234375,
+          -23.9621716
+        ],
+        [
+          31.7664888,
+          7.98046875,
+          -12.3468905
+        ]
+      ],
+      "position": [
+        24.115300650000002,
+        3.8076171875,
+        -18.154531050000003
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_033_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 117,
+      "cell": [
+        3,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          25.328881,
+          -0.313476562,
+          -18.2266293
+        ],
+        [
+          31.7664897,
+          7.98046875,
+          -8.930625
+        ]
+      ],
+      "position": [
+        28.547685350000002,
+        3.833496094,
+        -13.578627149999999
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_034_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 31,
+      "cell": [
+        3,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          24.1876219,
+          4.88671875,
+          -8.15960411
+        ],
+        [
+          32.9460195,
+          7.88671875,
+          -2.63656525
+        ]
+      ],
+      "position": [
+        28.5668207,
+        6.38671875,
+        -5.39808468
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_035_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 23,
+      "cell": [
+        3,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          23.8074095,
+          3.31933594,
+          -2.63656525
+        ],
+        [
+          32.9460195,
+          7.37945873,
+          7.1480722
+        ]
+      ],
+      "position": [
+        28.3767145,
+        5.349397335,
+        2.2557534749999997
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_036_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 2,
+      "cell": [
+        3,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          -0.108398438,
+          6.36343714
+        ],
+        [
+          32.9460195,
+          4.88671875,
+          12.0164853
+        ]
+      ],
+      "position": [
+        31.98856595,
+        2.389160156,
+        9.18996122
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_037_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 237,
+      "cell": [
+        3,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          23.4620858,
+          -2.38085938,
+          16.096589
+        ],
+        [
+          31.7531268,
+          5.98950662,
+          26.4355945
+        ]
+      ],
+      "position": [
+        27.6076063,
+        1.8043236200000001,
+        21.26609175
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_038_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 127,
+      "cell": [
+        3,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          23.4620865,
+          -2.38085938,
+          21.8321323
+        ],
+        [
+          31.7531287,
+          5.98950662,
+          27.7118702
+        ]
+      ],
+      "position": [
+        27.6076076,
+        1.8043236200000001,
+        24.772001250000002
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_039_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 23,
+      "cell": [
+        4,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          31.8024537,
+          -3.36523438,
+          25.2354107
+        ],
+        [
+          34.8738458,
+          2.85449219,
+          27.2104072
+        ]
+      ],
+      "position": [
+        33.33814975,
+        -0.2553710949999999,
+        26.222908949999997
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_040_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 289,
+      "cell": [
+        4,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          31.0263717,
+          0.473632812,
+          -23.7345143
+        ],
+        [
+          43.4881647,
+          7.90332031,
+          -13.6387587
+        ]
+      ],
+      "position": [
+        37.2572682,
+        4.188476561,
+        -18.6866365
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_041_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 320,
+      "cell": [
+        4,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          31.7302768,
+          -0.157226562,
+          -16.974022
+        ],
+        [
+          40.9461915,
+          7.82714844,
+          -7.92831329
+        ]
+      ],
+      "position": [
+        36.33823415,
+        3.834960939,
+        -12.451167645000002
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_042_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 15,
+      "cell": [
+        4,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          1.91015625,
+          -8.1386824
+        ],
+        [
+          43.3768769,
+          4.88671875,
+          4.8669664
+        ]
+      ],
+      "position": [
+        37.20399465,
+        3.3984375,
+        -1.6358580000000003
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_043_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 10,
+      "cell": [
+        4,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          4.88671875,
+          -5.5607322
+        ],
+        [
+          43.3768769,
+          4.88671875,
+          11.8628931
+        ]
+      ],
+      "position": [
+        37.20399465,
+        4.88671875,
+        3.1510804500000003
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_044_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 39,
+      "cell": [
+        4,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          0.174536981,
+          4.86515081
+        ],
+        [
+          44.2131818,
+          4.88671875,
+          17.3534822
+        ]
+      ],
+      "position": [
+        37.6221471,
+        2.5306278655,
+        11.109316504999999
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_045_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 69,
+      "cell": [
+        4,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          31.0083978,
+          2.95507812,
+          15.2990273
+        ],
+        [
+          45.5509584,
+          4.88671875,
+          26.4386482
+        ]
+      ],
+      "position": [
+        38.2796781,
+        3.920898435,
+        20.86883775
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_046_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 88,
+      "cell": [
+        4,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          32.7310693,
+          -2.25976562,
+          26.1399307
+        ],
+        [
+          46.334359,
+          4.50683594,
+          27.3432331
+        ]
+      ],
+      "position": [
+        39.532714150000004,
+        1.12353516,
+        26.7415819
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_047_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 7,
+      "cell": [
+        5,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          47.6192014,
+          -1.87011719,
+          -23.4269352
+        ],
+        [
+          48.6302964,
+          -0.755859375,
+          -22.4315358
+        ]
+      ],
+      "position": [
+        48.1247489,
+        -1.3129882825,
+        -22.929235499999997
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_048_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 63,
+      "cell": [
+        5,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          40.8594453,
+          -1.61328125,
+          -14.8946724
+        ],
+        [
+          48.2520425,
+          0.239257812,
+          -13.0702868
+        ]
+      ],
+      "position": [
+        44.555743899999996,
+        -0.687011719,
+        -13.9824796
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_049_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 155,
+      "cell": [
+        5,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          34.1736563,
+          -0.831054688,
+          -23.8011799
+        ],
+        [
+          51.0198152,
+          7.429843,
+          -13.6387599
+        ]
+      ],
+      "position": [
+        42.59673574999999,
+        3.299394156,
+        -18.719969900000002
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_050_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 84,
+      "cell": [
+        5,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          40.7646157,
+          -0.157226562,
+          -17.0611808
+        ],
+        [
+          51.0198171,
+          6.02856912,
+          -12.5711489
+        ]
+      ],
+      "position": [
+        45.892216399999995,
+        2.935671279,
+        -14.81616485
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_051_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 10,
+      "cell": [
+        5,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          36.5313775,
+          4.88671875,
+          -8.13710693
+        ],
+        [
+          48.1856216,
+          4.88671875,
+          4.8669664
+        ]
+      ],
+      "position": [
+        42.35849955,
+        4.88671875,
+        -1.635070265
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_052_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 5,
+      "cell": [
+        5,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          39.6795438,
+          4.88671875,
+          -5.5607322
+        ],
+        [
+          48.1856216,
+          4.88671875,
+          11.8628931
+        ]
+      ],
+      "position": [
+        43.9325827,
+        4.88671875,
+        3.1510804500000003
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_053_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 5,
+      "cell": [
+        5,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          36.4658391,
+          4.88671875,
+          4.8669664
+        ],
+        [
+          45.5522287,
+          4.88671875,
+          17.3534822
+        ]
+      ],
+      "position": [
+        41.0090339,
+        4.88671875,
+        11.110224299999999
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_054_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 29,
+      "cell": [
+        5,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          36.4658391,
+          2.02246094,
+          12.7024073
+        ],
+        [
+          46.472841,
+          4.88671875,
+          26.4386062
+        ]
+      ],
+      "position": [
+        41.46934005,
+        3.454589845,
+        19.57050675
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_055_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 46,
+      "cell": [
+        5,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          35.5586301,
+          0.319335938,
+          24.9309196
+        ],
+        [
+          46.5636308,
+          4.51074219,
+          27.2952327
+        ]
+      ],
+      "position": [
+        41.06113045,
+        2.415039064,
+        26.113076149999998
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_056_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 34,
+      "cell": [
+        6,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          47.6861322,
+          -3.3046875,
+          -23.4269352
+        ],
+        [
+          51.7792051,
+          3.86523438,
+          -14.4591427
+        ]
+      ],
+      "position": [
+        49.73266865,
+        0.28027344,
+        -18.94303895
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_057_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 24,
+      "cell": [
+        6,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          48.0084588,
+          -3.3046875,
+          -14.7446194
+        ],
+        [
+          56.8942868,
+          4.08203125,
+          -11.179863
+        ]
+      ],
+      "position": [
+        52.4513728,
+        0.388671875,
+        -12.9622412
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_058_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 23,
+      "cell": [
+        6,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          51.8213174,
+          -3.36523438,
+          5.2413766
+        ],
+        [
+          54.8927114,
+          2.85449219,
+          7.2163734
+        ]
+      ],
+      "position": [
+        53.3570144,
+        -0.2553710949999999,
+        6.228875
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_059_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 139,
+      "cell": [
+        6,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          43.4881643,
+          -2.34179688,
+          -23.9777661
+        ],
+        [
+          56.4947469,
+          6.02856912,
+          -13.5695105
+        ]
+      ],
+      "position": [
+        49.9914556,
+        1.8433861200000001,
+        -18.773638300000002
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_060_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 114,
+      "cell": [
+        6,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          47.2296064,
+          -2.34960938,
+          -18.2422238
+        ],
+        [
+          57.3455236,
+          5.53222656,
+          -7.46550615
+        ]
+      ],
+      "position": [
+        52.287565,
+        1.59130859,
+        -12.853864975
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_061_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 78,
+      "cell": [
+        6,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          45.5313756,
+          -2.34960938,
+          -8.33786682
+        ],
+        [
+          56.705055,
+          4.98046875,
+          4.86526245
+        ]
+      ],
+      "position": [
+        51.1182153,
+        1.315429685,
+        -1.736302185
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_062_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 84,
+      "cell": [
+        6,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          45.5313756,
+          -2.25976562,
+          -2.64050535
+        ],
+        [
+          65.5698201,
+          4.88671875,
+          11.8628931
+        ]
+      ],
+      "position": [
+        55.55059785,
+        1.313476565,
+        4.6111938750000006
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_063_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 1,
+      "cell": [
+        6,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          45.5313756,
+          4.88671875,
+          6.36343714
+        ],
+        [
+          51.0311124,
+          4.88671875,
+          11.8628931
+        ]
+      ],
+      "position": [
+        48.281244,
+        4.88671875,
+        9.113165120000001
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_064_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 3,
+      "cell": [
+        7,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          63.5160062,
+          -3.21289062,
+          -23.6610146
+        ],
+        [
+          63.51601,
+          4.08691406,
+          -21.9373551
+        ]
+      ],
+      "position": [
+        63.5160081,
+        0.4370117199999999,
+        -22.799184850000003
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_065_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 12,
+      "cell": [
+        7,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          54.6271436,
+          -3.31347656,
+          -13.9120741
+        ],
+        [
+          64.7588727,
+          4.07519531,
+          -7.34840874
+        ]
+      ],
+      "position": [
+        59.69300815,
+        0.380859375,
+        -10.63024142
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_066_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 7,
+      "cell": [
+        7,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          55.8074453,
+          -3.31347656,
+          -8.84702973
+        ],
+        [
+          64.7588727,
+          3.85644531,
+          -7.34840874
+        ]
+      ],
+      "position": [
+        60.283159,
+        0.271484375,
+        -8.097719235
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_067_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 178,
+      "cell": [
+        7,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          51.8436711,
+          -2.31347656,
+          -24.0688248
+        ],
+        [
+          66.3120267,
+          4.88671875,
+          -12.0073737
+        ]
+      ],
+      "position": [
+        59.077848900000006,
+        1.286621095,
+        -18.038099250000002
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_068_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 102,
+      "cell": [
+        7,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          55.2269895,
+          -2.34960938,
+          -22.8062233
+        ],
+        [
+          66.8422696,
+          4.98046875,
+          -7.34841255
+        ]
+      ],
+      "position": [
+        61.03462955,
+        1.315429685,
+        -15.077317925
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_069_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 42,
+      "cell": [
+        7,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          55.2269895,
+          -2.34960938,
+          -8.84703068
+        ],
+        [
+          65.5710942,
+          4.98046875,
+          6.44457146
+        ]
+      ],
+      "position": [
+        60.39904185,
+        1.315429685,
+        -1.20122961
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_070_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 34,
+      "cell": [
+        7,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          51.0272615,
+          1.28222656,
+          -2.64055304
+        ],
+        [
+          66.3532208,
+          4.88671875,
+          7.30119797
+        ]
+      ],
+      "position": [
+        58.690241150000006,
+        3.084472655,
+        2.330322465
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_071_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 7,
+      "cell": [
+        8,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          63.51601,
+          -3.21289062,
+          -22.7373543
+        ],
+        [
+          66.9089124,
+          4.08691406,
+          -20.6693306
+        ]
+      ],
+      "position": [
+        65.2124612,
+        0.4370117199999999,
+        -21.70334245
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_072_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 5,
+      "cell": [
+        8,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          64.4601438,
+          -3.31347656,
+          -8.84703068
+        ],
+        [
+          66.2618177,
+          3.85644531,
+          -7.34840969
+        ]
+      ],
+      "position": [
+        65.36098075,
+        0.271484375,
+        -8.097720185
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_073_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 4,
+      "cell": [
+        8,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          64.46014,
+          -3.31347656,
+          -8.84703068
+        ],
+        [
+          66.2618177,
+          3.85644531,
+          -7.34840969
+        ]
+      ],
+      "position": [
+        65.36097885,
+        0.271484375,
+        -8.097720185
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_074_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 41,
+      "cell": [
+        8,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          60.8261968,
+          -2.31347656,
+          -23.3979073
+        ],
+        [
+          66.9089124,
+          4.08691406,
+          -19.2473641
+        ]
+      ],
+      "position": [
+        63.867554600000005,
+        0.88671875,
+        -21.3226357
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_075_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 4,
+      "cell": [
+        8,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          61.1067273,
+          -2.34960938,
+          -8.84703068
+        ],
+        [
+          66.8422696,
+          4.98046875,
+          -7.34841541
+        ]
+      ],
+      "position": [
+        63.97449845,
+        1.315429685,
+        -8.097723045
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_076_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 34,
+      "cell": [
+        8,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          61.1064374,
+          -2.34960938,
+          -8.84703068
+        ],
+        [
+          66.8422734,
+          4.98046875,
+          -3.02693562
+        ]
+      ],
+      "position": [
+        63.97435539999999,
+        1.315429685,
+        -5.93698315
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_01_cell_077_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "triangles": 21,
+      "cell": [
+        8,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          63.8518331,
+          0.319335938,
+          4.93688484
+        ],
+        [
+          66.5824926,
+          4.37945873,
+          7.20973106
+        ]
+      ],
+      "position": [
+        65.21716285,
+        2.349397334,
+        6.07330795
+      ],
+      "alphaCutoff": 0.1
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_000_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        -2,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          -9.01029232,
+          -0.11328125,
+          17.3527879
+        ],
+        [
+          -8.41338375,
+          -0.11328125,
+          26.352787
+        ]
+      ],
+      "position": [
+        -8.711838035,
+        -0.11328125,
+        21.85278745
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_001_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        -2,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          -8.4185502,
+          -0.11328125,
+          26.352787
+        ],
+        [
+          -8.41338375,
+          -0.108118169,
+          31.2523231
+        ]
+      ],
+      "position": [
+        -8.415966975,
+        -0.1106997095,
+        28.802555050000002
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_002_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 67,
+      "cell": [
+        -2,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          -9.10884693,
+          -0.11328125,
+          11.8523197
+        ],
+        [
+          -7.94761303,
+          7.88671875,
+          17.3528614
+        ]
+      ],
+      "position": [
+        -8.52822998,
+        3.88671875,
+        14.602590549999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_003_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 9,
+      "cell": [
+        -2,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          -9.01338986,
+          -0.11328125,
+          17.3527879
+        ],
+        [
+          -8.36520222,
+          7.91015625,
+          20.9591846
+        ]
+      ],
+      "position": [
+        -8.68929604,
+        3.8984375,
+        19.155986249999998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_004_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 100,
+      "cell": [
+        -2,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -9.08263996,
+          -0.11328125,
+          26.352787
+        ],
+        [
+          -6.07940351,
+          7.96972656,
+          31.8523216
+        ]
+      ],
+      "position": [
+        -7.581021735,
+        3.928222655,
+        29.1025543
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_005_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        -1,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          -3.26301792,
+          -0.11328125,
+          -2.35774616
+        ],
+        [
+          5.13591739,
+          -0.11328125,
+          11.8422184
+        ]
+      ],
+      "position": [
+        0.9364497350000003,
+        -0.11328125,
+        4.74223612
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_006_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        -1,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          -8.41338375,
+          -0.11328125,
+          11.8522853
+        ],
+        [
+          5.48661586,
+          -0.11328125,
+          17.3527879
+        ]
+      ],
+      "position": [
+        -1.463383945,
+        -0.11328125,
+        14.6025366
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_007_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 16,
+      "cell": [
+        -1,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          -8.41338375,
+          -0.11328125,
+          12.452321
+        ],
+        [
+          -0.00728061951,
+          -0.013671875,
+          31.2523231
+        ]
+      ],
+      "position": [
+        -4.210332184755,
+        -0.0634765625,
+        21.85232205
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_008_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 11,
+      "cell": [
+        -1,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          -8.41338375,
+          -0.134765625,
+          12.452321
+        ],
+        [
+          5.48661586,
+          0.0263671875,
+          31.8520317
+        ]
+      ],
+      "position": [
+        -1.463383945,
+        -0.05419921875,
+        22.15217635
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_009_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 317,
+      "cell": [
+        -1,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          -8.98708002,
+          -0.11328125,
+          11.8237228
+        ],
+        [
+          4.2828003,
+          8.02441406,
+          17.8620557
+        ]
+      ],
+      "position": [
+        -2.3521398600000003,
+        3.955566405,
+        14.842889249999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_010_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 118,
+      "cell": [
+        -1,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          -9.00718334,
+          5.95507812,
+          14.9538802
+        ],
+        [
+          6.86285115,
+          8.02441406,
+          20.9124813
+        ]
+      ],
+      "position": [
+        -1.0721660949999996,
+        6.98974609,
+        17.93318075
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_011_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 178,
+      "cell": [
+        -1,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -9.01338414,
+          -0.11328125,
+          23.8750038
+        ],
+        [
+          10.8436773,
+          8.41015625,
+          31.9380111
+        ]
+      ],
+      "position": [
+        0.91514658,
+        4.1484375,
+        27.90650745
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_012_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        -1,
+        1,
+        3
+      ],
+      "bounds": [
+        [
+          -6.93571118,
+          7.60253906,
+          24.1317882
+        ],
+        [
+          -5.64917019,
+          8.41015625,
+          24.4396629
+        ]
+      ],
+      "position": [
+        -6.292440685000001,
+        8.006347654999999,
+        24.28572555
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_013_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        0,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          -3.26301792,
+          -0.11328125,
+          -2.35778574
+        ],
+        [
+          10.9369828,
+          -0.11328125,
+          6.04251905
+        ]
+      ],
+      "position": [
+        3.83698244,
+        -0.11328125,
+        1.842366655
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_014_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 3,
+      "cell": [
+        0,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          -3.51338414,
+          -0.11328125,
+          6.04251905
+        ],
+        [
+          5.48661586,
+          -0.11328125,
+          12.452321
+        ]
+      ],
+      "position": [
+        0.9866158599999999,
+        -0.11328125,
+        9.247420025
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_015_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 30,
+      "cell": [
+        0,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          -3.51338414,
+          -0.11328125,
+          12.452321
+        ],
+        [
+          10.3866155,
+          0.015625,
+          31.2523231
+        ]
+      ],
+      "position": [
+        3.43661568,
+        -0.048828125,
+        21.85232205
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_016_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 5,
+      "cell": [
+        0,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          -3.51338414,
+          -0.11328125,
+          28.3100261
+        ],
+        [
+          8.28538582,
+          0.198242188,
+          31.8520317
+        ]
+      ],
+      "position": [
+        2.3860008400000003,
+        0.04248046900000001,
+        30.0810289
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_017_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 169,
+      "cell": [
+        0,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          -3.05529448,
+          -0.11328125,
+          11.8522853
+        ],
+        [
+          10.9866159,
+          7.88671875,
+          16.0744505
+        ]
+      ],
+      "position": [
+        3.96566071,
+        3.88671875,
+        13.963367900000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_018_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 82,
+      "cell": [
+        0,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          -4.86760946,
+          6.00488281,
+          15.9923369
+        ],
+        [
+          10.9536645,
+          8.48730469,
+          24.1295852
+        ]
+      ],
+      "position": [
+        3.0430275200000003,
+        7.24609375,
+        20.06096105
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_019_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 72,
+      "cell": [
+        0,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -6.07940351,
+          -0.11328125,
+          23.6487236
+        ],
+        [
+          10.9866159,
+          8.48730469,
+          31.8523216
+        ]
+      ],
+      "position": [
+        2.4536061950000003,
+        4.18701172,
+        27.7505226
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_020_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        0,
+        1,
+        3
+      ],
+      "bounds": [
+        [
+          7.47567817,
+          7.40917969,
+          24.1295852
+        ],
+        [
+          8.95561191,
+          8.48730469,
+          26.1665496
+        ]
+      ],
+      "position": [
+        8.21564504,
+        7.94824219,
+        25.148067400000002
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_021_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        1,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          10.9841077,
+          -0.11328125,
+          -2.35960249
+        ],
+        [
+          25.1841089,
+          -0.11328125,
+          6.04039951
+        ]
+      ],
+      "position": [
+        18.084108299999997,
+        -0.11328125,
+        1.8403985100000002
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_022_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 3,
+      "cell": [
+        1,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          5.48661586,
+          -0.125,
+          12.452321
+        ],
+        [
+          10.3866155,
+          0.0087890625,
+          17.3527879
+        ]
+      ],
+      "position": [
+        7.936615679999999,
+        -0.05810546875,
+        14.90255445
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_023_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        1,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          10.3866155,
+          -0.11328125,
+          17.3527879
+        ],
+        [
+          10.9866483,
+          -0.11328125,
+          26.352787
+        ]
+      ],
+      "position": [
+        10.6866319,
+        -0.11328125,
+        21.85278745
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_024_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 6,
+      "cell": [
+        1,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          5.48661586,
+          -0.11328125,
+          17.3527879
+        ],
+        [
+          10.3866155,
+          0.16015625,
+          31.2523231
+        ]
+      ],
+      "position": [
+        7.936615679999999,
+        0.0234375,
+        24.3025555
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_025_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 7,
+      "cell": [
+        1,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          15.2793705,
+          -0.360351562,
+          -23.226305
+        ],
+        [
+          16.4990823,
+          8.1640625,
+          -14.4497147
+        ]
+      ],
+      "position": [
+        15.889226400000002,
+        3.901855469,
+        -18.83800985
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_026_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        1,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          15.2793715,
+          -0.212890625,
+          -14.5198098
+        ],
+        [
+          16.836075,
+          0.990234375,
+          -14.4497147
+        ]
+      ],
+      "position": [
+        16.057723250000002,
+        0.388671875,
+        -14.48476225
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_027_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 153,
+      "cell": [
+        1,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          4.25244269,
+          -0.125,
+          11.8436298
+        ],
+        [
+          11.2875993,
+          7.88671875,
+          17.3528623
+        ]
+      ],
+      "position": [
+        7.770020994999999,
+        3.880859375,
+        14.59824605
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_028_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 51,
+      "cell": [
+        1,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          3.04229675,
+          -0.11328125,
+          15.6932783
+        ],
+        [
+          11.0866182,
+          8.1953125,
+          20.9591846
+        ]
+      ],
+      "position": [
+        7.064457475,
+        4.041015625,
+        18.32623145
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_029_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 149,
+      "cell": [
+        1,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          5.48661586,
+          -0.11328125,
+          23.6487236
+        ],
+        [
+          11.2875993,
+          9.19921875,
+          31.8523216
+        ]
+      ],
+      "position": [
+        8.38710758,
+        4.54296875,
+        27.7505226
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_030_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 5,
+      "cell": [
+        1,
+        1,
+        2
+      ],
+      "bounds": [
+        [
+          7.47567817,
+          7.40917969,
+          18.3401966
+        ],
+        [
+          9.2007167,
+          8.48730469,
+          24.1295852
+        ]
+      ],
+      "position": [
+        8.338197435,
+        7.94824219,
+        21.2348909
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_031_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 8,
+      "cell": [
+        1,
+        1,
+        3
+      ],
+      "bounds": [
+        [
+          8.02816269,
+          7.28613281,
+          23.6487236
+        ],
+        [
+          9.87032863,
+          9.27929688,
+          26.1665496
+        ]
+      ],
+      "position": [
+        8.949245659999999,
+        8.282714845000001,
+        24.9076366
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_032_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        2,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          16.805402,
+          -0.11328125,
+          -22.3572216
+        ],
+        [
+          25.205405,
+          -0.11328125,
+          -8.15725712
+        ]
+      ],
+      "position": [
+        21.0054035,
+        -0.11328125,
+        -15.25723936
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_033_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        2,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          16.7841074,
+          -0.11328125,
+          -8.15960316
+        ],
+        [
+          25.1841089,
+          -0.11328125,
+          6.04036137
+        ]
+      ],
+      "position": [
+        20.984108149999997,
+        -0.11328125,
+        -1.0596208949999997
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_034_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        2,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          10.9841077,
+          -0.11328125,
+          -2.35964827
+        ],
+        [
+          25.1841089,
+          -0.11328125,
+          6.04036137
+        ]
+      ],
+      "position": [
+        18.084108299999997,
+        -0.11328125,
+        1.84035655
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_035_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        2,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          11.0002954,
+          -3.14355469,
+          17.6930313
+        ],
+        [
+          30.9937389,
+          -0.135742188,
+          26.0930309
+        ]
+      ],
+      "position": [
+        20.99701715,
+        -1.6396484390000001,
+        21.8930311
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_036_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 22,
+      "cell": [
+        2,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          15.3930103,
+          -0.360351562,
+          -23.226305
+        ],
+        [
+          18.05689,
+          8.19238281,
+          -14.4497152
+        ]
+      ],
+      "position": [
+        16.724950149999998,
+        3.916015624,
+        -18.838010099999998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_037_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 4,
+      "cell": [
+        2,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          15.2793715,
+          -0.337890625,
+          -16.2636147
+        ],
+        [
+          17.9962215,
+          8.1640625,
+          -14.4497147
+        ]
+      ],
+      "position": [
+        16.6377965,
+        3.9130859375,
+        -15.3566647
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_038_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        3,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          16.805402,
+          -0.11328125,
+          -22.3572617
+        ],
+        [
+          31.0054032,
+          -0.11328125,
+          -13.9572134
+        ]
+      ],
+      "position": [
+        23.905402600000002,
+        -0.11328125,
+        -18.157237549999998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_039_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 6,
+      "cell": [
+        3,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          -2.541482,
+          -8.13710693
+        ],
+        [
+          31.0624548,
+          -1.07909322,
+          -8.10927773
+        ]
+      ],
+      "position": [
+        31.0467836,
+        -1.81028761,
+        -8.12319233
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_040_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 6,
+      "cell": [
+        3,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          -3.11328125,
+          -8.13710693
+        ],
+        [
+          31.6311128,
+          -1.11328125,
+          -2.63663868
+        ]
+      ],
+      "position": [
+        31.3311126,
+        -2.11328125,
+        -5.386872804999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_041_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 33,
+      "cell": [
+        3,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          31.0141103,
+          -3.11328125,
+          -2.63663868
+        ],
+        [
+          31.9294355,
+          -0.256835938,
+          7.92818209
+        ]
+      ],
+      "position": [
+        31.471772899999998,
+        -1.685058594,
+        2.645771705
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_042_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 47,
+      "cell": [
+        3,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          31.0141103,
+          -3.11328125,
+          6.41065459
+        ],
+        [
+          32.1406381,
+          -0.427734375,
+          11.862894
+        ]
+      ],
+      "position": [
+        31.577374199999998,
+        -1.7705078125,
+        9.136774295
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_043_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        3,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          11.0002963,
+          -3.14355469,
+          17.6930332
+        ],
+        [
+          30.9937398,
+          -0.135742188,
+          26.0930347
+        ]
+      ],
+      "position": [
+        20.99701805,
+        -1.6396484390000001,
+        21.89303395
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_044_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        3,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          -1.11328125,
+          -8.13710693
+        ],
+        [
+          31.0624548,
+          4.88671875,
+          -8.13710693
+        ]
+      ],
+      "position": [
+        31.0467836,
+        1.88671875,
+        -8.13710693
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_045_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 62,
+      "cell": [
+        3,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          23.9932902,
+          -1.11328125,
+          -8.13710693
+        ],
+        [
+          32.0968835,
+          8.1640625,
+          0.309125026
+        ]
+      ],
+      "position": [
+        28.045086849999997,
+        3.525390625,
+        -3.913990952
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_046_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 37,
+      "cell": [
+        3,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          23.9326212,
+          -1.11328125,
+          -1.86714486
+        ],
+        [
+          31.6792943,
+          8.19238281,
+          6.90944477
+        ]
+      ],
+      "position": [
+        27.805957749999997,
+        3.53955078,
+        2.5211499550000003
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_047_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 13,
+      "cell": [
+        3,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          30.9618566,
+          -1.11328125,
+          6.41043249
+        ],
+        [
+          31.4450605,
+          4.96972656,
+          11.862894
+        ]
+      ],
+      "position": [
+        31.20345855,
+        1.928222655,
+        9.136663245000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_048_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        4,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          31.0263726,
+          -3.10449219,
+          -22.3813248
+        ],
+        [
+          51.0198171,
+          -0.0966796875,
+          -13.9813261
+        ]
+      ],
+      "position": [
+        41.02309485,
+        -1.60058593875,
+        -18.181325450000003
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_049_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 4,
+      "cell": [
+        4,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          31.0574165,
+          -2.51367188,
+          -8.13710693
+        ],
+        [
+          36.5311124,
+          -1.07909322,
+          -8.13710598
+        ]
+      ],
+      "position": [
+        33.79426445,
+        -1.7963825500000001,
+        -8.137106455
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_050_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 37,
+      "cell": [
+        4,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          31.0574165,
+          -3.11328125,
+          -8.15314869
+        ],
+        [
+          45.5311124,
+          -0.71484375,
+          6.36336084
+        ]
+      ],
+      "position": [
+        38.29426445,
+        -1.9140625,
+        -0.8948939249999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_051_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 16,
+      "cell": [
+        4,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          31.6311128,
+          -3.11328125,
+          -7.5371056
+        ],
+        [
+          45.5311124,
+          -3.01367188,
+          11.2628955
+        ]
+      ],
+      "position": [
+        38.5811126,
+        -3.063476565,
+        1.8628949500000003
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_052_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 89,
+      "cell": [
+        4,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          -3.13476562,
+          6.36336084
+        ],
+        [
+          45.5311124,
+          -0.34765625,
+          17.6960458
+        ]
+      ],
+      "position": [
+        38.2811124,
+        -1.741210935,
+        12.02970332
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_053_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        4,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          31.0096681,
+          -3.11328125,
+          17.6960458
+        ],
+        [
+          45.2096688,
+          -3.11328125,
+          26.0960922
+        ]
+      ],
+      "position": [
+        38.10966845,
+        -3.11328125,
+        21.896069
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_054_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 25,
+      "cell": [
+        4,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          31.0624529,
+          -1.11328125,
+          -8.16570381
+        ],
+        [
+          36.5313775,
+          4.88671875,
+          -7.91667847
+        ]
+      ],
+      "position": [
+        33.7969152,
+        1.88671875,
+        -8.04119114
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_055_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 350,
+      "cell": [
+        4,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          31.0384757,
+          1.73144531,
+          -8.10476402
+        ],
+        [
+          46.9073477,
+          5.02441406,
+          0.0740307176
+        ]
+      ],
+      "position": [
+        38.9729117,
+        3.377929685,
+        -4.0153666512
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_056_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 104,
+      "cell": [
+        4,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          31.0373141,
+          2.48828125,
+          -0.293572704
+        ],
+        [
+          47.850517,
+          5.41015625,
+          6.49676796
+        ]
+      ],
+      "position": [
+        39.44391555,
+        3.94921875,
+        3.101597628
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_057_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 27,
+      "cell": [
+        4,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          31.0311124,
+          -1.11328125,
+          8.7624044
+        ],
+        [
+          50.8881738,
+          4.88671875,
+          11.862894
+        ]
+      ],
+      "position": [
+        40.9596431,
+        1.88671875,
+        10.3126492
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_058_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        5,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          31.0263736,
+          -3.10449219,
+          -22.3813229
+        ],
+        [
+          51.0198171,
+          -0.0966796875,
+          -13.9813204
+        ]
+      ],
+      "position": [
+        41.02309535,
+        -1.60058593875,
+        -18.18132165
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_059_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        5,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          45.5311124,
+          -2.51367188,
+          -8.13710693
+        ],
+        [
+          51.0311124,
+          -1.11328125,
+          -8.13710598
+        ]
+      ],
+      "position": [
+        48.2811124,
+        -1.813476565,
+        -8.137106455
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_060_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 8,
+      "cell": [
+        5,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          36.5311124,
+          -3.11328125,
+          -8.13714127
+        ],
+        [
+          50.431112,
+          -2.51367188,
+          11.2628955
+        ]
+      ],
+      "position": [
+        43.4811122,
+        -2.813476565,
+        1.562877115
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_061_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 25,
+      "cell": [
+        5,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          39.9534986,
+          -3.11328125,
+          -7.5371056
+        ],
+        [
+          50.431112,
+          -3.01367188,
+          11.2628955
+        ]
+      ],
+      "position": [
+        45.1923053,
+        -3.063476565,
+        1.8628949500000003
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_062_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 48,
+      "cell": [
+        5,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          36.5311124,
+          -3.11328125,
+          8.32060047
+        ],
+        [
+          51.0311124,
+          -1.11328125,
+          11.862894
+        ]
+      ],
+      "position": [
+        43.7811124,
+        -2.11328125,
+        10.091747235
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_063_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 17,
+      "cell": [
+        5,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          36.8096692,
+          -3.33789062,
+          11.8960905
+        ],
+        [
+          46.7357003,
+          5.1640625,
+          26.9651374
+        ]
+      ],
+      "position": [
+        41.772684749999996,
+        0.91308594,
+        19.43061395
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_064_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 6,
+      "cell": [
+        5,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          43.9581811,
+          -3.36035156,
+          18.188549
+        ],
+        [
+          46.7357003,
+          5.19238281,
+          26.9651374
+        ]
+      ],
+      "position": [
+        45.3469407,
+        0.916015625,
+        22.5768432
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_065_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        5,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          45.5311124,
+          -1.11328125,
+          -8.13710693
+        ],
+        [
+          50.9682133,
+          4.88671875,
+          -8.13710693
+        ]
+      ],
+      "position": [
+        48.24966285,
+        1.88671875,
+        -8.13710693
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_066_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 218,
+      "cell": [
+        5,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          35.1771934,
+          1.27734375,
+          -8.10296826
+        ],
+        [
+          50.9982125,
+          4.95898438,
+          0.103639042
+        ]
+      ],
+      "position": [
+        43.08770295,
+        3.118164065,
+        -3.9996646090000003
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_067_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 48,
+      "cell": [
+        5,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          35.1768863,
+          2.66210938,
+          -0.293572704
+        ],
+        [
+          50.9967022,
+          5.48730469,
+          5.98196264
+        ]
+      ],
+      "position": [
+        43.08679425,
+        4.074707035,
+        2.844194968
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_068_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 6,
+      "cell": [
+        5,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          33.9650931,
+          -1.11328125,
+          8.7624044
+        ],
+        [
+          51.0311124,
+          4.88671875,
+          11.862894
+        ]
+      ],
+      "position": [
+        42.49810275,
+        1.88671875,
+        10.3126492
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_069_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 9,
+      "cell": [
+        5,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          44.0188501,
+          -3.33789062,
+          19.0960311
+        ],
+        [
+          46.6220605,
+          5.1640625,
+          23.8913841
+        ]
+      ],
+      "position": [
+        45.320455300000006,
+        0.91308594,
+        21.4937076
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_070_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 3,
+      "cell": [
+        5,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          43.9581811,
+          -3.36035156,
+          24.7911033
+        ],
+        [
+          46.6220605,
+          5.19238281,
+          26.4113197
+        ]
+      ],
+      "position": [
+        45.2901208,
+        0.916015625,
+        25.601211499999998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_071_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        6,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          51.0373552,
+          -3.11328125,
+          -22.3120709
+        ],
+        [
+          56.8370549,
+          -3.11328125,
+          -13.9131375
+        ]
+      ],
+      "position": [
+        53.93720505,
+        -3.11328125,
+        -18.1126042
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_072_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        6,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          45.5311124,
+          -3.11328125,
+          -13.9142018
+        ],
+        [
+          56.8370549,
+          -1.11328125,
+          -8.13710598
+        ]
+      ],
+      "position": [
+        51.18408365,
+        -2.11328125,
+        -11.025653890000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_073_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 17,
+      "cell": [
+        6,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          45.5311124,
+          -3.125,
+          -8.13710693
+        ],
+        [
+          51.0311448,
+          -1.11328125,
+          -2.63663868
+        ]
+      ],
+      "position": [
+        48.2811286,
+        -2.119140625,
+        -5.386872804999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_074_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 12,
+      "cell": [
+        6,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          45.5311124,
+          -3.11328125,
+          -2.63663868
+        ],
+        [
+          65.2285344,
+          -1.02793279,
+          11.2628955
+        ]
+      ],
+      "position": [
+        55.3798234,
+        -2.0706070199999997,
+        4.313128410000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_075_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 82,
+      "cell": [
+        6,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          45.5311124,
+          -3.11328125,
+          6.36336084
+        ],
+        [
+          51.0311124,
+          -0.572265625,
+          11.862894
+        ]
+      ],
+      "position": [
+        48.2811124,
+        -1.8427734375,
+        9.113127420000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_076_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 15,
+      "cell": [
+        6,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          45.5313756,
+          -1.11328125,
+          -8.14579682
+        ],
+        [
+          51.0311124,
+          4.88671875,
+          -8.01553825
+        ]
+      ],
+      "position": [
+        48.281244,
+        1.88671875,
+        -8.080667535
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_077_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 157,
+      "cell": [
+        6,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          43.0869469,
+          -1.11328125,
+          -8.13710693
+        ],
+        [
+          51.3320958,
+          5.1953125,
+          0.104231676
+        ]
+      ],
+      "position": [
+        47.20952135,
+        2.041015625,
+        -4.016437627
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_078_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 57,
+      "cell": [
+        6,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          43.0867929,
+          -1.11328125,
+          -0.375163356
+        ],
+        [
+          51.0430467,
+          6.27929688,
+          6.44166549
+        ]
+      ],
+      "position": [
+        47.0649198,
+        2.583007815,
+        3.033251067
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_079_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 42,
+      "cell": [
+        6,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          45.5313756,
+          -1.11328125,
+          6.44159028
+        ],
+        [
+          51.3320958,
+          4.96972656,
+          11.862894
+        ]
+      ],
+      "position": [
+        48.4317357,
+        1.928222655,
+        9.15224214
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_080_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        7,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          51.0373552,
+          -3.11328125,
+          -22.3120728
+        ],
+        [
+          65.2373197,
+          -3.11328125,
+          -13.9131375
+        ]
+      ],
+      "position": [
+        58.137337450000004,
+        -3.11328125,
+        -18.11260515
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_081_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        7,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          56.8370549,
+          -3.11328125,
+          -22.3120728
+        ],
+        [
+          65.2373616,
+          -3.11328125,
+          -8.11207108
+        ]
+      ],
+      "position": [
+        61.03720825,
+        -3.11328125,
+        -15.21207194
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_082_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        7,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          56.8285329,
+          -3.11328125,
+          -8.0979443
+        ],
+        [
+          65.2285344,
+          -3.11328125,
+          6.10202022
+        ]
+      ],
+      "position": [
+        61.02853365,
+        -3.11328125,
+        -0.99796204
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_083_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 1,
+      "cell": [
+        7,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          51.0285318,
+          -3.11328125,
+          -2.29798941
+        ],
+        [
+          65.2285344,
+          -3.11328125,
+          6.10202022
+        ]
+      ],
+      "position": [
+        58.1285331,
+        -3.11328125,
+        1.902015405
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_084_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 4,
+      "cell": [
+        8,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          64.0377156,
+          -3.33789062,
+          -1.805486
+        ],
+        [
+          66.7545659,
+          5.1640625,
+          0.370783886
+        ]
+      ],
+      "position": [
+        65.39614075,
+        0.91308594,
+        -0.7173510569999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_085_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 18,
+      "cell": [
+        8,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          63.9770467,
+          -3.36035156,
+          -1.805486
+        ],
+        [
+          66.7545659,
+          5.19238281,
+          6.97110363
+        ]
+      ],
+      "position": [
+        65.3658063,
+        0.916015625,
+        2.582808815
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_086_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 2,
+      "cell": [
+        8,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          64.0377156,
+          -3.33789062,
+          -0.898002664
+        ],
+        [
+          66.6409185,
+          5.1640625,
+          0.00841327549
+        ]
+      ],
+      "position": [
+        65.33931705,
+        0.91308594,
+        -0.44479469425499996
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_02_cell_087_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "triangles": 10,
+      "cell": [
+        8,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          63.9770467,
+          -3.36035156,
+          0.00841327549
+        ],
+        [
+          66.6409261,
+          5.19238281,
+          6.41728493
+        ]
+      ],
+      "position": [
+        65.30898640000001,
+        0.916015625,
+        3.212849102745
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_000_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 6,
+      "cell": [
+        -2,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          -9.47972897,
+          -0.212890625,
+          19.8546714
+        ],
+        [
+          -8.479893,
+          -0.013671875,
+          23.8881969
+        ]
+      ],
+      "position": [
+        -8.979810985,
+        -0.11328125,
+        21.87143415
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_001_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 51,
+      "cell": [
+        -2,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          -9.93010357,
+          -0.212890625,
+          16.1108493
+        ],
+        [
+          -7.95914677,
+          7.98632812,
+          26.8225116
+        ]
+      ],
+      "position": [
+        -8.94462517,
+        3.8867187475,
+        21.46668045
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_002_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 29,
+      "cell": [
+        -2,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -9.93010357,
+          -0.212890625,
+          23.8320579
+        ],
+        [
+          -7.95914486,
+          7.98632812,
+          27.6710071
+        ]
+      ],
+      "position": [
+        -8.944624215000001,
+        3.8867187475,
+        25.7515325
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_003_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 1,
+      "cell": [
+        -1,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          -3.26301792,
+          -0.11328125,
+          -2.41489179
+        ],
+        [
+          -2.24873222,
+          -0.0561523437,
+          -2.35774616
+        ]
+      ],
+      "position": [
+        -2.75587507,
+        -0.08471679685,
+        -2.386318975
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_004_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 1,
+      "cell": [
+        -1,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          -3.59660387,
+          -0.11328125,
+          5.58745436
+        ],
+        [
+          -3.26301602,
+          0.22022468,
+          11.8422184
+        ]
+      ],
+      "position": [
+        -3.4298099449999997,
+        0.053471715,
+        8.71483638
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_005_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 28,
+      "cell": [
+        -1,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          -3.70034817,
+          -0.118164062,
+          13.9195404
+        ],
+        [
+          -3.15508297,
+          -0.048828125,
+          14.1762199
+        ]
+      ],
+      "position": [
+        -3.42771557,
+        -0.08349609350000001,
+        14.047880150000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_006_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 82,
+      "cell": [
+        -1,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          -7.01039913,
+          -0.116210938,
+          27.8889541
+        ],
+        [
+          -2.3600581,
+          0.0478515625,
+          28.9893322
+        ]
+      ],
+      "position": [
+        -4.685228615,
+        -0.03417968775,
+        28.43914315
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_007_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 41,
+      "cell": [
+        -1,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          -4.47082737,
+          -0.11328125,
+          -3.56559149
+        ],
+        [
+          -1.62027577,
+          7.88671875,
+          5.58745436
+        ]
+      ],
+      "position": [
+        -3.04555157,
+        3.88671875,
+        1.0109314349999998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_008_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 13,
+      "cell": [
+        -1,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          -4.47082737,
+          -0.11328125,
+          -3.17137958
+        ],
+        [
+          -3.26301602,
+          7.88671875,
+          11.8422193
+        ]
+      ],
+      "position": [
+        -3.8669216950000003,
+        3.88671875,
+        4.33541986
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_009_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 71,
+      "cell": [
+        -1,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          -4.68884686,
+          -0.28125,
+          5.41740546
+        ],
+        [
+          -0.187847407,
+          7.91796875,
+          12.8798112
+        ]
+      ],
+      "position": [
+        -2.4383471334999998,
+        3.818359375,
+        9.14860833
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_010_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 2,
+      "cell": [
+        -1,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          -7.95914677,
+          -0.212890625,
+          16.1108493
+        ],
+        [
+          -7.95914677,
+          7.98632812,
+          17.902975
+        ]
+      ],
+      "position": [
+        -7.95914677,
+        3.8867187475,
+        17.00691215
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_011_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 19,
+      "cell": [
+        -1,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -7.95914486,
+          -0.212890625,
+          25.8788814
+        ],
+        [
+          -0.563528331,
+          7.98632812,
+          32.9705085
+        ]
+      ],
+      "position": [
+        -4.2613365955,
+        3.8867187475,
+        29.424694950000003
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_012_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 15,
+      "cell": [
+        -1,
+        0,
+        4
+      ],
+      "bounds": [
+        [
+          -4.70894268,
+          -0.212890625,
+          30.9995479
+        ],
+        [
+          -0.5628455,
+          7.98632812,
+          32.9705085
+        ]
+      ],
+      "position": [
+        -2.63589409,
+        3.8867187475,
+        31.985028200000002
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_013_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 10,
+      "cell": [
+        0,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          -0.953510554,
+          -0.28125,
+          11.4071626
+        ],
+        [
+          3.15702411,
+          0.080078125,
+          12.4069986
+        ]
+      ],
+      "position": [
+        1.101756778,
+        -0.1005859375,
+        11.9070806
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_014_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 3,
+      "cell": [
+        0,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          -0.966678889,
+          -0.212890625,
+          31.497858
+        ],
+        [
+          3.11779377,
+          -0.013671875,
+          32.3898315
+        ]
+      ],
+      "position": [
+        1.0755574405,
+        -0.11328125,
+        31.94384475
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_015_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 3,
+      "cell": [
+        0,
+        -1,
+        4
+      ],
+      "bounds": [
+        [
+          -0.966678889,
+          -0.212890625,
+          31.6055564
+        ],
+        [
+          3.11779377,
+          -0.013671875,
+          32.4976959
+        ]
+      ],
+      "position": [
+        1.0755574405,
+        -0.11328125,
+        32.05162615
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_016_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 18,
+      "cell": [
+        0,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          -2.61365745,
+          -0.11328125,
+          -3.56559233
+        ],
+        [
+          10.9369819,
+          7.88671875,
+          -2.35774898
+        ]
+      ],
+      "position": [
+        4.161662225,
+        3.88671875,
+        -2.961670655
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_017_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        0,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          5.13591739,
+          -0.11328125,
+          5.53399177
+        ],
+        [
+          10.9369828,
+          7.88671875,
+          8.25243135
+        ]
+      ],
+      "position": [
+        8.036450095,
+        3.88671875,
+        6.89321156
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_018_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 86,
+      "cell": [
+        0,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          -3.9014819,
+          -0.28125,
+          6.04251905
+        ],
+        [
+          6.88588688,
+          7.91796875,
+          12.8798103
+        ]
+      ],
+      "position": [
+        1.4922024900000002,
+        3.818359375,
+        9.461164675000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_019_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 23,
+      "cell": [
+        0,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          -3.92157772,
+          -0.212890625,
+          30.9995479
+        ],
+        [
+          6.86579105,
+          7.98632812,
+          32.9705066
+        ]
+      ],
+      "position": [
+        1.472106665,
+        3.8867187475,
+        31.98502725
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_020_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 23,
+      "cell": [
+        0,
+        0,
+        4
+      ],
+      "bounds": [
+        [
+          -3.92157772,
+          -0.212890625,
+          30.9995479
+        ],
+        [
+          6.86578914,
+          7.98632812,
+          32.9705066
+        ]
+      ],
+      "position": [
+        1.4721057100000001,
+        3.8867187475,
+        31.98502725
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_021_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 8,
+      "cell": [
+        1,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          10.4749648,
+          -0.489301068,
+          16.8930321
+        ],
+        [
+          13.3504617,
+          0.31136539,
+          23.9580783
+        ]
+      ],
+      "position": [
+        11.91271325,
+        -0.08896783899999999,
+        20.425555199999998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_022_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 3,
+      "cell": [
+        1,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          11.0002963,
+          -1.56656859,
+          26.0930309
+        ],
+        [
+          20.5112438,
+          0.547047334,
+          26.8930339
+        ]
+      ],
+      "position": [
+        15.755770049999999,
+        -0.509760628,
+        26.493032399999997
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_023_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 10,
+      "cell": [
+        1,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          15.5975926,
+          0.686523438,
+          -23.5650673
+        ],
+        [
+          16.0054036,
+          7.45545151,
+          -14.4120211
+        ]
+      ],
+      "position": [
+        15.8014981,
+        4.070987474,
+        -18.9885442
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_024_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        1,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          15.2329771,
+          -0.212890625,
+          -14.5820708
+        ],
+        [
+          16.6472113,
+          7.98632812,
+          -7.23460392
+        ]
+      ],
+      "position": [
+        15.940094199999999,
+        3.8867187475,
+        -10.90833736
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_025_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 19,
+      "cell": [
+        1,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          5.9970736,
+          -0.212890625,
+          -9.20556358
+        ],
+        [
+          16.7841093,
+          7.98632812,
+          -2.35778574
+        ]
+      ],
+      "position": [
+        11.39059145,
+        3.8867187475,
+        -5.78167466
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_026_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 12,
+      "cell": [
+        1,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          5.47954246,
+          -0.11328125,
+          6.04038653
+        ],
+        [
+          15.9256269,
+          7.88671875,
+          7.25002714
+        ]
+      ],
+      "position": [
+        10.70258468,
+        3.88671875,
+        6.645206835
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_027_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 52,
+      "cell": [
+        1,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          9.97665378,
+          -0.310546875,
+          16.1214752
+        ],
+        [
+          13.3504617,
+          7.88867188,
+          26.908844
+        ]
+      ],
+      "position": [
+        11.66355774,
+        3.7890625025,
+        21.515159599999997
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_028_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 39,
+      "cell": [
+        1,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          9.97665569,
+          -0.766251895,
+          23.5501117
+        ],
+        [
+          20.5112438,
+          7.88867188,
+          27.6962089
+        ]
+      ],
+      "position": [
+        15.243949744999998,
+        3.5612099925000003,
+        25.6231603
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_029_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 27,
+      "cell": [
+        2,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          16.805402,
+          -0.115234375,
+          -22.4143673
+        ],
+        [
+          18.435503,
+          -0.0439453125,
+          -15.9247494
+        ]
+      ],
+      "position": [
+        17.6204525,
+        -0.07958984375,
+        -19.16955835
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_030_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        2,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          16.4718158,
+          -0.212890625,
+          -15.9830609
+        ],
+        [
+          23.0509302,
+          0.22022468,
+          -7.86304859
+        ]
+      ],
+      "position": [
+        19.761373,
+        0.003667027500000003,
+        -11.923054745
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_031_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 22,
+      "cell": [
+        2,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          19.01355,
+          -0.212890625,
+          -7.86304859
+        ],
+        [
+          24.1118166,
+          -0.013671875,
+          0.0274921262
+        ]
+      ],
+      "position": [
+        21.5626833,
+        -0.11328125,
+        -3.9177782319
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_032_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 6,
+      "cell": [
+        2,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          23.5744173,
+          -0.115234375,
+          -0.00166361242
+        ],
+        [
+          23.5958433,
+          -0.0439453125,
+          0.0281991565
+        ]
+      ],
+      "position": [
+        23.5851303,
+        -0.07958984375,
+        0.01326777204
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_033_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 4,
+      "cell": [
+        2,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          13.3504617,
+          -1.80105575,
+          16.8930321
+        ],
+        [
+          22.0699191,
+          0.31136539,
+          17.6930324
+        ]
+      ],
+      "position": [
+        17.710190400000002,
+        -0.74484518,
+        17.29303225
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_034_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 33,
+      "cell": [
+        2,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          11.7843529,
+          -2.87944157,
+          25.2193031
+        ],
+        [
+          29.2381347,
+          2.27797064,
+          27.0870306
+        ]
+      ],
+      "position": [
+        20.5112438,
+        -0.30073546500000004,
+        26.153166849999998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_035_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 29,
+      "cell": [
+        2,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          15.5975926,
+          -0.11328125,
+          -23.5650673
+        ],
+        [
+          26.1962428,
+          7.88671875,
+          -14.4085059
+        ]
+      ],
+      "position": [
+        20.8969177,
+        3.88671875,
+        -18.9867866
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_036_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 71,
+      "cell": [
+        2,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          15.576298,
+          -0.212890625,
+          -14.5777568
+        ],
+        [
+          25.9517138,
+          7.98632812,
+          -7.23460487
+        ]
+      ],
+      "position": [
+        20.7640059,
+        3.8867187475,
+        -10.906180835
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_037_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 22,
+      "cell": [
+        2,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          15.2329771,
+          -0.212890625,
+          -9.20556263
+        ],
+        [
+          25.9517119,
+          7.98632812,
+          -2.35964827
+        ]
+      ],
+      "position": [
+        20.5923445,
+        3.8867187475,
+        -5.78260545
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_038_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 12,
+      "cell": [
+        2,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          15.7932682,
+          -0.11328125,
+          6.04036409
+        ],
+        [
+          24.5334781,
+          7.88671875,
+          7.2482061
+        ]
+      ],
+      "position": [
+        20.163373149999998,
+        3.88671875,
+        6.644285095
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_039_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 8,
+      "cell": [
+        2,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          13.3504607,
+          -1.00081519,
+          16.485224
+        ],
+        [
+          22.0699191,
+          7.51069893,
+          17.350475
+        ]
+      ],
+      "position": [
+        17.7101899,
+        3.25494187,
+        16.9178495
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_040_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        2,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          11.784352,
+          -0.766251895,
+          26.4355965
+        ],
+        [
+          29.2381347,
+          7.74630438,
+          27.3008479
+        ]
+      ],
+      "position": [
+        20.51124335,
+        3.4900262425,
+        26.868222199999998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_041_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 1,
+      "cell": [
+        3,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          31.0263736,
+          -0.214633119,
+          -13.9813261
+        ],
+        [
+          31.8104302,
+          -0.0966796875,
+          -13.9499534
+        ]
+      ],
+      "position": [
+        31.4184019,
+        -0.15565640325000002,
+        -13.965639750000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_042_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 16,
+      "cell": [
+        3,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          24.0709841,
+          -3.21289062,
+          -8.15960316
+        ],
+        [
+          32.1051233,
+          4.98632812,
+          -0.0974541104
+        ]
+      ],
+      "position": [
+        28.088053700000003,
+        0.8867187499999998,
+        -4.1285286351999995
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_043_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 22,
+      "cell": [
+        3,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          24.1698231,
+          -3.21289062,
+          -0.391090432
+        ],
+        [
+          32.1051242,
+          4.98632812,
+          7.69378277
+        ]
+      ],
+      "position": [
+        28.137473649999997,
+        0.8867187499999998,
+        3.651346169
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_044_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 11,
+      "cell": [
+        3,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          22.0699187,
+          -3.14355469,
+          16.4852228
+        ],
+        [
+          30.9937389,
+          4.08641829,
+          17.6930332
+        ]
+      ],
+      "position": [
+        26.5318288,
+        0.47143179999999996,
+        17.089128
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_045_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 6,
+      "cell": [
+        3,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          20.5112438,
+          -3.14355469,
+          26.0930344
+        ],
+        [
+          30.9937398,
+          3.75793654,
+          27.2650348
+        ]
+      ],
+      "position": [
+        25.7524918,
+        0.307190925,
+        26.6790346
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_046_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 12,
+      "cell": [
+        3,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          26.063884,
+          -0.11328125,
+          -23.5891304
+        ],
+        [
+          33.376539,
+          7.90332031,
+          -22.3572481
+        ]
+      ],
+      "position": [
+        29.7202115,
+        3.89501953,
+        -22.973189249999997
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_047_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 43,
+      "cell": [
+        3,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          23.2693026,
+          -0.212890625,
+          -13.9813261
+        ],
+        [
+          31.8104302,
+          7.98632812,
+          -7.23460583
+        ]
+      ],
+      "position": [
+        27.5398664,
+        3.8867187475,
+        -10.607965965
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_048_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 59,
+      "cell": [
+        3,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          23.2693007,
+          -3.21289062,
+          -9.20556358
+        ],
+        [
+          32.1051233,
+          7.98632812,
+          0.264800986
+        ]
+      ],
+      "position": [
+        27.687212000000002,
+        2.38671875,
+        -4.470381296999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_049_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 57,
+      "cell": [
+        3,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          24.1684047,
+          -3.21289062,
+          -3.09358219
+        ],
+        [
+          32.1051242,
+          7.88671875,
+          7.69378277
+        ]
+      ],
+      "position": [
+        28.13676445,
+        2.336914065,
+        2.3001002900000005
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_050_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 10,
+      "cell": [
+        3,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          22.0699181,
+          -2.34375,
+          16.4852228
+        ],
+        [
+          30.9937389,
+          6.19894425,
+          17.3504737
+        ]
+      ],
+      "position": [
+        26.5318285,
+        1.9275971250000001,
+        16.91784825
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_051_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 9,
+      "cell": [
+        3,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          20.5112429,
+          -2.34375,
+          26.4355945
+        ],
+        [
+          30.9937398,
+          6.43343141,
+          27.3008462
+        ]
+      ],
+      "position": [
+        25.75249135,
+        2.044840705,
+        26.86822035
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_052_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 6,
+      "cell": [
+        4,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          31.0263726,
+          -1.76199325,
+          -23.1813238
+        ],
+        [
+          42.0959969,
+          0.35042789,
+          -22.3813237
+        ]
+      ],
+      "position": [
+        36.56118475,
+        -0.70578268,
+        -22.78132375
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_053_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 42,
+      "cell": [
+        4,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          31.8104302,
+          -3.21289062,
+          -14.855053
+        ],
+        [
+          40.5373211,
+          4.98632812,
+          -7.18911652
+        ]
+      ],
+      "position": [
+        36.17387565,
+        0.8867187499999998,
+        -11.02208476
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_054_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 34,
+      "cell": [
+        4,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          32.1051213,
+          -3.21289062,
+          -9.16007523
+        ],
+        [
+          39.1862638,
+          4.98632812,
+          -2.08882527
+        ]
+      ],
+      "position": [
+        35.64569255,
+        0.8867187499999998,
+        -5.624450250000001
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_055_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 3,
+      "cell": [
+        4,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          32.1051233,
+          -3.21289062,
+          5.90165897
+        ],
+        [
+          33.5919053,
+          4.98632812,
+          7.95783993
+        ]
+      ],
+      "position": [
+        32.848514300000005,
+        0.8867187499999998,
+        6.929749449999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_056_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 104,
+      "cell": [
+        4,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          33.0340974,
+          -3.23632812,
+          7.89952799
+        ],
+        [
+          39.1204431,
+          4.96289062,
+          17.6960458
+        ]
+      ],
+      "position": [
+        36.07727025,
+        0.8632812499999998,
+        12.797786895
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_057_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 3,
+      "cell": [
+        4,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          31.0096681,
+          -3.11328125,
+          16.4882812
+        ],
+        [
+          36.8096692,
+          4.08691406,
+          17.6960916
+        ]
+      ],
+      "position": [
+        33.90966865,
+        0.4868164049999999,
+        17.0921864
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_058_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        4,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          31.0096681,
+          -3.11328125,
+          26.0960567
+        ],
+        [
+          44.1977147,
+          2.03488043,
+          27.173152
+        ]
+      ],
+      "position": [
+        37.6036914,
+        -0.5392004100000001,
+        26.63460435
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_059_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 12,
+      "cell": [
+        4,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          31.0263717,
+          -0.961752689,
+          -23.5891315
+        ],
+        [
+          42.0959969,
+          7.90332031,
+          -22.7238808
+        ]
+      ],
+      "position": [
+        36.5611843,
+        3.4707838105,
+        -23.15650615
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_060_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 22,
+      "cell": [
+        4,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          31.8104292,
+          -3.21289062,
+          -13.6387596
+        ],
+        [
+          43.38364,
+          7.78536688,
+          -7.18911747
+        ]
+      ],
+      "position": [
+        37.5970346,
+        2.28623813,
+        -10.413938535
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_061_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        4,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          32.1051213,
+          -3.21289062,
+          -9.16007618
+        ],
+        [
+          43.3836381,
+          4.98632812,
+          -2.46671681
+        ]
+      ],
+      "position": [
+        37.744379699999996,
+        0.8867187499999998,
+        -5.813396495
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_062_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 1,
+      "cell": [
+        4,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          32.1051233,
+          -3.21289062,
+          6.27955051
+        ],
+        [
+          32.1051242,
+          4.98632812,
+          7.69378277
+        ]
+      ],
+      "position": [
+        32.105123750000004,
+        0.8867187499999998,
+        6.98666664
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_063_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 26,
+      "cell": [
+        4,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          35.3366029,
+          -3.23632812,
+          10.9488906
+        ],
+        [
+          39.4827001,
+          4.96289062,
+          17.3534822
+        ]
+      ],
+      "position": [
+        37.4096515,
+        0.8632812499999998,
+        14.1511864
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_064_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 3,
+      "cell": [
+        4,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          31.0083978,
+          -2.31347656,
+          16.4882803
+        ],
+        [
+          36.4658391,
+          4.88671875,
+          17.3535299
+        ]
+      ],
+      "position": [
+        33.73711845,
+        1.286621095,
+        16.9209051
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_065_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 8,
+      "cell": [
+        4,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          31.0083978,
+          -2.31347656,
+          26.4386339
+        ],
+        [
+          44.5524107,
+          4.88671875,
+          27.3038997
+        ]
+      ],
+      "position": [
+        37.780404250000004,
+        1.286621095,
+        26.8712668
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_066_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 6,
+      "cell": [
+        5,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          42.0959965,
+          -3.07374794,
+          -23.3633422
+        ],
+        [
+          50.8154548,
+          1.89454456,
+          -22.3813229
+        ]
+      ],
+      "position": [
+        46.45572565,
+        -0.5896016900000001,
+        -22.872332550000003
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_067_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 21,
+      "cell": [
+        5,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          38.6504476,
+          -3.21289062,
+          -13.9813234
+        ],
+        [
+          49.264212,
+          4.98632812,
+          -7.18911842
+        ]
+      ],
+      "position": [
+        43.9573298,
+        0.8867187499999998,
+        -10.58522091
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_068_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        5,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          39.1301248,
+          -3.21289062,
+          -9.16007523
+        ],
+        [
+          46.9074723,
+          4.98632812,
+          -7.18911842
+        ]
+      ],
+      "position": [
+        43.01879855,
+        0.8867187499999998,
+        -8.174596825
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_069_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 51,
+      "cell": [
+        5,
+        -1,
+        1
+      ],
+      "bounds": [
+        [
+          39.0748212,
+          -3.23632812,
+          10.9488897
+        ],
+        [
+          46.9113366,
+          4.96289062,
+          18.1508541
+        ]
+      ],
+      "position": [
+        42.9930789,
+        0.8632812499999998,
+        14.5498719
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_070_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 36,
+      "cell": [
+        5,
+        -1,
+        2
+      ],
+      "bounds": [
+        [
+          43.5795686,
+          -3.11523438,
+          11.8960905
+        ],
+        [
+          46.4070444,
+          3.92315883,
+          26.9096879
+        ]
+      ],
+      "position": [
+        44.9933065,
+        0.4039622250000001,
+        19.4028892
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_071_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 11,
+      "cell": [
+        5,
+        -1,
+        3
+      ],
+      "bounds": [
+        [
+          35.8188284,
+          -3.11328125,
+          26.096054
+        ],
+        [
+          46.4070444,
+          3.92315883,
+          27.173152
+        ]
+      ],
+      "position": [
+        41.112936399999995,
+        0.4049387900000001,
+        26.634603
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_072_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 6,
+      "cell": [
+        5,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          42.0959954,
+          -2.20852188,
+          -23.5891323
+        ],
+        [
+          50.8154548,
+          6.23800675,
+          -22.7238819
+        ]
+      ],
+      "position": [
+        46.455725099999995,
+        2.014742435,
+        -23.1565071
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_073_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 31,
+      "cell": [
+        5,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          36.195812,
+          -3.21289062,
+          -13.6387604
+        ],
+        [
+          49.264212,
+          6.47249391,
+          -7.18911938
+        ]
+      ],
+      "position": [
+        42.730012,
+        1.629801645,
+        -10.41393989
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_074_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 8,
+      "cell": [
+        5,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          36.19581,
+          -3.21289062,
+          -9.16007618
+        ],
+        [
+          46.9074723,
+          4.98632812,
+          -7.18911842
+        ]
+      ],
+      "position": [
+        41.55164115,
+        0.8867187499999998,
+        -8.1745973
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_075_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 30,
+      "cell": [
+        5,
+        0,
+        1
+      ],
+      "bounds": [
+        [
+          36.1239679,
+          -3.23632812,
+          10.9488897
+        ],
+        [
+          46.9113366,
+          4.96289062,
+          18.3209031
+        ]
+      ],
+      "position": [
+        41.51765225,
+        0.8632812499999998,
+        14.634896399999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_076_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 8,
+      "cell": [
+        5,
+        0,
+        2
+      ],
+      "bounds": [
+        [
+          45.5509584,
+          -2.31347656,
+          11.8960895
+        ],
+        [
+          46.4174783,
+          4.88671875,
+          26.9096879
+        ]
+      ],
+      "position": [
+        45.98421835,
+        1.286621095,
+        19.402888700000002
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_077_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 13,
+      "cell": [
+        5,
+        0,
+        3
+      ],
+      "bounds": [
+        [
+          35.9487137,
+          -2.31347656,
+          18.3209031
+        ],
+        [
+          46.4174783,
+          4.88671875,
+          27.3038997
+        ]
+      ],
+      "position": [
+        41.183096,
+        1.286621095,
+        22.8124014
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_078_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 41,
+      "cell": [
+        6,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          50.8154529,
+          -3.11328125,
+          -23.5891323
+        ],
+        [
+          57.4621669,
+          4.12548079,
+          -22.3120709
+        ]
+      ],
+      "position": [
+        54.1388099,
+        0.5060997700000001,
+        -22.9506016
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_079_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 14,
+      "cell": [
+        6,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          49.264212,
+          -3.11328125,
+          -13.9813209
+        ],
+        [
+          56.8942868,
+          4.08789062,
+          -8.11207108
+        ]
+      ],
+      "position": [
+        53.0792494,
+        0.4873046849999998,
+        -11.04669599
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_080_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 19,
+      "cell": [
+        6,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          50.0774514,
+          -3.23632812,
+          -8.09794525
+        ],
+        [
+          56.8285329,
+          4.96289062,
+          -0.108975688
+        ]
+      ],
+      "position": [
+        53.45299215,
+        0.8632812499999998,
+        -4.103460469
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_081_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 24,
+      "cell": [
+        6,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          50.0774533,
+          -3.23632812,
+          -0.14852194
+        ],
+        [
+          55.8597971,
+          4.96289062,
+          7.6822619
+        ]
+      ],
+      "position": [
+        52.968625200000005,
+        0.8632812499999998,
+        3.76686998
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_082_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 9,
+      "cell": [
+        6,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          50.8154529,
+          -2.31347656,
+          -23.5891323
+        ],
+        [
+          57.4621669,
+          4.92625206,
+          -22.6546326
+        ]
+      ],
+      "position": [
+        54.1388099,
+        1.3063877500000003,
+        -23.12188245
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_083_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 17,
+      "cell": [
+        6,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          49.264212,
+          -2.31347656,
+          -13.6387606
+        ],
+        [
+          56.4947469,
+          5.15962093,
+          -8.11207108
+        ]
+      ],
+      "position": [
+        52.879479450000005,
+        1.423072185,
+        -10.875415839999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_084_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 24,
+      "cell": [
+        6,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          50.0774514,
+          -3.23632812,
+          -8.09794525
+        ],
+        [
+          56.4847028,
+          4.96289062,
+          0.253279408
+        ]
+      ],
+      "position": [
+        53.281077100000005,
+        0.8632812499999998,
+        -3.922332921
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_085_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 34,
+      "cell": [
+        6,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          50.0774533,
+          -3.23632812,
+          -3.10510449
+        ],
+        [
+          55.9700502,
+          4.96289062,
+          7.6822619
+        ]
+      ],
+      "position": [
+        53.02375175,
+        0.8632812499999998,
+        2.288578705
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_086_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 5,
+      "cell": [
+        7,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          57.2886039,
+          -3.11328125,
+          -23.5094501
+        ],
+        [
+          66.0509517,
+          3.92315883,
+          -22.3120717
+        ]
+      ],
+      "position": [
+        61.6697778,
+        0.4049387900000001,
+        -22.9107609
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_087_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 3,
+      "cell": [
+        7,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          56.0373571,
+          -3.11328125,
+          -13.9131375
+        ],
+        [
+          57.3455808,
+          4.08203125,
+          -8.11207108
+        ]
+      ],
+      "position": [
+        56.69146895,
+        0.484375,
+        -11.012604289999999
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_088_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 18,
+      "cell": [
+        7,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          56.0285299,
+          -3.11523438,
+          -8.0979443
+        ],
+        [
+          64.1562383,
+          -2.31347656,
+          0.0891509855
+        ]
+      ],
+      "position": [
+        60.092384100000004,
+        -2.71435547,
+        -4.00439665725
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_089_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 20,
+      "cell": [
+        7,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          55.8376915,
+          -3.11523438,
+          0.0308395231
+        ],
+        [
+          64.2165802,
+          2.03488043,
+          7.17911757
+        ]
+      ],
+      "position": [
+        60.02713584999999,
+        -0.5401769750000001,
+        3.60497854655
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_090_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        7,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          57.292118,
+          -2.31347656,
+          -23.5198841
+        ],
+        [
+          66.0509517,
+          4.88671875,
+          -22.6546334
+        ]
+      ],
+      "position": [
+        61.67153485,
+        1.286621095,
+        -23.08725875
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_091_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 4,
+      "cell": [
+        7,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          54.6271436,
+          -2.30664062,
+          -13.9120741
+        ],
+        [
+          57.3455808,
+          4.88671875,
+          -7.81122494
+        ]
+      ],
+      "position": [
+        55.9863622,
+        1.290039065,
+        -10.86164952
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_092_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 3,
+      "cell": [
+        7,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          55.6207235,
+          4.08691406,
+          -8.09794525
+        ],
+        [
+          56.4859731,
+          4.88671875,
+          -2.64055304
+        ]
+      ],
+      "position": [
+        56.053348299999996,
+        4.486816405,
+        -5.369249145
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_093_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 6,
+      "cell": [
+        7,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          55.8376915,
+          -1.53872915,
+          6.44457432
+        ],
+        [
+          64.5778999,
+          4.88671875,
+          7.30986496
+        ]
+      ],
+      "position": [
+        60.207795700000005,
+        1.6739948,
+        6.87721964
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_094_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 13,
+      "cell": [
+        8,
+        -1,
+        -3
+      ],
+      "bounds": [
+        [
+          63.51601,
+          -3.11328125,
+          -23.5094501
+        ],
+        [
+          66.314419,
+          4.08691406,
+          -12.9212329
+        ]
+      ],
+      "position": [
+        64.9152145,
+        0.4868164049999999,
+        -18.2153415
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_095_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 7,
+      "cell": [
+        8,
+        -1,
+        -2
+      ],
+      "bounds": [
+        [
+          65.2373227,
+          -3.11328125,
+          -21.3001187
+        ],
+        [
+          66.314419,
+          2.03488043,
+          -8.11207203
+        ]
+      ],
+      "position": [
+        65.77587085,
+        -0.5392004100000001,
+        -14.706095365
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_096_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 36,
+      "cell": [
+        8,
+        -1,
+        -1
+      ],
+      "bounds": [
+        [
+          64.1154058,
+          -3.11523438,
+          -8.0979443
+        ],
+        [
+          66.2768666,
+          0.355385298,
+          -0.272141496
+        ]
+      ],
+      "position": [
+        65.19613620000001,
+        -1.379924541,
+        -4.185042898
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_097_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 13,
+      "cell": [
+        8,
+        -1,
+        0
+      ],
+      "bounds": [
+        [
+          64.2128267,
+          -3.11328125,
+          -1.84669555
+        ],
+        [
+          66.4259099,
+          3.92315883,
+          6.95142142
+        ]
+      ],
+      "position": [
+        65.3193683,
+        0.4049387900000001,
+        2.552362935
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_098_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 31,
+      "cell": [
+        8,
+        0,
+        -3
+      ],
+      "bounds": [
+        [
+          63.5160062,
+          -2.31347656,
+          -23.5198841
+        ],
+        [
+          66.4451661,
+          4.88671875,
+          -13.0519812
+        ]
+      ],
+      "position": [
+        64.98058615,
+        1.286621095,
+        -18.28593265
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_099_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 8,
+      "cell": [
+        8,
+        0,
+        -2
+      ],
+      "bounds": [
+        [
+          65.5798996,
+          -2.31347656,
+          -21.6548163
+        ],
+        [
+          66.4451673,
+          4.88671875,
+          -8.11207203
+        ]
+      ],
+      "position": [
+        66.01253345,
+        1.286621095,
+        -14.883444165
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_100_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 5,
+      "cell": [
+        8,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          65.5705317,
+          -2.31347656,
+          -8.09794525
+        ],
+        [
+          66.4363439,
+          4.88671875,
+          -1.67313105
+        ]
+      ],
+      "position": [
+        66.0034378,
+        1.286621095,
+        -4.88553815
+      ]
+    },
+    {
+      "objPath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/Chunks/page_03_cell_101_0.obj",
+      "texturePath": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "triangles": 15,
+      "cell": [
+        8,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          64.2128267,
+          -2.31347656,
+          -1.84318028
+        ],
+        [
+          66.4363439,
+          4.88671875,
+          7.30986496
+        ]
+      ],
+      "position": [
+        65.3245853,
+        1.286621095,
+        2.73334234
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2373 @@
+{
+  "atlas": "AthenaModels/WeaponFX/effects.png",
+  "palette": {
+    "colors": 256,
+    "size": [
+      512,
+      512
+    ],
+    "resized": false,
+    "format": "PNG indexed RGBA palette"
+  },
+  "reticle": {
+    "asset": "AthenaModels/WeaponFX/reticle.png",
+    "rect": [
+      2,
+      2,
+      6,
+      18
+    ],
+    "source": "Assets/Texture2D/GameUI@2x.png",
+    "sourceRect": [
+      1017,
+      2,
+      4,
+      16
+    ],
+    "size": [
+      2,
+      8
+    ],
+    "baseDistance": 10,
+    "color": [
+      0.0,
+      0.87058824,
+      0.88235295,
+      0.68235296
+    ],
+    "lockColor": [
+      1.0,
+      0.0,
+      0.0,
+      0.7411765
+    ],
+    "recovery": 30.0,
+    "recoil": 10.0,
+    "idleStretch": 1.0,
+    "runStretch": 5.0,
+    "maxStretch": 20.0
+  },
+  "effects": {
+    "muzzle": {
+      "source": "Assets/PrefabInstance/Mp5RifleSpark.prefab",
+      "layers": [
+        {
+          "name": "Mp5RifleSpark",
+          "material": {
+            "texture": "Assets/Texture2D/mp05_01.png",
+            "color": [
+              1.0,
+              0.67310333,
+              0.5970149,
+              1.0
+            ],
+            "blend": "alpha",
+            "shader": "Assets/Shader/AB_COL_DO.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lifetime": {
+            "mode": 0,
+            "max": 0.1,
+            "min": 0.1,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 0,
+            "max": 0.0,
+            "min": 0.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 3,
+            "max": 1.0,
+            "min": 0.7,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.7,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 3,
+            "max": 6.283185,
+            "min": 0.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.5,
+            "min": 1.5,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 2.0,
+                "outSlope": 2.0
+              },
+              {
+                "time": 0.73112905,
+                "value": 0.64856964,
+                "inSlope": 0.667572,
+                "outSlope": 0.667572
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.8913491,
+                "outSlope": 0.8913491
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": true,
+          "renderMode": 0,
+          "lengthScale": 2.0,
+          "moveWithTransform": false,
+          "bursts": [
+            {
+              "time": 0.0,
+              "count": 1
+            }
+          ],
+          "alpha": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.6176546883344778,
+              1.0
+            ],
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          "coneAngle": 25.0,
+          "uv": {
+            "enabled": false,
+            "columns": 1,
+            "rows": 1,
+            "rowAnimation": false,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              0,
+              0,
+              256,
+              256
+            ],
+            "rotated": false,
+            "sourceSize": [
+              256,
+              256
+            ]
+          }
+        },
+        {
+          "name": "mp05_02",
+          "material": {
+            "texture": "Assets/Texture2D/AK47_02.png",
+            "color": [
+              0.47014928,
+              0.46102208,
+              0.4490978,
+              0.5137255
+            ],
+            "blend": "alpha",
+            "shader": "Assets/Shader/AB_COL_DO.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            0.0,
+            0.1256345,
+            -0.0
+          ],
+          "lifetime": {
+            "mode": 0,
+            "max": 0.1,
+            "min": 0.1,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 0,
+            "max": 0.05,
+            "min": 0.05,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 0,
+            "max": 0.25,
+            "min": 0.25,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 3,
+            "max": 6.283185,
+            "min": 0.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.5,
+            "min": 1.5,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 0.3253012,
+                "inSlope": 1.3504113,
+                "outSlope": 1.3504113
+              },
+              {
+                "time": 0.48892102,
+                "value": 0.98554564,
+                "inSlope": 1.3504113,
+                "outSlope": 0.028282057
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.028282057,
+                "outSlope": 0.028282057
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": true,
+          "renderMode": 1,
+          "lengthScale": 3.0,
+          "moveWithTransform": false,
+          "bursts": [
+            {
+              "time": 0.0,
+              "count": 1
+            }
+          ],
+          "alpha": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.6176546883344778,
+              1.0
+            ],
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          "coneAngle": 25.0,
+          "uv": {
+            "enabled": true,
+            "columns": 1,
+            "rows": 3,
+            "rowAnimation": true,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 1.0,
+                  "inSlope": 0.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              256,
+              0,
+              512,
+              256
+            ],
+            "rotated": false,
+            "sourceSize": [
+              256,
+              256
+            ]
+          }
+        },
+        {
+          "name": "mp05_03",
+          "material": {
+            "texture": "Assets/Texture2D/AK47_02.png",
+            "color": [
+              0.64179105,
+              0.19941677,
+              0.03352641,
+              0.7372549
+            ],
+            "blend": "add",
+            "shader": "Assets/Shader/AA_COL_DO.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            0.0,
+            0.058217473,
+            -3.5068786e-07
+          ],
+          "lifetime": {
+            "mode": 0,
+            "max": 0.12,
+            "min": 0.12,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 0,
+            "max": 0.005,
+            "min": 0.005,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 0,
+            "max": 0.15,
+            "min": 0.15,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 3,
+            "max": 6.283185,
+            "min": 0.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.5,
+            "min": 1.5,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 0.3253012,
+                "inSlope": 1.2639998,
+                "outSlope": 1.2639998
+              },
+              {
+                "time": 0.5337808,
+                "value": 1.0,
+                "inSlope": 0.6746988,
+                "outSlope": -0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": true,
+          "renderMode": 1,
+          "lengthScale": 3.0,
+          "moveWithTransform": false,
+          "bursts": [
+            {
+              "time": 0.0,
+              "count": 1
+            }
+          ],
+          "alpha": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.6176546883344778,
+              1.0
+            ],
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          "coneAngle": 25.0,
+          "uv": {
+            "enabled": true,
+            "columns": 1,
+            "rows": 3,
+            "rowAnimation": true,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              256,
+              0,
+              512,
+              256
+            ],
+            "rotated": false,
+            "sourceSize": [
+              256,
+              256
+            ]
+          }
+        }
+      ]
+    },
+    "impact": {
+      "source": "Assets/PrefabInstance/HitSpark.prefab",
+      "layers": [
+        {
+          "name": "HitSpark",
+          "material": {
+            "texture": "Assets/Texture2D/floor_01.png",
+            "color": [
+              0.97761196,
+              0.30764014,
+              0.0,
+              1.0
+            ],
+            "blend": "add",
+            "shader": "Assets/Shader/AA_COL_DO.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lifetime": {
+            "mode": 3,
+            "max": 0.9,
+            "min": 0.5,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.5555556,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 0,
+            "max": 23.22,
+            "min": 23.22,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 3,
+            "max": 0.12,
+            "min": 0.07,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.5833334,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 3,
+            "max": 1.5707963,
+            "min": -1.5707963,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": -1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.0,
+            "min": 1.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": -0.6679043,
+                "outSlope": -0.6679043
+              },
+              {
+                "time": 0.6956401,
+                "value": 0.535379,
+                "inSlope": -1.2134684,
+                "outSlope": -1.2134684
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": -1.7590325,
+                "outSlope": -1.7590325
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": true,
+          "renderMode": 1,
+          "lengthScale": 3.0,
+          "moveWithTransform": false,
+          "bursts": [
+            {
+              "time": 0.0,
+              "count": 1
+            },
+            {
+              "time": 0.0,
+              "count": 2
+            },
+            {
+              "time": 0.0,
+              "count": 1
+            }
+          ],
+          "alpha": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.897062638284886,
+              1.0
+            ],
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          "coneAngle": 25.0,
+          "uv": {
+            "enabled": false,
+            "columns": 1,
+            "rows": 1,
+            "rowAnimation": false,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              256,
+              256,
+              384,
+              384
+            ],
+            "rotated": false,
+            "sourceSize": [
+              128,
+              128
+            ]
+          }
+        },
+        {
+          "name": "wall_02",
+          "material": {
+            "texture": "Assets/Texture2D/floor_01.png",
+            "color": [
+              0.97761196,
+              0.30764014,
+              0.0,
+              1.0
+            ],
+            "blend": "add",
+            "shader": "Assets/Shader/AA_COL_DO.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lifetime": {
+            "mode": 0,
+            "max": 0.7,
+            "min": 0.7,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 0,
+            "max": 10.7,
+            "min": 10.7,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 3,
+            "max": 0.13,
+            "min": 0.3,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 0.4333333,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 3,
+            "max": -1.5707963,
+            "min": 1.5707963,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": -1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.0,
+            "min": 1.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": -0.6679043,
+                "outSlope": -0.6679043
+              },
+              {
+                "time": 0.6956401,
+                "value": 0.535379,
+                "inSlope": -1.2134684,
+                "outSlope": -1.2134684
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": -1.7590325,
+                "outSlope": -1.7590325
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": true,
+          "renderMode": 0,
+          "lengthScale": 2.0,
+          "moveWithTransform": false,
+          "bursts": [
+            {
+              "time": 0.0,
+              "count": 1
+            },
+            {
+              "time": 0.0,
+              "count": 2
+            },
+            {
+              "time": 0.0,
+              "count": 3
+            },
+            {
+              "time": 0.0,
+              "count": 1
+            }
+          ],
+          "alpha": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.897062638284886,
+              1.0
+            ],
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          "coneAngle": 21.7,
+          "uv": {
+            "enabled": false,
+            "columns": 1,
+            "rows": 1,
+            "rowAnimation": false,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              256,
+              256,
+              384,
+              384
+            ],
+            "rotated": false,
+            "sourceSize": [
+              128,
+              128
+            ]
+          }
+        },
+        {
+          "name": "wall_03",
+          "material": {
+            "texture": "Assets/Texture2D/hand gun_01.png",
+            "color": [
+              0.53731346,
+              0.33160782,
+              0.012029395,
+              0.5568628
+            ],
+            "blend": "add",
+            "shader": "Assets/Shader/AA_COL_DO_ZTA.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            -0.0,
+            -0.0,
+            0.0
+          ],
+          "lifetime": {
+            "mode": 0,
+            "max": 0.12,
+            "min": 0.12,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 0,
+            "max": 0.0,
+            "min": 0.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 0,
+            "max": 1.0,
+            "min": 1.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 3,
+            "max": -1.5707963,
+            "min": 1.5707963,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": -1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.0,
+            "min": 1.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": -1.0,
+                "outSlope": -1.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": -1.0,
+                "outSlope": -1.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": true,
+          "renderMode": 0,
+          "lengthScale": 2.0,
+          "moveWithTransform": false,
+          "bursts": [
+            {
+              "time": 0.0,
+              "count": 1
+            }
+          ],
+          "alpha": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.21765468833447776,
+              1.0
+            ],
+            [
+              0.897062638284886,
+              1.0
+            ],
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          "coneAngle": 0.0,
+          "uv": {
+            "enabled": false,
+            "columns": 1,
+            "rows": 1,
+            "rowAnimation": false,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              0,
+              256,
+              256,
+              512
+            ],
+            "rotated": false,
+            "sourceSize": [
+              256,
+              256
+            ]
+          }
+        },
+        {
+          "name": "wall_04",
+          "material": {
+            "texture": "Assets/Texture2D/xm1014_attack_02.png",
+            "color": [
+              0.26865673,
+              0.22547425,
+              0.15838718,
+              0.105882354
+            ],
+            "blend": "alpha",
+            "shader": "Assets/Shader/AB_COL_DO.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            -0.0,
+            -0.0,
+            0.0
+          ],
+          "lifetime": {
+            "mode": 0,
+            "max": 0.7,
+            "min": 0.7,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 0,
+            "max": 2.6,
+            "min": 2.6,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 3,
+            "max": 1.5,
+            "min": 1.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.6666667,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 0,
+            "max": 1.1955506,
+            "min": 1.1955506,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.0,
+            "min": 1.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 2.0,
+                "outSlope": 2.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": true,
+          "renderMode": 0,
+          "lengthScale": 2.0,
+          "moveWithTransform": false,
+          "bursts": [
+            {
+              "time": 0.0,
+              "count": 1
+            },
+            {
+              "time": 0.0,
+              "count": 3
+            },
+            {
+              "time": 0.0,
+              "count": 4
+            },
+            {
+              "time": 0.0,
+              "count": 4
+            }
+          ],
+          "alpha": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.3676508735790036,
+              1.0
+            ],
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          "coneAngle": 0.0,
+          "uv": {
+            "enabled": false,
+            "columns": 1,
+            "rows": 1,
+            "rowAnimation": false,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              384,
+              256,
+              512,
+              384
+            ],
+            "rotated": false,
+            "sourceSize": [
+              128,
+              128
+            ]
+          }
+        },
+        {
+          "name": "wall_05",
+          "material": {
+            "texture": "Assets/Texture2D/floor_05.png",
+            "color": [
+              0.33387753,
+              0.37313432,
+              0.17264423,
+              0.7529412
+            ],
+            "blend": "alpha",
+            "shader": "Assets/Shader/AB_COL_DO.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            -0.0,
+            -0.0,
+            0.0
+          ],
+          "lifetime": {
+            "mode": 0,
+            "max": 0.5,
+            "min": 0.5,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 3,
+            "max": 20.0,
+            "min": 15.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.75,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 3,
+            "max": 0.25,
+            "min": 0.10000002,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.40000007,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 3,
+            "max": -1.5707963,
+            "min": 1.5707963,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": -1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.0,
+            "min": 1.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 2.0,
+                "outSlope": 2.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": false,
+          "renderMode": 0,
+          "lengthScale": 2.0,
+          "moveWithTransform": false,
+          "bursts": [
+            {
+              "time": 0.0,
+              "count": 2
+            },
+            {
+              "time": 0.0,
+              "count": 3
+            },
+            {
+              "time": 0.0,
+              "count": 1
+            },
+            {
+              "time": 0.0,
+              "count": 1
+            }
+          ],
+          "alpha": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.897062638284886,
+              1.0
+            ],
+            [
+              1.0,
+              0.0
+            ]
+          ],
+          "coneAngle": 0.0,
+          "uv": {
+            "enabled": true,
+            "columns": 1,
+            "rows": 7,
+            "rowAnimation": false,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              256,
+              480,
+              512,
+              512
+            ],
+            "rotated": true,
+            "sourceSize": [
+              32,
+              256
+            ]
+          }
+        }
+      ]
+    },
+    "tracer": {
+      "source": "Assets/PrefabInstance/FireLine.prefab",
+      "layers": [
+        {
+          "name": "FireLine",
+          "material": {
+            "texture": "Assets/Texture2D/bullet_01.png",
+            "color": [
+              0.8666667,
+              0.38039216,
+              0.0,
+              0.7411765
+            ],
+            "blend": "add",
+            "shader": "Assets/Shader/AA_COL_DO.shader",
+            "colorMultiplier": 2
+          },
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lifetime": {
+            "mode": 0,
+            "max": 0.05,
+            "min": 0.05,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "speed": {
+            "mode": 0,
+            "max": 0.0,
+            "min": 0.0,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "size": {
+            "mode": 0,
+            "max": 0.1,
+            "min": 0.1,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "rotation": {
+            "mode": 0,
+            "max": 6.283185,
+            "min": 6.283185,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeCurve": {
+            "mode": 1,
+            "max": 1.2,
+            "min": 1.2,
+            "maxCurve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": -0.7218844,
+                "outSlope": -0.7218844
+              },
+              {
+                "time": 1.0,
+                "value": 0.042553216,
+                "inSlope": -0.9574468,
+                "outSlope": 0.0
+              }
+            ],
+            "minCurve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0
+              }
+            ]
+          },
+          "sizeEnabled": true,
+          "renderMode": 0,
+          "lengthScale": 2.0,
+          "moveWithTransform": true,
+          "bursts": [
+            {
+              "time": 0,
+              "count": 1
+            }
+          ],
+          "alpha": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "coneAngle": 0.0,
+          "uv": {
+            "enabled": false,
+            "columns": 1,
+            "rows": 1,
+            "rowAnimation": false,
+            "randomRow": true,
+            "row": 0,
+            "cycles": 1.0,
+            "frame": {
+              "mode": 1,
+              "max": 1.0,
+              "min": 1.0,
+              "maxCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ],
+              "minCurve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 1.0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inSlope": 1.0,
+                  "outSlope": 0.0
+                }
+              ]
+            }
+          },
+          "sprite": {
+            "rect": [
+              256,
+              384,
+              320,
+              448
+            ],
+            "rotated": false,
+            "sourceSize": [
+              64,
+              64
+            ]
+          }
+        }
+      ],
+      "speed": 300.0,
+      "trail": {
+        "material": {
+          "texture": "Assets/Texture2D/bullet_02.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            0.08627451
+          ],
+          "blend": "add",
+          "shader": "Assets/Shader/AA_COL_DO.shader",
+          "colorMultiplier": 2
+        },
+        "duration": 1.3,
+        "sprite": {
+          "rect": [
+            320,
+            384,
+            384,
+            448
+          ],
+          "rotated": false,
+          "sourceSize": [
+            64,
+            64
+          ]
+        }
+      }
+    }
+  },
+  "sourceHashes": {
+    "Assets/Material/AK47_02.mat": "6ddc470e5ebf6887df80d1a2faf41d10cf925e00d1b78e56b92c927b3a486ca0",
+    "Assets/Material/AK47_03.mat": "cf923d1ec9b7e6f19a6dcc9a2b54485ae480b9cd6700cc5a077ebf97e8514b59",
+    "Assets/Material/bullet_01.mat": "9c2ca8f72c95d71804464e4feba4379b5aa68f9d8d3bc8fe390c7edd874ae878",
+    "Assets/Material/bullet_02.mat": "6850dd29d8ad3d0097e1f99a77bee4f4b6b0bb86e4a3b603582e7aa115042757",
+    "Assets/Material/floor_01.mat": "2dc0639f7b947d7fb0ab203fcf2ba1acb39d16290c63c33f77d89f7da54a01f4",
+    "Assets/Material/floor_04.mat": "5bbdd4e17a8e08e7beadc78c90947287c4a150082e5cf62d938307772bc62e05",
+    "Assets/Material/floor_05.mat": "2a3a9782cd3e0fca5d1dda080b9bd8b2a3f4553df6576533ff47360004b6a066",
+    "Assets/Material/kick_metal_F_04.mat": "809086c3a6bebda175990661949e10dca2ce24cde52249f8980b0b475114477d",
+    "Assets/Material/mp5_01.mat": "ebde5e3d9e86522ab245df40f8f5f763a60445ec1102f63dfc51a38f7146eb96",
+    "Assets/PrefabInstance/FireLine.prefab": "111ad0f623819e8a73324c422d1b99c277388806fe5e7d26cf2d9b9981dc786b",
+    "Assets/PrefabInstance/HitSpark.prefab": "2f5291acd9d1a1a199fa49722037e23e4145a692a0026a38217e13ebe2eec9ce",
+    "Assets/PrefabInstance/Mp5RifleSpark.prefab": "3e123d025e0db63cb26d0ec9ad3aeeb39816a68abd538b751b44daf489f97d9b",
+    "Assets/PrefabInstance/SceneBase.prefab": "ddd35683a9f0d518825410f8711f9ac358395753f183aefa2318e78385041ded",
+    "Assets/Resources/config/WeaponCfg.txt": "338860f1cdd6b7bccfeeeeacd4e476a40258fa14b4f63319c6fc1e5e804d9a1b",
+    "Assets/Resources/prefabs/weapon/MP5.prefab": "f250976f15037e1871eb1e176e075ff21b0e9a9423750f12fcdf174a40987be1",
+    "Assets/Resources/tui/textures/gameui/GameUI@2x.mat": "5ba00620abf5ac901037e75ac45b90dc4a3ed42966d7fff1d107ca4031ad37d2",
+    "Assets/Scripts/Assembly-CSharp/AssaultRifleController.cs": "4f9b2691249b902a70d4097c50ab2584b09263debc9717576a3e1cc0d41b3383",
+    "Assets/Scripts/Assembly-CSharp/FireLineScript.cs": "284f1a759b214eac5f8675a53154ff7d530ae228c53105605178ab20529700f9",
+    "Assets/Scripts/Assembly-CSharp/RifleSparkItem.cs": "a18cc1f32bd9e10aa4491688f497c7c483ce8ed35575df67e986c291f5ac836a",
+    "Assets/Scripts/Assembly-CSharp/SightBeadScript.cs": "28230268a011c71436434553c9050474cad6cf59eb2278aefbfbfb21b8ea6b64",
+    "Assets/Shader/AA_COL_DO.shader": "bd7cd9b5469677c9bceab296a889c58e5fd311d4732c6b8a909a9f9efc4ecc13",
+    "Assets/Shader/AA_COL_DO_ZTA.shader": "f6217d05855334db6f7be23942b2e6c3dba2f0984af2395ae22014d51a4e714c",
+    "Assets/Shader/AB_COL_DO.shader": "02593dbc1c5ab63e99bbff655f05108aa32bbf64c2e7c7953fb434a96b32caa5",
+    "Assets/Texture2D/AK47_02.png": "9433965eb97a3a72ad72a4a51a03389a4dcbf73f609fab774775615ae6bd5340",
+    "Assets/Texture2D/GameUI@2x.png": "4d2a2f33bcb75b91fb99e2aba261e43affd038877f780664171dcc142efbeefb",
+    "Assets/Texture2D/bullet_01.png": "63cee75d3e6cf983e3ebd724c8bdf672daa7c99ea18d8d0350323213f9d215ff",
+    "Assets/Texture2D/bullet_02.png": "f58141140137fc05ea4f266c958e152e2bcc6a0398650b0c0139bcb31c039598",
+    "Assets/Texture2D/floor_01.png": "2539c9fa524d2db58dc28bc8d0b91773c982e6f1a756ecbbf769bf96bdd00a52",
+    "Assets/Texture2D/floor_05.png": "4c5b185be4e326971ae536bdacc84643c00d3716d6b5763def8517b6fac84e1d",
+    "Assets/Texture2D/hand gun_01.png": "72e2156562d97d42133edca81e3813189a660593b9d2b51428b4da56cb234be6",
+    "Assets/Texture2D/mp05_01.png": "5b0b0ac99e209b4732c040c1b0a35e73a5f154b6f89fd37931e4c704038fe5c7",
+    "Assets/Texture2D/xm1014_attack_02.png": "e94b882ccf84999fc390e6ab94e054c9eff2b41a8f97552853c8262cc81a2039"
+  }
+}

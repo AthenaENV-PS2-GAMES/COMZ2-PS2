@@ -1,0 +1,10 @@
+# Generated for AthenaENV Model3D.load
+mtllib prototype_arena.mtl
+v -9 0 -12
+v -9 0 12
+v 9 0 12
+v 9 0 -12
+vn 0 1 0
+usemtl arena_ground
+f 1//1 2//1 3//1
+f 1//1 3//1 4//1

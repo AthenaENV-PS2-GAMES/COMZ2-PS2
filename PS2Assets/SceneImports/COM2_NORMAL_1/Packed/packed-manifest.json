@@ -1,0 +1,115 @@
+{
+  "source_manifest": "PS2Assets/SceneImports/COM2_NORMAL_1/manifest.json",
+  "page_size": 256,
+  "gutter": 2,
+  "page_count": 3,
+  "ct16_texture_bytes": 393216,
+  "triangles": 9908,
+  "pages": [
+    {
+      "page": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.png",
+      "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.obj",
+      "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_01.mtl",
+      "page_size": 256,
+      "inner_tile_size": 124,
+      "gutter": 2,
+      "texture_ct16_bytes": 131072,
+      "unique_rgba_colors": 252,
+      "gs_texture_format": "T8",
+      "triangles": 4562,
+      "vertices": 13686,
+      "source_atlases": [
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_65562b6b8b2419b43aa093930ccc9a09.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 3482
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_bd9ff1877107f3a429a7386093b9e6af.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 28
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_814463c15b5aace4e970f436dd07ef34.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 24
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_61cc325e9fcf26a4a8a5917deaee39e2.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 20
+        }
+      ]
+    },
+    {
+      "page": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.png",
+      "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.obj",
+      "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_02.mtl",
+      "page_size": 256,
+      "inner_tile_size": 124,
+      "gutter": 2,
+      "texture_ct16_bytes": 131072,
+      "unique_rgba_colors": 255,
+      "gs_texture_format": "T8",
+      "triangles": 3288,
+      "vertices": 9864,
+      "source_atlases": [
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_b80f3c78abfc9c54cab7d11b7cd5338a.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 2286
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_b0bdab26d27888f40b7337d08486eace.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 150
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_1cd6861ed44188e43be04a0347307169.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 116
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_6de118bf0cab2c447b4d238bda02312e.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 88
+        }
+      ]
+    },
+    {
+      "page": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.png",
+      "obj": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.obj",
+      "mtl": "PS2Assets/SceneImports/COM2_NORMAL_1/Packed/scene_page_03.mtl",
+      "page_size": 256,
+      "inner_tile_size": 124,
+      "gutter": 2,
+      "texture_ct16_bytes": 131072,
+      "unique_rgba_colors": 253,
+      "gs_texture_format": "T8",
+      "triangles": 2058,
+      "vertices": 6174,
+      "source_atlases": [
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_64bb9bc2f87f12c4baa4c918d780bc31.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 738
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_4771cff4265a4ff40b74d080da42ad7b.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 216
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_078cf75e48fa64c4c94621001541be69.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 204
+        },
+        {
+          "texture": "PS2Assets/SceneImports/COM2_NORMAL_1/Models/Textures/texture_d56e2e54244523e49802d700eebdf6b1.png",
+          "source_mesh": "Assets/Mesh/Combined Mesh (root scene)_4.asset",
+          "triangles": 168
+        }
+      ]
+    }
+  ]
+}

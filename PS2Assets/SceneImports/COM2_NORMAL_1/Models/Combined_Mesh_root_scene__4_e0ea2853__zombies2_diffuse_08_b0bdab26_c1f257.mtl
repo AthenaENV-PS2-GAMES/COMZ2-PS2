@@ -1,0 +1,47 @@
+newmtl submesh_02
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_05
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_08
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_11
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_14
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_17
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_84
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_85
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_88
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_89
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_90
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
+
+newmtl submesh_93
+Kd 1 1 1
+map_Kd Textures/texture_b0bdab26d27888f40b7337d08486eace.png
